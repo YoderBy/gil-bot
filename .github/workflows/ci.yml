@@ -53,4 +53,4 @@ jobs:
           EOF
 
       - name: Deploy with Docker Compose
-        run: docker-compose -f docker-compose.prod.yml up -d 
+        run: docker compose -f docker-compose.prod.yml up -d 
