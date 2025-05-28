@@ -40,9 +40,16 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy backend code
 COPY backend/app ./app
 
-# Copy built frontend from stage 1
-# React build output goes to the 'static' directory that FastAPI will serve
-COPY --from=frontend-builder /app/build ./static
+# Copy React build artefacts *flat* (no extra "static/static" layer)
+# – HTML & root assets
+COPY --from=frontend-builder /app/build/index.html            ./static/
+COPY --from=frontend-builder /app/build/asset-manifest.json   ./static/
+COPY --from=frontend-builder /app/build/favicon.ico           ./static/
+COPY --from=frontend-builder /app/build/logo*.png             ./static/
+COPY --from=frontend-builder /app/build/manifest.json         ./static/
+COPY --from=frontend-builder /app/build/robots.txt            ./static/
+# – JS / CSS bundles
+COPY --from=frontend-builder /app/build/static/               ./static/
 
 # Expose port
 EXPOSE 8000

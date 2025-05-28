@@ -13,10 +13,10 @@ class Settings(BaseSettings):
     CORS_ORIGINS: List[str] = ["*"]
     
     # MongoDB settings
-    MONGODB_URL: Optional[str] = None
-    MONGODB_DB_NAME: Optional[str] = None
-    MONGO_USER: Optional[str] = None
-    MONGO_PASSWORD: Optional[str] = None
+    MONGODB_URL: Optional[str] = "mongodb://dummy:27017/test"
+    MONGODB_DB_NAME: Optional[str] = "gil_whatsapp_bot"
+    MONGO_USER: Optional[str] = "gil_whatsapp_bot"
+    MONGO_PASSWORD: Optional[str] = "gil_whatsapp_bot"
     
     # LLM settings
     OPENAI_API_KEY: Optional[str] = None
