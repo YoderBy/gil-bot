@@ -38,13 +38,9 @@ app.include_router(chat.router, prefix="/api/v1/chat", tags=["chat"])
 app.include_router(syllabus.router, prefix="/api/v1/syllabus", tags=["syllabus"])
 app.include_router(webhook.router, prefix="/api/v1/webhook", tags=["webhook"])
 
-@app.get("/")
-async def root():
-    return {"message": "Gil WhatsApp Bot API"}
-
-@app.get("/health")
+@app.get("/api/health")
 async def health():
-    return {"status": "ok"}
+    return {"status": "ok", "message": "Gil WhatsApp Bot API"}
 
 # Serve frontend for all other routes
 @app.get("/{full_path:path}")
