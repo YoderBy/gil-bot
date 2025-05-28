@@ -1,39 +1,48 @@
 #!/usr/bin/env bash
-# Reads a local .env file and pushes each key=value pair to GitHub secrets
-# Usage: ./scripts/upload_env_to_github.sh [path/to/.env] [owner/repo]
-
+# ------------------------------------------------------------
+# upload_env_to_github.sh
+# Uploads all .env variables as GitHub secrets for CI/CD
+# ------------------------------------------------------------
 set -euo pipefail
 
-ENV_PATH="${1:-.env}"
-REPO="${2:-}" # optional second arg
+REPO="YoderBy/gil-bot"
+ENV_FILE="/Users/user/projects/personal/gil-bot-clean/.env"
 
-if [[ ! -f "$ENV_PATH" ]]; then
-  echo "[ERROR] Env file '$ENV_PATH' not found" >&2
-  exit 1
-fi
+echo "Setting up secrets for repository: $REPO"
+echo "Using .env file: $ENV_FILE"
 
-# Auto-detect repo if not supplied
-if [[ -z "$REPO" ]]; then
-  ORIGIN_URL=$(git config --get remote.origin.url || true)
-  if [[ -z "$ORIGIN_URL" ]]; then
-    echo "[ERROR] Could not detect git remote; please pass OWNER/REPO as second argument" >&2
+# Check if gh CLI is installed
+if ! command -v gh &> /dev/null; then
+    echo "Error: GitHub CLI (gh) is not installed. Install it first."
     exit 1
-  fi
-  REPO=$(echo "$ORIGIN_URL" | sed -E 's#(git@|https://)github.com[:/](.*)(\.git)?#\2#')
 fi
 
-echo "Uploading secrets to $REPO from $ENV_PATH ..."
+# Check if authenticated
+if ! gh auth status &> /dev/null; then
+    echo "Error: Not authenticated with GitHub. Run: gh auth login"
+    exit 1
+fi
 
-while IFS='=' read -r KEY VALUE; do
-  [[ -z "$KEY" || "$KEY" =~ ^\s*# ]] && continue
-  KEY=$(echo "$KEY" | xargs)
-  VALUE=$(echo "$VALUE" | xargs)
-  if [[ -z "$VALUE" ]]; then
-    echo "[WARN] Skipping $KEY (no value)"
-    continue
-  fi
-  echo "Setting secret $KEY ..."
-  printf "%s" "$VALUE" | gh secret set "$KEY" --repo "$REPO" --body - >/dev/null
-done < "$ENV_PATH"
+if [[ ! -f "$ENV_FILE" ]]; then
+    echo "Error: .env file not found at $ENV_FILE"
+    exit 1
+fi
 
-echo "✅  Done. Secrets uploaded." 
+echo "Uploading secrets from $ENV_FILE to $REPO..."
+
+while IFS='=' read -r key value; do
+    # Skip comments and empty lines
+    [[ -z "$key" || "$key" =~ ^# ]] && continue
+    # Remove possible surrounding quotes from value
+    value="${value%\"}"
+    value="${value#\"}"
+    value="${value%\'}"
+    value="${value#\'}"
+    echo "Setting $key"
+    gh secret set "$key" --repo "$REPO" -b "$value"
+done < "$ENV_FILE"
+
+echo "✅ All secrets from $ENV_FILE have been set up in $REPO!"
+echo ""
+echo "You can view and manage them at:"
+echo "https://github.com/YoderBy/gil-bot/settings/secrets/actions"

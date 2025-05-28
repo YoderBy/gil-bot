@@ -2,8 +2,6 @@ services:
   backend:
     image: registry.yosefbyd.com/gil-bot-backend:latest
     container_name: gil-bot-backend
-    env_file:
-      - .env
     volumes:
       - ./backend/app:/app/app # Mount local code for development changes
     depends_on:
