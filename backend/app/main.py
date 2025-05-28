@@ -2,6 +2,8 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 import logging
 import os
+from fastapi.staticfiles import StaticFiles
+from fastapi.responses import FileResponse
 
 from app.api.v1.endpoints import admin, chat, syllabus, webhook
 from app.core.config import settings
@@ -27,6 +29,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Mount static files (frontend build)
+app.mount("/static", StaticFiles(directory="static"), name="static")
+
 # Include routers
 app.include_router(admin.router, prefix="/api/v1/admin", tags=["admin"])
 app.include_router(chat.router, prefix="/api/v1/chat", tags=["chat"])
@@ -39,4 +44,12 @@ async def root():
 
 @app.get("/health")
 async def health():
-    return {"status": "ok"} 
+    return {"status": "ok"}
+
+# Serve frontend for all other routes
+@app.get("/{full_path:path}")
+async def serve_frontend(full_path: str):
+    if full_path.startswith("api/"):
+        # Let FastAPI handle API routes
+        return {"error": "API route not found"}
+    return FileResponse("static/index.html") 

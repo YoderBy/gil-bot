@@ -22,35 +22,11 @@ jobs:
           username: ${{ secrets.REGISTRY_USER }}
           password: ${{ secrets.REGISTRY_PASS }}
           
-      - name: Build and push backend
+      - name: Build and push unified image
         uses: docker/build-push-action@v5
         with:
-          context: ./backend
+          context: .
           push: true
           tags: |
-            registry.yosefbyd.com/gil-bot-backend:latest
-            registry.yosefbyd.com/gil-bot-backend:${{ github.sha }}
-
-      - name: Build and push frontend
-        uses: docker/build-push-action@v5
-        with:
-          context: ./frontend
-          push: true
-          tags: |
-            registry.yosefbyd.com/gil-bot-frontend:latest
-            registry.yosefbyd.com/gil-bot-frontend:${{ github.sha }}
-
-      - name: Create .env file for Docker Compose
-        run: |
-          cat <<'EOF' > .env
-          DEBUG=${{ secrets.DEBUG }}
-          PYTHONUNBUFFERED=${{ secrets.PYTHONUNBUFFERED }}
-          MONGODB_DB_NAME=${{ secrets.MONGODB_DB_NAME }}
-          MONGO_USER=${{ secrets.MONGO_USER }}
-          MONGO_PASSWORD=${{ secrets.MONGO_PASSWORD }}
-          OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
-          ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}
-          EOF
-
-      - name: Deploy with Docker Compose
-        run: docker compose -f docker-compose.prod.yml up -d 
+            registry.yosefbyd.com/gil-bot:latest
+            registry.yosefbyd.com/gil-bot:${{ github.sha }} 
