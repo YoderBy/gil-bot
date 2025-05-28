@@ -1,0 +1,172 @@
+courses:
+  - id: "0102.2130.01" # Standard course code format, taken from exam schedule in docs/data.txt
+    name: "Medical Genetics and Genomics"
+    heb_name: "גנטיקה וגנומיקה רפואית"
+    year: "תשפ\"ה"
+    semester: "ב"
+
+    description:
+      en: "The course is divided into two main sections: Clinical Genetics and Clinical Genomics with an emphasis on the role of genetics in common diseases. The vast majority of the course material will be self-study via recorded videos."
+      he: "הקורס מתחלק לשתי חטיבות: חטיבה ראשונה - גנטיקה קלינית, וחטיבה שניה - גנומיקה קלינית עם דגש על תפקיד הגנטיקה במחלות נפוצות. הרוב המכריע של הלימוד בקורס יהיה לימוד עצמי באמצעות סרטונים מוקלטים."
+      goal: "To provide students with a comprehensive understanding of clinical genetics and the role of genomics in common diseases."
+    target_audience:
+      - "סטודנטים לתוכנית 4 שנתית ברפואה"
+      - "סטודנטים לתוכנית 6 שנתית ברפואה"
+    general_location: "בנין הפקולטה למדעי הרפואה והבריאות, אולם דולפי והקרנה בכיתה 123"
+    general_day_time_info: "ההרצאות הפרונטליות של הקורס יתקיימו בימי שלישי בשעות: 13:00-15:00"
+    
+    personnel:
+      coordinators:
+        - name: "פרופ' עידית מאיה"
+          # email: "<coordinator_email>" # Not provided
+        - name: "פרופ' רני אלקון"
+          # email: "<coordinator_email>" # Not provided
+      overall_lecturers:
+        - name: "פרופ' עידית מאיה"
+        - name: "פרופ' רני אלקון"
+      student_representatives:
+        - name: "מאיה אדר"
+    
+    requirements: "לימוד עצמי של יחידות מוקלטות, נוכחות והשתתפות במפגשים הפרונטליים."
+    grading_policy: "100% מבחן סופי"
+    course_notes: "הקורס מתחלק לשתי חטיבות. הרוב המכריע של הלימוד בקורס יהיה לימוד עצמי באמצעות סרטונים מוקלטים. יש לעקוב אחר הפירוט המלא במערכת."
+
+    schedule:
+      general_notes: "רוב יחידות הלימוד הינן ללמידה עצמית באמצעות סרטונים. מפגשים פרונטליים מצוינים ויתקיימו בימי שלישי 13:00-15:00."
+      calendar_entries:
+        # חטיבה ראשונה – גנטיקה קלינית (מרכזת: פרופ' עידית מאיה)
+        - date: "2025-03-18"
+          day_of_week_heb: "שלישי"
+          day_of_week_en: "Tuesday"
+          daily_notes: "שבוע 1 - חטיבה ראשונה"
+          time_slots:
+            - start_time: "13:00"
+              end_time: "15:00"
+              subject: "הרצאת הפתיחה- הגישה לגנומיקה קלינית ופתיחת הקורס"
+              activity_type: "הרצאה פרונטלית"
+              location: "אולם דולפי / כיתה 123"
+              instructors: ["פרופ' עידית מאיה"]
+        - date: "2025-03-25"
+          day_of_week_heb: "שלישי"
+          day_of_week_en: "Tuesday"
+          daily_notes: "שבוע 2 - חטיבה ראשונה"
+          time_slots:
+            - subject: "יחידת שיטות בגנומיקה"
+              activity_type: "למידה עצמית"
+              instructors: ["פרופ' עידית מאיה"] # Assumed as section head
+        - date: "2025-04-01"
+          day_of_week_heb: "שלישי"
+          day_of_week_en: "Tuesday"
+          daily_notes: "שבוע 3 - חטיבה ראשונה"
+          time_slots:
+            - subject: "יחידת גנטיקה כללית"
+              activity_type: "למידה עצמית"
+              instructors: ["פרופ' עידית מאיה"] # Assumed
+        - date: "2025-04-22"
+          day_of_week_heb: "שלישי"
+          day_of_week_en: "Tuesday"
+          daily_notes: "שבוע 4 - חטיבה ראשונה"
+          time_slots:
+            - subject: "יחידת גנטיקה ילדים"
+              activity_type: "למידה עצמית"
+              instructors: ["פרופ' עידית מאיה"] # Assumed
+        - date: "2025-04-29"
+          day_of_week_heb: "שלישי"
+          day_of_week_en: "Tuesday"
+          daily_notes: "שבוע 5 - חטיבה ראשונה"
+          time_slots:
+            - subject: "יחידת גנטיקה בהריונות / פרנטל"
+              activity_type: "למידה עצמית"
+              instructors: ["פרופ' עידית מאיה"] # Assumed
+        - date: "2025-05-06"
+          day_of_week_heb: "שלישי"
+          day_of_week_en: "Tuesday"
+          daily_notes: "שבוע 6 - חטיבה ראשונה"
+          time_slots:
+            - subject: "יחידת מבוגרים"
+              activity_type: "למידה עצמית"
+              instructors: ["פרופ' עידית מאיה"] # Assumed
+        - date: "2025-05-13"
+          day_of_week_heb: "שלישי"
+          day_of_week_en: "Tuesday"
+          daily_notes: "שבוע 7 - חטיבה ראשונה"
+          time_slots:
+            - start_time: "13:00"
+              end_time: "15:00"
+              subject: "מפגש פרונטלי לסכום היחידה הראשונה- דיון במקרים קליניים במרפאה הגנטית"
+              activity_type: "הרצאה פרונטלית" # Corrected from "למידה עצמית" based on "מפגש פרונטלי"
+              location: "אולם דולפי / כיתה 123"
+              instructors: ["פרופ' עידית מאיה"]
+        
+        # חטיבה שניה – גנומיקה (מרכז: פרופ' רני אלקון)
+        - date: "2025-05-20"
+          day_of_week_heb: "שלישי"
+          day_of_week_en: "Tuesday"
+          daily_notes: "חטיבה שניה - הרצאת פתיחה"
+          time_slots:
+            - start_time: "13:00"
+              end_time: "15:00"
+              subject: "הרצאת פתיחה -גנומיקה קלינית ומחלות מורכבות"
+              activity_type: "הרצאה פרונטלית"
+              location: "אולם דולפי / כיתה 123"
+              instructors: ["פרופ' רני אלקון"]
+        - date: "2025-05-27"
+          day_of_week_heb: "שלישי"
+          day_of_week_en: "Tuesday"
+          daily_notes: "חטיבה שניה - שבוע 1"
+          time_slots:
+            - subject: "Genetics of common diseases – the GWAS Era"
+              activity_type: "למידה עצמית"
+              instructors: ["פרופ' רני אלקון"] # Assumed as section head
+        - date: "2025-06-03"
+          day_of_week_heb: "שלישי"
+          day_of_week_en: "Tuesday"
+          daily_notes: "חטיבה שניה - שבוע 2"
+          time_slots:
+            - subject: "GWAS discoveries – Breast Cancer (BC) as a showcase"
+              activity_type: "למידה עצמית"
+              instructors: ["פרופ' רני אלקון"] # Assumed
+        - date: "2025-06-10"
+          day_of_week_heb: "שלישי"
+          day_of_week_en: "Tuesday"
+          daily_notes: "חטיבה שניה - שבוע 3"
+          time_slots:
+            - subject: "Polygenic Risk Scores (PRS) and Personalized Medicine"
+              activity_type: "למידה עצמית"
+              instructors: ["פרופ' רני אלקון"] # Assumed
+        - date: "2025-06-17"
+          day_of_week_heb: "שלישי"
+          day_of_week_en: "Tuesday"
+          daily_notes: "חטיבה שניה - שבוע 4"
+          time_slots:
+            - subject: "Molecular mechanisms of pathogenesis of complex diseases AND Contribution of rare variants to common diseases"
+              activity_type: "למידה עצמית"
+              details: "שני נושאים ללמידה עצמית לשבוע זה."
+              instructors: ["פרופ' רני אלקון"] # Assumed
+        - date: "2025-06-24"
+          day_of_week_heb: "שלישי"
+          day_of_week_en: "Tuesday"
+          daily_notes: "חטיבה שניה - שבוע 5"
+          time_slots:
+            - start_time: "13:00"
+              end_time: "15:00"
+              subject: "מפגש סיכום שו\"ת - גנומיקה קלינית ומחלות מורכבות"
+              activity_type: "הרצאה פרונטלית"
+              location: "אולם דולפי / כיתה 123"
+              instructors: ["פרופ' רני אלקון"]
+
+    tests:
+      - name: "מבחן סופי"
+        test_type: "מבחן בכתב" # Inferred
+        notes: "100% מהציון הסופי"
+        moadim:
+          - moad_name: "מועד א'"
+            date: "2025-07-28" # From docs/data.txt based on course code "0102-2130"
+            time: "09:00"     # From docs/data.txt
+            # duration_minutes: <duration_minutes> # Not specified
+            # location: "<test_location>" # Not specified
+          - moad_name: "מועד ב'"
+            date: "2025-09-07" # From docs/data.txt
+            time: "09:00"     # From docs/data.txt
+            # duration_minutes: <duration_minutes> # Not specified
+            # location: "<test_location>" # Not specified

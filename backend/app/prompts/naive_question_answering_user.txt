@@ -1,0 +1,2 @@
+Question: {{USER_QUERY}}
+Syllabus: {{FULL_SYLLABUS_CONTENT}}

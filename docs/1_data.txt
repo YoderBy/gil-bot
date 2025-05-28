@@ -1,0 +1,591 @@
+course: anatomy-first-part
+  - schedule:
+    - day: יום שני # Monday
+      events:
+        - date: "17.3"
+          slots:
+            - time: "8-9"
+              subject: "בטן CA"
+              location: "עבודה עצמית"
+              instructor: "ד\"ר מיכל גרייצר חדד, רננה ברץ גולדשטיין"
+            - time: "9-10"
+              subject: "הרצאות אגן (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "ד\"ר מיכל גרייצר חדד, רננה ברץ גולדשטיין"
+            - time: "10-11"
+              subject: "הרצאות אגן (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "ד\"ר מיכל גרייצר חדד, רננה ברץ גולדשטיין"
+            - time: "11-12"
+              subject: "הרצאות אגן (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "ד\"ר מיכל גרייצר חדד, רננה ברץ גולדשטיין"
+        - date: "24.3"
+          slots:
+            - time: "8-9"
+              subject: "הרצאה רדיולוגיה US בטן (מוקלט)"
+              location: "מוקלט"
+              instructor: "ד\"ר מיכל גרייצר חדד, רננה ברץ גולדשטיין"
+            - time: "9-10"
+              subject: "דיסקציה בטן 1"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+            - time: "10-11"
+              subject: "דיסקציה בטן 1"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+            - time: "11-12"
+              subject: "דיסקציה בטן 1"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+        - date: "31.3"
+          slots:
+            - time: "8-9"
+              subject: "הרצאה גף תחתון (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "ד\"ר מיכל גרייצר חדד, רננה ברץ גולדשטיין"
+            - time: "9-10"
+              subject: "הרצאה גף תחתון (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "ד\"ר מיכל גרייצר חדד, רננה ברץ גולדשטיין"
+            - time: "10-11"
+              subject: "דיסקציה בטן 2"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+            - time: "11-12"
+              subject: "דיסקציה בטן 2"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+        - date: "7.4"
+          slots:
+            - time: "8-9"
+              subject: "הרצאה גף תחתון (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "ד\"ר שחר קנין" # Corrected based on Thursday 8.4 instructor pattern
+            - time: "9-10"
+              subject: "PBL אגן"
+              location: "דולפי"
+              instructor: "ד\"ר שחר קנין" # Corrected based on Thursday 8.4 instructor pattern
+            - time: "10-11"
+              subject: "PBL אגן"
+              location: "דולפי"
+              instructor: "ד\"ר שחר קנין" # Corrected based on Thursday 8.4 instructor pattern
+            - time: "11-12"
+              subject: "PBL אגן"
+              location: "דולפי"
+              instructor: "ד\"ר שחר קנין" # Corrected based on Thursday 8.4 instructor pattern
+        - date: "21.4"
+          slots:
+            - time: "8-9"
+              subject: "הרצאה גף תחתון (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "9-10"
+              subject: "הרצאה גף תחתון (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "10-11"
+              subject: "הרצאה גף תחתון (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "11-12"
+              subject: "גף תחתון CA"
+              location: "עבודה עצמית"
+              instructor: "צוות מדריכים"
+        - date: "28.4"
+          slots:
+            - time: "8-9"
+              subject: "הרצאה רדיולוגית CT (פרונטלי)"
+              location: "כיתה 201"
+              instructor: "צוות מדריכים"
+            - time: "9-10"
+              subject: "הרצאה רדיולוגית US (פרונטלי)"
+              location: "כיתה 201"
+              instructor: "צוות מדריכים"
+            - time: "10-11"
+              subject: "דיסקציה גף תחתון 2 (אחורי)"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+            - time: "11-12"
+              subject: "דיסקציה גף תחתון 2 (אחורי)"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+        - date: "5.5"
+          slots:
+            - time: "8-9"
+              subject: "US גף תחתון"
+              location: "חדרי US"
+              instructor: "צוות מדריכים"
+            - time: "9-10"
+              subject: "US גף תחתון"
+              location: "חדרי US"
+              instructor: "צוות מדריכים"
+            - time: "10-11"
+              subject: "חזרה US"
+              location: "חדרי US"
+              instructor: "צוות מדריכים"
+            - time: "11-12"
+              subject: "חזרה מעבדה דיסקציה"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+
+    - day: יום חמישי # Thursday
+      events:
+        - date: "20.3"
+          slots:
+            - time: "8-9"
+              subject: "US בטן"
+              location: "חדרי US"
+              instructor: "צוות מדריכים"
+            - time: "9-10"
+              subject: "US בטן"
+              location: "חדרי US"
+              instructor: "צוות מדריכים"
+            - time: "10-11"
+              subject: "הרצאה רדיולוגית אגן CT (פרונטלי)"
+              location: "דולפי"
+              instructor: "ד\"ר דמיטרי לב / ד\"ר שחר קנין"
+            - time: "11-12"
+              subject: "הרצאה רדיולוגית אגן US (פרונטלי)"
+              location: "דולפי"
+              instructor: "ד\"ר דמיטרי לב / ד\"ר שחר קנין"
+        - date: "27.3"
+          slots:
+            - time: "8-9"
+              subject: "הרצאה רדיולוגיה CT בטן (מוקלט)"
+              location: "מוקלט"
+              instructor: "ד\"ר דמיטרי לב / ד\"ר שחר קנין"
+            - time: "9-10"
+              subject: "PBL בטן"
+              location: "מארבאום"
+              instructor: "צוות מדריכים"
+            - time: "10-11"
+              subject: "PBL בטן"
+              location: "מארבאום"
+              instructor: "צוות מדריכים"
+            - time: "11-12"
+              subject: "PBL בטן"
+              location: "מארבאום"
+              instructor: "צוות מדריכים"
+        - date: "3.4"
+          slots:
+            - time: "8-9"
+              subject: "אגן CA"
+              location: "עבודה עצמית"
+              instructor: "ד\"ר דמיטרי לב"
+            - time: "9-10"
+              subject: "דיסקציה אגן"
+              location: "מעבדת דיסקציה"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "10-11"
+              subject: "דיסקציה אגן"
+              location: "מעבדת דיסקציה"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "11-12"
+              subject: "דיסקציה אגן"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+        - date: "8.4"
+          slots:
+            - time: "8-9"
+              subject: "CT בטן"
+              location: "119"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "9-10"
+              subject: "CT בטן"
+              location: "119"
+              instructor: "ד\"ר שחר קנין"
+            - time: "10-11"
+              subject: "CT אגן"
+              location: "119"
+              instructor: "ד\"ר שחר קנין"
+            - time: "11-12"
+              subject: "CT אגן"
+              location: "119"
+              instructor: "ד\"ר שחר קנין"
+        - date: "24.4"
+          slots:
+            - time: "8-9"
+              subject: "CT גף תחתון"
+              location: "דולפי"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "9-10"
+              subject: "CT גף תחתון"
+              location: "דולפי"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "10-11"
+              subject: "דיסקציה גף תחתון 1 (קדמי)"
+              location: "מעבדת דיסקציה"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "11-12"
+              subject: "דיסקציה גף תחתון 1 (קדמי)"
+              location: "מעבדת דיסקציה"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+        - date: "1.5" # יום העצמאות - Independence Day
+          slots:
+            - time: "8-9"
+              subject: "יום העצמאות"
+              location: "עבודה עצמית"
+              instructor: "ד\"ר דמיטרי לב"
+            - time: "9-10"
+              subject: "יום העצמאות"
+              location: "עבודה עצמית"
+              instructor: "ד\"ר דמיטרי לב"
+            - time: "10-11"
+              subject: "יום העצמאות"
+              location: "עבודה עצמית"
+              instructor: "ד\"ר דמיטרי לב"
+            - time: "11-12"
+              subject: "יום העצמאות"
+              location: "עבודה עצמית"
+              instructor: "ד\"ר דמיטרי לב"
+        - date: "8.5"
+          slots:
+            - time: "8-9"
+              subject: "PBL גף תחתון"
+              location: "דולפי"
+              instructor: "צוות מדריכים"
+            - time: "9-10"
+              subject: "PBL גף תחתון"
+              location: "דולפי"
+              instructor: "צוות מדריכים"
+            - time: "10-11"
+              subject: "PBL גף תחתון"
+              location: "דולפי"
+              instructor: "צוות מדריכים"
+            - time: "11-12"
+              subject: "חזרה CT"
+              location: "דולפי"
+              instructor: "צוות מדריכים"
+
+  - schedule:
+    - day: יום שני # Monday
+      dates:
+        - date: "17.3"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "בטן CA"
+                location: "עבודה עצמית"
+                instructor: "ד\"ר רננה ברץ גולדשטיין, מיכל גרייצר חדד"
+              group_2a:
+                subject: "דיסקציה בטן 1"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+            - time: "9-10"
+              group_1a:
+                subject: "הרצאות אגן (מוקלט) / CA"
+                location: "מוקלט"
+                instructor: "ד\"ר רננה ברץ גולדשטיין, מיכל גרייצר חדד"
+              group_2a:
+                subject: "דיסקציה בטן 1"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+            - time: "10-11"
+              group_1a:
+                subject: "הרצאות אגן (מוקלט) / CA"
+                location: "מוקלט"
+                instructor: "ד\"ר רננה ברץ גולדשטיין, מיכל גרייצר חדד"
+              group_2a:
+                subject: "דיסקציה בטן 1"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+            - time: "11-12"
+              group_1a:
+                subject: "הרצאות אגן (מוקלט) / CA"
+                location: "מוקלט"
+                instructor: "ד\"ר רננה ברץ גולדשטיין, מיכל גרייצר חדד"
+              # group_2a is blank in the source image
+        - date: "24.3"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "PBL בטן"
+                location: "דולפי"
+                instructor: "ד\"ר דמיטרי לב"
+              group_2a:
+                subject: "דיסקציה בטן 2"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+            - time: "9-10"
+              group_1a:
+                subject: "PBL בטן"
+                location: "דולפי"
+                instructor: "ד\"ר דמיטרי לב"
+              group_2a:
+                subject: "דיסקציה בטן 2"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+            - time: "10-11"
+              group_1a:
+                subject: "PBL בטן"
+                location: "דולפי"
+                instructor: "ד\"ר דמיטרי לב"
+              # group_2a is blank in the source image
+            # 11-12 is blank for both groups
+        - date: "31.3"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "PBL אגן"
+                location: "דולפי"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              group_2a:
+                subject: "CT אגן"
+                location: "100 א'"
+                instructor: "ד\"ר רננה ברץ גולדשטיין, מיכל גרייצר חדד"
+            - time: "9-10"
+              group_1a:
+                subject: "PBL אגן"
+                location: "דולפי"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              group_2a:
+                subject: "CT אגן"
+                location: "100 א'"
+                instructor: "ד\"ר רננה ברץ גולדשטיין, מיכל גרייצר חדד"
+            - time: "10-11"
+              group_1a:
+                subject: "PBL אגן"
+                location: "דולפי"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              # group_2a is blank in the source image
+            # 11-12 is blank for both groups
+        - date: "7.4"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "הרצאה גף תחתון (מוקלט) / CA"
+                location: "מוקלט"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              group_2a:
+                subject: "דיסקציה אגן"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+            - time: "9-10"
+              group_1a:
+                subject: "הרצאה גף תחתון (מוקלט) / CA"
+                location: "מוקלט"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              group_2a:
+                subject: "דיסקציה אגן"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+            - time: "10-11"
+              group_1a:
+                subject: "הרצאה גף תחתון (מוקלט) / CA"
+                location: "מוקלט"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              group_2a:
+                subject: "דיסקציה אגן"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+            # 11-12 is blank for both groups
+        - date: "21.4"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "הרצאה גף תחתון (מוקלט) / CA"
+                location: "מוקלט"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              group_2a:
+                subject: "CT גף תחתון"
+                location: "כיתה 100"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "9-10"
+              group_1a:
+                subject: "הרצאה גף תחתון (מוקלט) / CA"
+                location: "מוקלט"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              group_2a:
+                subject: "CT גף תחתון"
+                location: "כיתה 100"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "10-11"
+              group_1a:
+                subject: "גף תחתון CA"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"
+              # group_2a is blank in the source image
+            # 11-12 is blank for both groups
+        - date: "28.4"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "דיסקציה גף תחתון 2 (אחורי)"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+              group_2a:
+                subject: "הרצאה רדיולוגית CT גף תחתון (פרונטלי)"
+                location: "דולפי"
+                instructor: "צוות מדריכים"
+            - time: "9-10"
+              group_1a:
+                subject: "דיסקציה גף תחתון 2 (אחורי)"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+              group_2a:
+                subject: "הרצאה רדיולוגית US גף תחתון (פרונטלי)"
+                location: "דולפי"
+                instructor: "צוות מדריכים"
+            # 10-11 is blank for both groups
+            # 11-12 is blank for both groups
+        - date: "5.5"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "PBL גף תחתון"
+                location: "דולפי"
+                instructor: "ד\"ר שחר קנין"
+              group_2a:
+                subject: "US גף תחתון"
+                location: "חדרי US"
+                instructor: "צוות מדריכים"
+            - time: "9-10"
+              group_1a:
+                subject: "PBL גף תחתון"
+                location: "דולפי"
+                instructor: "ד\"ר שחר קנין"
+              group_2a:
+                subject: "US גף תחתון"
+                location: "חדרי US"
+                instructor: "צוות מדריכים"
+            - time: "10-11"
+              group_1a:
+                subject: "PBL גף תחתון"
+                location: "דולפי"
+                instructor: "ד\"ר שחר קנין"
+              group_2a:
+                subject: "חזרה US"
+                location: "חדרי US"
+                instructor: "צוות מדריכים"
+            - time: "11-12"
+              group_1a:
+                subject: "חזרה CT"
+                location: "דולפי"
+                instructor: "ד\"ר רננה ברץ גולדשטיין, מיכל גרייצר חדד"
+              group_2a:
+                subject: "חזרה מעבדה דיסקציה"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+
+    - day: יום חמישי # Thursday
+      dates:
+        - date: "20.3"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "הרצאה רדיולוגיה CT (פרונטלי)"
+                location: "דולפי"
+                instructor: "ד\"ר דמיטרי לב / ד\"ר שחר קנין"
+              # group_2a is blank in the source image
+            - time: "9-10"
+              group_1a:
+                subject: "הרצאה רדיולוגיה US בטן (פרונטלי)"
+                location: "דולפי"
+                instructor: "ד\"ר דמיטרי לב / ד\"ר שחר קנין"
+              # group_2a is blank in the source image
+            # 10-11 is blank for both groups
+            # 11-12 is blank for both groups
+        - date: "27.3"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "CT בטן"
+                location: "דולפי"
+                instructor: "ד\"ר דמיטרי לב / ד\"ר שחר קנין"
+              # group_2a is blank in the source image
+            - time: "9-10"
+              group_1a:
+                subject: "CT בטן"
+                location: "דולפי"
+                instructor: "ד\"ר דמיטרי לב / ד\"ר שחר קנין"
+              # group_2a is blank in the source image
+            # 10-11 is blank for both groups
+            # 11-12 is blank for both groups
+        - date: "3.4"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "הרצאה רדיולוגית אגן CT (מוקלט)"
+                location: "מוקלט"
+                # instructor is blank in the source image
+              group_2a:
+                subject: "US בטן"
+                location: "חדרי US"
+                instructor: "צוות מדריכים"
+            - time: "9-10"
+              # group_1a is blank in the source image
+              group_2a:
+                subject: "US בטן"
+                location: "חדרי US"
+                instructor: "צוות מדריכים"
+            # 10-11 is blank for both groups
+            # 11-12 is blank for both groups
+        - date: "8.4"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "הרצאה רדיולוגית אגן US (מוקלט)"
+                location: "מוקלט"
+                # instructor is blank in the source image
+              group_2a:
+                subject: "אגן CA"
+                location: "עבודה עצמית"
+                instructor: "עבודה עצמית" # Instructor listed as 'Self study' in source
+            # 9-10 is blank for both groups
+            # 10-11 is blank for both groups
+            # 11-12 is blank for both groups
+        - date: "24.4"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "דיסקציה גף תחתון 1 (קדמי)"
+                location: "מעבדת דיסקציה"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              # group_2a is blank in the source image
+            - time: "9-10"
+              group_1a:
+                subject: "דיסקציה גף תחתון 1 (קדמי)"
+                location: "מעבדת דיסקציה"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              # group_2a is blank in the source image
+            # 10-11 is blank for both groups
+            # 11-12 is blank for both groups
+        - date: "1.5" # יום העצמאות - Independence Day
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "יום העצמאות"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"
+              group_2a:
+                subject: "יום העצמאות"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"
+            - time: "9-10"
+              group_1a:
+                subject: "יום העצמאות"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"
+              group_2a:
+                subject: "יום העצמאות"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"
+            - time: "10-11"
+              group_1a:
+                subject: "יום העצמאות"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"
+              group_2a:
+                subject: "יום העצמאות"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"
+            - time: "11-12"
+              group_1a:
+                subject: "יום העצמאות"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"
+              group_2a:
+                subject: "יום העצמאות"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"

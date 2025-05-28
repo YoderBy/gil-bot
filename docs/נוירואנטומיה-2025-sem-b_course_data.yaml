@@ -1,0 +1,63 @@
+courses:
+- id: נוירואנטומיה-2025-sem-b
+  name: נוירואנטומיה תשפ״ה סמסטר ב׳
+  year: '2025'
+  schedule:
+    calendar_entries:
+    - date: '2025-05-12'
+      time_slots:
+      - subject: ''
+        activity_type: General Activity
+        attending_groups:
+        - All
+        details: 'Reading: ; Reading: '
+      - subject: ''
+        activity_type: General Activity
+        attending_groups:
+        - All
+        details: 'Reading: ; Notes: ; Reading: ; Reading: ; Notes: '
+      - subject: ''
+        activity_type: General Activity
+        attending_groups:
+        - All
+        details: 'Reading: '
+      - subject: ''
+        activity_type: General Activity
+        attending_groups:
+        - All
+        details: 'Reading: '
+      - subject: ''
+        activity_type: General Activity
+        attending_groups:
+        - All
+        details: 'Reading: '
+      - subject: ''
+        activity_type: General Activity
+        attending_groups:
+        - All
+        details: 'Reading: '
+      - subject: ''
+        activity_type: General Activity
+        attending_groups:
+        - All
+        details: 'Reading: ; Reading: '
+      day_of_week_heb: יום שני
+      day_of_week_en: Monday
+    - date: '2025-06-12'
+      time_slots:
+      - subject: ''
+        activity_type: General Activity
+        attending_groups:
+        - All
+        details: 'Reading: ; Notes: '
+      day_of_week_heb: יום חמישי
+      day_of_week_en: Thursday
+    - date: '2025-06-19'
+      time_slots:
+      - subject: ''
+        activity_type: General Activity
+        attending_groups:
+        - All
+        details: 'Reading: '
+      day_of_week_heb: יום חמישי
+      day_of_week_en: Thursday

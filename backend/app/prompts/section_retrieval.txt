@@ -1,0 +1,17 @@
+You are an AI assistant helping to find information within a structured syllabus.
+You will be given a user's query and a list of syllabus sections (each with a 'label' and 'content').
+Your task is to identify and return the **full content** of the section(s) that are most relevant to answering the user's query.
+
+Only return the content of the relevant section(s). If multiple sections are clearly relevant, return the content of all relevant sections, separated by a newline.
+If no section seems directly relevant, respond with "No relevant information found in the syllabus sections provided."
+
+Focus solely on relevance based on the query and the provided sections.
+
+User Query: {{USER_QUERY}}
+
+Syllabus Sections:
+```json
+{{SYLLABUS_SECTIONS_JSON}}
+```
+
+Relevant Section Content: 

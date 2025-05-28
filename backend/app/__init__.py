@@ -1,0 +1,3 @@
+"""
+FastAPI WhatsApp Bot application.
+""" 

@@ -1,0 +1,426 @@
+courses:
+  - id: "0111.2126.01" # Based on the image header
+    name: "Introduction to Pharmacology - 6-year program"
+    heb_name: "מבוא לפרמקולוגיה - 6 שנתי"
+    year: "תשפ\"ה"
+    semester: "b" # Inferred from dates (Spring semester)
+
+    description:
+      en: "" # Not available in the provided images
+      he: "" # Not available in the provided images
+      goal: "" # Not available in the provided images
+    target_audience:
+      - "סטודנטים לתוכנית 6 שנתית ברפואה"
+    general_location: "מרבאום (מיקום הרצאות, למעט תרגולים ומועדים מיוחדים)"
+    general_day_time_info: "שעות הרצאה: יום א' 12:00-14:00, יום ג' 10:00-13:00 (עדכון 25.02.2025)"
+    
+    personnel:
+      coordinators:
+        - name: "" # Not specified in images
+      overall_lecturers: # Collected from various schedule entries
+        - name: "ד\"ר משה גתמון אלמוג"
+        - name: "ד\"ר שי כאב" # For "צפיה שי כאב" material
+        - name: "ד\"ר שלמה אלמוג"
+        - name: "פרופ' יוסי פינקלשטיין"
+        - name: "ד\"ר טליה תירוש כהן"
+        - name: "פרופ' אריאל פוליקאר"
+        - name: "ד\"ר שרון יום טוב"
+        - name: "פרופ' יצחק קינרייך"
+        - name: "פרופ' חגית ינאי סיניגור"
+
+    assignments:
+      - name: "הגשת עבודה - פרמקוקינטיקה/דינמיקה"
+        due_date: "2025-04-20"
+        due_time: "23:59" # Assumed end of day
+        submission_method: "מודל" # Assumed
+        details: "הנחיות ניתנו בתרגיל ב-30.3 ו-1.4. משקל 2% מהציון הסופי."
+      - name: "הגשת עבודה - אין שיעור למידה עצמית (נושא פסיכופרמקולוגיה)" # Week 16
+        due_date: "2025-07-01" # Date inferred from 1.7 in schedule (end of day)
+        due_time: "23:59"
+        submission_method: "מודל" # Assumed
+        details: "הגשת מטלה בנושא פסיכופרמקולוגיה (משקל 2%). פרטים נוספים יינתנו."
+
+
+    schedule:
+      general_notes: |
+        לוח זמנים זה הינו טנטטיבי וייתכנו שינויים. יש להתעדכן באופן שוטף.
+        מפגשי תרגול, בחנים, והשלמות עשויים להתקיים במועדים, שעות ומיקומים שונים מההרצאות הרגילות.
+        שימו לב: הבחנים בקורס פרמקולוגיה לא יתקיימו במפגשים עצמם, אלא יהיו פתוחים לגישה מהבית בערב לפני המפגש המסכם של נושא רלוונטי (במפגשי אנדוקרינולוגיה - הבוחן יתקיים ערב שלפני המפגש הראשון בסדרה).
+      calendar_entries:
+        # שבוע 1
+        - date: "2025-03-18"
+          day_of_week_heb: "ג'"
+          day_of_week_en: "Tuesday"
+          time_slots:
+            - start_time: "10:00"
+              end_time: "13:00"
+              subject: "מבוא לפרמקולוגיה, עקרונות בסיסיים"
+              activity_type: "הרצאה פתיחה"
+              location: "מרבאום"
+              instructors: ["ד\"ר משה גתמון אלמוג"]
+        # שבוע 2
+        - date: "2025-03-25"
+          day_of_week_heb: "ג'"
+          day_of_week_en: "Tuesday"
+          time_slots:
+            - start_time: "10:00"
+              end_time: "13:00"
+              subject: "פרמקוקינטיקה יחידה 1.1, 1.2"
+              activity_type: "הרצאה"
+              location: "מרבאום"
+              instructors: ["ד\"ר משה גתמון אלמוג"]
+        - date: "2025-03-27"
+          day_of_week_heb: "ה'"
+          day_of_week_en: "Thursday"
+          time_slots:
+            - start_time: "10:00"
+              end_time: "12:00"
+              subject: "מפגש סיכום פרמקוקינטיקה (בוחן בערב קודם)"
+              activity_type: "מפגש סיכום"
+              location: "חדרים: 123, 120אבג, 935, 936, 937"
+        # שבוע 3 - יחידת בסיס הפוכה
+        - date: "2025-03-30"
+          day_of_week_heb: "א'"
+          day_of_week_en: "Sunday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "תרגול בנושאי פרמקוקינטיקה/דינמיקה (יחידת בסיס הפוכה)"
+              activity_type: "מפגש תרגול נוכחות חובה"
+              location: "מרבאום" # Or specific rooms if applicable to this part
+              instructors: ["ד\"ר משה גתמון אלמוג"]
+              details: "משקל 2% על הסרטונים והקריאה. הנחיות להגשת עבודה בתאריך 20.4."
+        - date: "2025-04-01"
+          day_of_week_heb: "ג'"
+          day_of_week_en: "Tuesday"
+          time_slots:
+            - start_time: "10:00" # Part of the 10-13 block
+              end_time: "13:00" # Assuming combined or sequential
+              subject: "צפיה PD (פרמקודינמיקה) / תרגול (יחידת בסיס הפוכה)"
+              activity_type: "צפיה / תרגול נוכחות חובה"
+              location: "מרבאום / למידה עצמית"
+              instructors: ["חומר ע\"י ד\"ר שי כאב", "ד\"ר משה גתמון אלמוג"]
+              details: "תרגול: משקל 2% על הסרטונים והקריאה. הנחיות להגשת עבודה בתאריך 20.4."
+        - date: "2025-04-03"
+          day_of_week_heb: "ה'"
+          day_of_week_en: "Thursday"
+          time_slots:
+            - start_time: "10:00" # From image grid for 3.4, assuming 10:00-12:00 or similar based on other thrusday sessions
+              end_time: "12:00"
+              subject: "מפגש תרגול נוכחות חובה - פרמקוקינטיקה/דינמיקה"
+              activity_type: "תרגול"
+              location: "חדרים: 123, 937, 936, 935, 120אבג"
+              instructors: ["ד\"ר טליה תירוש כהן"] # Inferred from similar structured sessions
+        # שבוע 4 - חופש
+        - date: "2025-04-06"
+          day_of_week_heb: "א'"
+          day_of_week_en: "Sunday"
+          daily_notes: "שבוע חופש - אין שיעור"
+        - date: "2025-04-08"
+          day_of_week_heb: "ג'"
+          day_of_week_en: "Tuesday"
+          daily_notes: "שבוע חופש - אין הרצאה רגילה. מפגש השלמה:"
+          time_slots:
+            - start_time: "10:00"
+              end_time: "12:00"
+              subject: "השלמות יום ה': מפגש שאלות ותשובות סיכום יחידות PK ודינמיקה"
+              activity_type: "שו\"ת"
+              location: "מרבאום" # Assumed
+              instructors: ["ד\"ר שלמה אלמוג"]
+        # שבוע 5
+        - date: "2025-04-13"
+          day_of_week_heb: "א'"
+          day_of_week_en: "Sunday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "צפיה: פרמקולוגיה של מערכת העצבים האוטונומית (ANS) - יחידה 2.1"
+              activity_type: "צפיה"
+              location: "למידה עצמית"
+              instructors: ["חומר ע\"י פרופ' יוסי פינקלשטיין"]
+        - date: "2025-04-15"
+          day_of_week_heb: "ג'"
+          day_of_week_en: "Tuesday"
+          time_slots:
+            - start_time: "10:00"
+              end_time: "13:00"
+              subject: "צפיה: פרמקולוגיה של מערכת העצבים האוטונומית (ANS) - המשך יחידה 2.1 + יחידה 2.2"
+              activity_type: "צפיה"
+              location: "למידה עצמית"
+              instructors: ["חומר ע\"י פרופ' יוסי פינקלשטיין"]
+        - date: "2025-04-20"
+          day_of_week_heb: "א'"
+          day_of_week_en: "Sunday"
+          daily_notes: "אין שיעור - הגשת עבודה (פרמקוקינטיקה/דינמיקה)"
+        # שבוע 6
+        - date: "2025-04-22"
+          day_of_week_heb: "ג'"
+          day_of_week_en: "Tuesday"
+          time_slots:
+            - start_time: "10:00"
+              end_time: "13:00"
+              subject: "צפיה: פרמקולוגיה של מערכת העצבים האוטונומית (ANS) - יחידה 2.3, 2.4"
+              activity_type: "צפיה"
+              location: "למידה עצמית"
+              instructors: ["חומר ע\"י פרופ' יוסי פינקלשטיין"]
+        - date: "2025-04-24" # יום השואה
+          day_of_week_heb: "ה'"
+          day_of_week_en: "Thursday"
+          daily_notes: "יום השואה - אין מפגש תרגול/הרצאה"
+        # שבוע 7
+        - date: "2025-04-27"
+          day_of_week_heb: "א'"
+          day_of_week_en: "Sunday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "צפיה: פרמקולוגיה של מערכת העצבים האוטונומית (ANS) - יחידה 3.1, 3.2"
+              activity_type: "צפיה"
+              location: "למידה עצמית"
+              instructors: ["חומר ע\"י ד\"ר טליה תירוש כהן"]
+        - date: "2025-04-29"
+          day_of_week_heb: "ג'"
+          day_of_week_en: "Tuesday"
+          time_slots:
+            - start_time: "10:00"
+              end_time: "12:00" # Note: 10:00-12:00 for this specific session
+              subject: "מפגש בחינה: PBL אדרנל"
+              activity_type: "PBL / מפגש בחינה"
+              location: "קבוצה 1 - אולם דולפי, קבוצה 2 - אולם מרבאום"
+              instructors: ["ד\"ר טליה תירוש כהן", "פרופ' אריאל פוליקאר"]
+              details: "שני סבבים: סבב ראשון 10:00-11:00, סבב שני 11:00-12:00. בהתאם לחלוקה לקבוצות."
+        # שבוע 8
+        - date: "2025-05-04"
+          day_of_week_heb: "א'"
+          day_of_week_en: "Sunday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "צפיה: פרמקולוגיה של מערכת העצבים המרכזית (CNS) - יחידה 4.1, 4.2"
+              activity_type: "צפיה"
+              location: "למידה עצמית"
+              instructors: ["חומר ע\"י ד\"ר שרון יום טוב"]
+        - date: "2025-05-06"
+          day_of_week_heb: "ג'"
+          day_of_week_en: "Tuesday"
+          time_slots:
+            - start_time: "10:00"
+              end_time: "13:00"
+              subject: "קריאה+צפיה ANS"
+              activity_type: "קריאה/צפיה"
+              location: "למידה עצמית"
+        # שבוע 9
+        - date: "2025-05-11"
+          day_of_week_heb: "א'"
+          day_of_week_en: "Sunday"
+          daily_notes: "שימו לב: יש לשלב יחידות תוכן של קריאה וצפיה בנושאים: יחידה 6.1, 6.2, 6.3 (מערכת סומטית, אוטונומית, CNS)"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "צפיה: פרמקולוגיה של מערכת העצבים המרכזית (CNS) - יחידה 4.3, 4.4"
+              activity_type: "צפיה"
+              location: "למידה עצמית"
+              instructors: ["חומר ע\"י ד\"ר שרון יום טוב"]
+        - date: "2025-05-13"
+          day_of_week_heb: "ג'"
+          day_of_week_en: "Tuesday"
+          time_slots:
+            - start_time: "10:00"
+              end_time: "13:00"
+              subject: "ANS" # General topic for self-study or catch-up
+              activity_type: "למידה עצמית"
+              location: "למידה עצמית"
+        # שבוע 10
+        - date: "2025-05-18"
+          day_of_week_heb: "א'"
+          day_of_week_en: "Sunday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "צפיה: פרמקולוגיה של מערכת העצבים המרכזית (CNS) - יחידה 5.1, 5.2"
+              activity_type: "צפיה"
+              location: "למידה עצמית"
+              instructors: ["חומר ע\"י פרופ' יצחק קינרייך"]
+        - date: "2025-05-20"
+          day_of_week_heb: "ג'"
+          day_of_week_en: "Tuesday"
+          daily_notes: "מפגש תרגול נוכחות חובה בנושא מערכת אוטונומית (ANS). בוחן יתקיים מהבית בערב קודם."
+          time_slots:
+            - start_time: "10:00"
+              end_time: "13:00"
+              subject: "מפגש תרגול וסיכום - מערכת אוטונומית (ANS)"
+              activity_type: "תרגול וסיכום"
+              location: "חדרים (5 קבוצות): 123, 937, 936, 935, 120אבג"
+              instructors: ["ד\"ר משה גושן אלמוג", "פרופ' יוסי פינקלשטיין"]
+        # שבוע 11
+        - date: "2025-05-25"
+          day_of_week_heb: "א'"
+          day_of_week_en: "Sunday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "צפיה: פרמקולוגיה של מערכת העצבים המרכזית (CNS) - יחידה 5.3, 5.4"
+              activity_type: "צפיה"
+              location: "למידה עצמית"
+              instructors: ["חומר ע\"י פרופ' יצחק קינרייך"]
+        - date: "2025-05-27"
+          day_of_week_heb: "ג'"
+          day_of_week_en: "Tuesday"
+          time_slots:
+            - start_time: "10:00"
+              end_time: "13:00"
+              subject: "CNS" # General topic for self-study or catch-up
+              activity_type: "למידה עצמית"
+              location: "למידה עצמית"
+        # שבוע 12
+        - date: "2025-06-01"
+          day_of_week_heb: "א'"
+          day_of_week_en: "Sunday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "שבועיות" # Placeholder, likely self-study or catch-up
+              activity_type: "למידה עצמית"
+        - date: "2025-06-03"
+          day_of_week_heb: "ג'"
+          day_of_week_en: "Tuesday"
+          daily_notes: "מפגש תרגול נוכחות חובה בנושא מערכת עצבים מרכזית (CNS). בוחן יתקיים מהבית בערב קודם."
+          time_slots:
+            - start_time: "10:00"
+              end_time: "13:00"
+              subject: "מפגש תרגול וסיכום - מערכת עצבים מרכזית (CNS)"
+              activity_type: "תרגול וסיכום"
+              location: "חדרים (5 קבוצות): 123, 937, 936, 935, 120אבג"
+              instructors: ["ד\"ר שרון יום טוב", "פרופ' יצחק קינרייך"]
+        # שבוע 13
+        - date: "2025-06-08"
+          day_of_week_heb: "א'"
+          day_of_week_en: "Sunday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "צפיה: פרמקולוגיה קרדיווסקולרית - יחידה 6.1"
+              activity_type: "צפיה"
+              location: "למידה עצמית"
+              instructors: ["חומר ע\"י פרופ' חגית ינאי סיניגור"]
+        - date: "2025-06-10"
+          day_of_week_heb: "ג'"
+          day_of_week_en: "Tuesday"
+          time_slots:
+            - start_time: "10:00"
+              end_time: "13:00"
+              subject: "קריאה+צפיה בנושא סרטן"
+              activity_type: "קריאה/צפיה"
+              location: "למידה עצמית"
+        # שבוע 14
+        - date: "2025-06-15"
+          day_of_week_heb: "א'"
+          day_of_week_en: "Sunday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "צפיה: פרמקולוגיה קרדיווסקולרית - יחידה 6.2, 6.3"
+              activity_type: "צפיה"
+              location: "למידה עצמית"
+              instructors: ["חומר ע\"י פרופ' חגית ינאי סיניגור"]
+        - date: "2025-06-17"
+          day_of_week_heb: "ג'"
+          day_of_week_en: "Tuesday"
+          time_slots:
+            - start_time: "10:00"
+              end_time: "13:00"
+              subject: "מפגש סיכום נושא טיפול בסרטן"
+              activity_type: "הרצאה/סיכום"
+              location: "מרבאום"
+              instructors: ["פרופ' חגית ינאי סיניגור"] # Assuming based on topic
+        # שבוע 15
+        - date: "2025-06-22"
+          day_of_week_heb: "א'"
+          day_of_week_en: "Sunday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "מפגש סיכום: טיפול בסרטן - ביולוגיים ואימונותרפיה (בוחן בערב קודם)"
+              activity_type: "PBL / מפגש סיכום"
+              location: "מרכזאום"
+              instructors: ["פרופ' חגית ינאי סיניגור"]
+        - date: "2025-06-24"
+          day_of_week_heb: "ג'"
+          day_of_week_en: "Tuesday"
+          daily_notes: "מפגש תרגול נוכחות חובה בנושא טיפול בסרטן. בוחן יתקיים מהבית בערב קודם."
+          time_slots:
+            - start_time: "10:00"
+              end_time: "13:00"
+              subject: "מפגש תרגול וסיכום - טיפול בסרטן"
+              activity_type: "תרגול וסיכום"
+              location: "מרכזאום"
+              instructors: ["פרופ' חגית ינאי סיניגור"]
+        # שבוע 16
+        - date: "2025-06-29"
+          day_of_week_heb: "א'"
+          day_of_week_en: "Sunday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "אינטראקציות בין תרופות"
+              activity_type: "הרצאה/צפיה"
+              location: "למידה עצמית / מרבאום"
+        - date: "2025-07-01"
+          day_of_week_heb: "ג'"
+          day_of_week_en: "Tuesday"
+          daily_notes: "השלמות ליום יום א' (30.6) - למידה עצמית והגשת מטלה בנושא פסיכופרמקולוגיה (משקל 2%) עד 1.7. אין מפגש פיזי."
+          time_slots:
+            - start_time: "10:00" # Placeholder for day
+              end_time: "13:00"
+              subject: "למידה עצמית והגשת מטלה - פסיכופרמקולוגיה"
+              activity_type: "למידה עצמית / הגשה"
+              location: "למידה עצמית"
+              details: "הגשת מטלה עד 23:59"
+
+
+    tests:
+      - name: "בוחן אמצע - פרמקוקינטיקה"
+        test_type: "בוחן בית"
+        notes: "על יחידה 1.1 ו-1.2. משקל 2%. פתוח לגישה מהבית בערב שלפני מפגש הסיכום (27.3)."
+        moadim:
+          - moad_name: "מועד יחיד"
+            date: "2025-03-26" # Evening before the 27.3 session
+            time: "בערב" # Approximate time
+            # duration_minutes: 
+            location: "מהבית"
+      - name: "בוחן - מערכת אוטונומית (ANS)"
+        test_type: "בוחן בית"
+        notes: "משקל 2%. פתוח לגישה מהבית בערב שלפני מפגש הסיכום/תרגול (20.5)."
+        moadim:
+          - moad_name: "מועד יחיד"
+            date: "2025-05-19" # Evening before the 20.5 session
+            time: "בערב"
+            location: "מהבית"
+      - name: "בוחן - מערכת עצבים מרכזית (CNS)"
+        test_type: "בוחן בית"
+        notes: "משקל 2%. פתוח לגישה מהבית בערב שלפני מפגש הסיכום/תרגול (3.6)."
+        moadim:
+          - moad_name: "מועד יחיד"
+            date: "2025-06-02" # Evening before the 3.6 session
+            time: "בערב"
+            location: "מהבית"
+      - name: "בוחן - טיפול בסרטן (ביולוגיים ואימונותרפיה)"
+        test_type: "בוחן בית"
+        notes: "משקל 2%. פתוח לגישה מהבית בערב שלפני מפגש הסיכום/תרגול (22.6 או 24.6)."
+        moadim:
+          - moad_name: "מועד יחיד"
+            date: "2025-06-21" # Evening before the 22.6 session (or 23.6 for 24.6 session)
+            time: "בערב"
+            location: "מהבית"
+      - name: "מבחן סופי"
+        test_type: "בחינה סופית"
+        notes: "בחינה מסכמת על כל חומר הקורס."
+        moadim:
+          - moad_name: "מועד א'"
+            date: "2025-07-20"
+            time: "09:00" # Typical exam time, if not specified
+            location: "מרבאום" # Typical, if not specified
+          - moad_name: "מועד ב'"
+            date: "2025-09-01"
+            time: "09:00" # Typical exam time, if not specified
+            location: "מרבאום" # Typical, if not specified

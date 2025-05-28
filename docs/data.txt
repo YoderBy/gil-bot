@@ -1,0 +1,4503 @@
+course: anatomy-first-part
+  - schedule:
+    - day: יום שני # Monday
+      events:
+        - date: "17.3"
+          slots:
+            - time: "8-9"
+              subject: "בטן CA"
+              location: "עבודה עצמית"
+              instructor: "ד\"ר מיכל גרייצר חדד, רננה ברץ גולדשטיין"
+            - time: "9-10"
+              subject: "הרצאות אגן (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "ד\"ר מיכל גרייצר חדד, רננה ברץ גולדשטיין"
+            - time: "10-11"
+              subject: "הרצאות אגן (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "ד\"ר מיכל גרייצר חדד, רננה ברץ גולדשטיין"
+            - time: "11-12"
+              subject: "הרצאות אגן (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "ד\"ר מיכל גרייצר חדד, רננה ברץ גולדשטיין"
+        - date: "24.3"
+          slots:
+            - time: "8-9"
+              subject: "הרצאה רדיולוגיה US בטן (מוקלט)"
+              location: "מוקלט"
+              instructor: "ד\"ר מיכל גרייצר חדד, רננה ברץ גולדשטיין"
+            - time: "9-10"
+              subject: "דיסקציה בטן 1"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+            - time: "10-11"
+              subject: "דיסקציה בטן 1"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+            - time: "11-12"
+              subject: "דיסקציה בטן 1"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+        - date: "31.3"
+          slots:
+            - time: "8-9"
+              subject: "הרצאה גף תחתון (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "ד\"ר מיכל גרייצר חדד, רננה ברץ גולדשטיין"
+            - time: "9-10"
+              subject: "הרצאה גף תחתון (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "ד\"ר מיכל גרייצר חדד, רננה ברץ גולדשטיין"
+            - time: "10-11"
+              subject: "דיסקציה בטן 2"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+            - time: "11-12"
+              subject: "דיסקציה בטן 2"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+        - date: "7.4"
+          slots:
+            - time: "8-9"
+              subject: "הרצאה גף תחתון (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "ד\"ר שחר קנין" # Corrected based on Thursday 8.4 instructor pattern
+            - time: "9-10"
+              subject: "PBL אגן"
+              location: "דולפי"
+              instructor: "ד\"ר שחר קנין" # Corrected based on Thursday 8.4 instructor pattern
+            - time: "10-11"
+              subject: "PBL אגן"
+              location: "דולפי"
+              instructor: "ד\"ר שחר קנין" # Corrected based on Thursday 8.4 instructor pattern
+            - time: "11-12"
+              subject: "PBL אגן"
+              location: "דולפי"
+              instructor: "ד\"ר שחר קנין" # Corrected based on Thursday 8.4 instructor pattern
+        - date: "21.4"
+          slots:
+            - time: "8-9"
+              subject: "הרצאה גף תחתון (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "9-10"
+              subject: "הרצאה גף תחתון (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "10-11"
+              subject: "הרצאה גף תחתון (מוקלט) / CA"
+              location: "מוקלט"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "11-12"
+              subject: "גף תחתון CA"
+              location: "עבודה עצמית"
+              instructor: "צוות מדריכים"
+        - date: "28.4"
+          slots:
+            - time: "8-9"
+              subject: "הרצאה רדיולוגית CT (פרונטלי)"
+              location: "כיתה 201"
+              instructor: "צוות מדריכים"
+            - time: "9-10"
+              subject: "הרצאה רדיולוגית US (פרונטלי)"
+              location: "כיתה 201"
+              instructor: "צוות מדריכים"
+            - time: "10-11"
+              subject: "דיסקציה גף תחתון 2 (אחורי)"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+            - time: "11-12"
+              subject: "דיסקציה גף תחתון 2 (אחורי)"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+        - date: "5.5"
+          slots:
+            - time: "8-9"
+              subject: "US גף תחתון"
+              location: "חדרי US"
+              instructor: "צוות מדריכים"
+            - time: "9-10"
+              subject: "US גף תחתון"
+              location: "חדרי US"
+              instructor: "צוות מדריכים"
+            - time: "10-11"
+              subject: "חזרה US"
+              location: "חדרי US"
+              instructor: "צוות מדריכים"
+            - time: "11-12"
+              subject: "חזרה מעבדה דיסקציה"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+
+    - day: יום חמישי # Thursday
+      events:
+        - date: "20.3"
+          slots:
+            - time: "8-9"
+              subject: "US בטן"
+              location: "חדרי US"
+              instructor: "צוות מדריכים"
+            - time: "9-10"
+              subject: "US בטן"
+              location: "חדרי US"
+              instructor: "צוות מדריכים"
+            - time: "10-11"
+              subject: "הרצאה רדיולוגית אגן CT (פרונטלי)"
+              location: "דולפי"
+              instructor: "ד\"ר דמיטרי לב / ד\"ר שחר קנין"
+            - time: "11-12"
+              subject: "הרצאה רדיולוגית אגן US (פרונטלי)"
+              location: "דולפי"
+              instructor: "ד\"ר דמיטרי לב / ד\"ר שחר קנין"
+        - date: "27.3"
+          slots:
+            - time: "8-9"
+              subject: "הרצאה רדיולוגיה CT בטן (מוקלט)"
+              location: "מוקלט"
+              instructor: "ד\"ר דמיטרי לב / ד\"ר שחר קנין"
+            - time: "9-10"
+              subject: "PBL בטן"
+              location: "מארבאום"
+              instructor: "צוות מדריכים"
+            - time: "10-11"
+              subject: "PBL בטן"
+              location: "מארבאום"
+              instructor: "צוות מדריכים"
+            - time: "11-12"
+              subject: "PBL בטן"
+              location: "מארבאום"
+              instructor: "צוות מדריכים"
+        - date: "3.4"
+          slots:
+            - time: "8-9"
+              subject: "אגן CA"
+              location: "עבודה עצמית"
+              instructor: "ד\"ר דמיטרי לב"
+            - time: "9-10"
+              subject: "דיסקציה אגן"
+              location: "מעבדת דיסקציה"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "10-11"
+              subject: "דיסקציה אגן"
+              location: "מעבדת דיסקציה"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "11-12"
+              subject: "דיסקציה אגן"
+              location: "מעבדת דיסקציה"
+              instructor: "צוות מדריכים"
+        - date: "8.4"
+          slots:
+            - time: "8-9"
+              subject: "CT בטן"
+              location: "119"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "9-10"
+              subject: "CT בטן"
+              location: "119"
+              instructor: "ד\"ר שחר קנין"
+            - time: "10-11"
+              subject: "CT אגן"
+              location: "119"
+              instructor: "ד\"ר שחר קנין"
+            - time: "11-12"
+              subject: "CT אגן"
+              location: "119"
+              instructor: "ד\"ר שחר קנין"
+        - date: "24.4"
+          slots:
+            - time: "8-9"
+              subject: "CT גף תחתון"
+              location: "דולפי"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "9-10"
+              subject: "CT גף תחתון"
+              location: "דולפי"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "10-11"
+              subject: "דיסקציה גף תחתון 1 (קדמי)"
+              location: "מעבדת דיסקציה"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "11-12"
+              subject: "דיסקציה גף תחתון 1 (קדמי)"
+              location: "מעבדת דיסקציה"
+              instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+        - date: "1.5" # יום העצמאות - Independence Day
+          slots:
+            - time: "8-9"
+              subject: "יום העצמאות"
+              location: "עבודה עצמית"
+              instructor: "ד\"ר דמיטרי לב"
+            - time: "9-10"
+              subject: "יום העצמאות"
+              location: "עבודה עצמית"
+              instructor: "ד\"ר דמיטרי לב"
+            - time: "10-11"
+              subject: "יום העצמאות"
+              location: "עבודה עצמית"
+              instructor: "ד\"ר דמיטרי לב"
+            - time: "11-12"
+              subject: "יום העצמאות"
+              location: "עבודה עצמית"
+              instructor: "ד\"ר דמיטרי לב"
+        - date: "8.5"
+          slots:
+            - time: "8-9"
+              subject: "PBL גף תחתון"
+              location: "דולפי"
+              instructor: "צוות מדריכים"
+            - time: "9-10"
+              subject: "PBL גף תחתון"
+              location: "דולפי"
+              instructor: "צוות מדריכים"
+            - time: "10-11"
+              subject: "PBL גף תחתון"
+              location: "דולפי"
+              instructor: "צוות מדריכים"
+            - time: "11-12"
+              subject: "חזרה CT"
+              location: "דולפי"
+              instructor: "צוות מדריכים"
+
+  - schedule:
+    - day: יום שני # Monday
+      dates:
+        - date: "17.3"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "בטן CA"
+                location: "עבודה עצמית"
+                instructor: "ד\"ר רננה ברץ גולדשטיין, מיכל גרייצר חדד"
+              group_2a:
+                subject: "דיסקציה בטן 1"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+            - time: "9-10"
+              group_1a:
+                subject: "הרצאות אגן (מוקלט) / CA"
+                location: "מוקלט"
+                instructor: "ד\"ר רננה ברץ גולדשטיין, מיכל גרייצר חדד"
+              group_2a:
+                subject: "דיסקציה בטן 1"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+            - time: "10-11"
+              group_1a:
+                subject: "הרצאות אגן (מוקלט) / CA"
+                location: "מוקלט"
+                instructor: "ד\"ר רננה ברץ גולדשטיין, מיכל גרייצר חדד"
+              group_2a:
+                subject: "דיסקציה בטן 1"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+            - time: "11-12"
+              group_1a:
+                subject: "הרצאות אגן (מוקלט) / CA"
+                location: "מוקלט"
+                instructor: "ד\"ר רננה ברץ גולדשטיין, מיכל גרייצר חדד"
+              # group_2a is blank in the source image
+        - date: "24.3"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "PBL בטן"
+                location: "דולפי"
+                instructor: "ד\"ר דמיטרי לב"
+              group_2a:
+                subject: "דיסקציה בטן 2"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+            - time: "9-10"
+              group_1a:
+                subject: "PBL בטן"
+                location: "דולפי"
+                instructor: "ד\"ר דמיטרי לב"
+              group_2a:
+                subject: "דיסקציה בטן 2"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+            - time: "10-11"
+              group_1a:
+                subject: "PBL בטן"
+                location: "דולפי"
+                instructor: "ד\"ר דמיטרי לב"
+              # group_2a is blank in the source image
+            # 11-12 is blank for both groups
+        - date: "31.3"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "PBL אגן"
+                location: "דולפי"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              group_2a:
+                subject: "CT אגן"
+                location: "100 א'"
+                instructor: "ד\"ר רננה ברץ גולדשטיין, מיכל גרייצר חדד"
+            - time: "9-10"
+              group_1a:
+                subject: "PBL אגן"
+                location: "דולפי"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              group_2a:
+                subject: "CT אגן"
+                location: "100 א'"
+                instructor: "ד\"ר רננה ברץ גולדשטיין, מיכל גרייצר חדד"
+            - time: "10-11"
+              group_1a:
+                subject: "PBL אגן"
+                location: "דולפי"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              # group_2a is blank in the source image
+            # 11-12 is blank for both groups
+        - date: "7.4"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "הרצאה גף תחתון (מוקלט) / CA"
+                location: "מוקלט"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              group_2a:
+                subject: "דיסקציה אגן"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+            - time: "9-10"
+              group_1a:
+                subject: "הרצאה גף תחתון (מוקלט) / CA"
+                location: "מוקלט"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              group_2a:
+                subject: "דיסקציה אגן"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+            - time: "10-11"
+              group_1a:
+                subject: "הרצאה גף תחתון (מוקלט) / CA"
+                location: "מוקלט"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              group_2a:
+                subject: "דיסקציה אגן"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+            # 11-12 is blank for both groups
+        - date: "21.4"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "הרצאה גף תחתון (מוקלט) / CA"
+                location: "מוקלט"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              group_2a:
+                subject: "CT גף תחתון"
+                location: "כיתה 100"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "9-10"
+              group_1a:
+                subject: "הרצאה גף תחתון (מוקלט) / CA"
+                location: "מוקלט"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              group_2a:
+                subject: "CT גף תחתון"
+                location: "כיתה 100"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+            - time: "10-11"
+              group_1a:
+                subject: "גף תחתון CA"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"
+              # group_2a is blank in the source image
+            # 11-12 is blank for both groups
+        - date: "28.4"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "דיסקציה גף תחתון 2 (אחורי)"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+              group_2a:
+                subject: "הרצאה רדיולוגית CT גף תחתון (פרונטלי)"
+                location: "דולפי"
+                instructor: "צוות מדריכים"
+            - time: "9-10"
+              group_1a:
+                subject: "דיסקציה גף תחתון 2 (אחורי)"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+              group_2a:
+                subject: "הרצאה רדיולוגית US גף תחתון (פרונטלי)"
+                location: "דולפי"
+                instructor: "צוות מדריכים"
+            # 10-11 is blank for both groups
+            # 11-12 is blank for both groups
+        - date: "5.5"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "PBL גף תחתון"
+                location: "דולפי"
+                instructor: "ד\"ר שחר קנין"
+              group_2a:
+                subject: "US גף תחתון"
+                location: "חדרי US"
+                instructor: "צוות מדריכים"
+            - time: "9-10"
+              group_1a:
+                subject: "PBL גף תחתון"
+                location: "דולפי"
+                instructor: "ד\"ר שחר קנין"
+              group_2a:
+                subject: "US גף תחתון"
+                location: "חדרי US"
+                instructor: "צוות מדריכים"
+            - time: "10-11"
+              group_1a:
+                subject: "PBL גף תחתון"
+                location: "דולפי"
+                instructor: "ד\"ר שחר קנין"
+              group_2a:
+                subject: "חזרה US"
+                location: "חדרי US"
+                instructor: "צוות מדריכים"
+            - time: "11-12"
+              group_1a:
+                subject: "חזרה CT"
+                location: "דולפי"
+                instructor: "ד\"ר רננה ברץ גולדשטיין, מיכל גרייצר חדד"
+              group_2a:
+                subject: "חזרה מעבדה דיסקציה"
+                location: "מעבדת דיסקציה"
+                instructor: "צוות מדריכים"
+
+    - day: יום חמישי # Thursday
+      dates:
+        - date: "20.3"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "הרצאה רדיולוגיה CT (פרונטלי)"
+                location: "דולפי"
+                instructor: "ד\"ר דמיטרי לב / ד\"ר שחר קנין"
+              # group_2a is blank in the source image
+            - time: "9-10"
+              group_1a:
+                subject: "הרצאה רדיולוגיה US בטן (פרונטלי)"
+                location: "דולפי"
+                instructor: "ד\"ר דמיטרי לב / ד\"ר שחר קנין"
+              # group_2a is blank in the source image
+            # 10-11 is blank for both groups
+            # 11-12 is blank for both groups
+        - date: "27.3"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "CT בטן"
+                location: "דולפי"
+                instructor: "ד\"ר דמיטרי לב / ד\"ר שחר קנין"
+              # group_2a is blank in the source image
+            - time: "9-10"
+              group_1a:
+                subject: "CT בטן"
+                location: "דולפי"
+                instructor: "ד\"ר דמיטרי לב / ד\"ר שחר קנין"
+              # group_2a is blank in the source image
+            # 10-11 is blank for both groups
+            # 11-12 is blank for both groups
+        - date: "3.4"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "הרצאה רדיולוגית אגן CT (מוקלט)"
+                location: "מוקלט"
+                # instructor is blank in the source image
+              group_2a:
+                subject: "US בטן"
+                location: "חדרי US"
+                instructor: "צוות מדריכים"
+            - time: "9-10"
+              # group_1a is blank in the source image
+              group_2a:
+                subject: "US בטן"
+                location: "חדרי US"
+                instructor: "צוות מדריכים"
+            # 10-11 is blank for both groups
+            # 11-12 is blank for both groups
+        - date: "8.4"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "הרצאה רדיולוגית אגן US (מוקלט)"
+                location: "מוקלט"
+                # instructor is blank in the source image
+              group_2a:
+                subject: "אגן CA"
+                location: "עבודה עצמית"
+                instructor: "עבודה עצמית" # Instructor listed as 'Self study' in source
+            # 9-10 is blank for both groups
+            # 10-11 is blank for both groups
+            # 11-12 is blank for both groups
+        - date: "24.4"
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "דיסקציה גף תחתון 1 (קדמי)"
+                location: "מעבדת דיסקציה"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              # group_2a is blank in the source image
+            - time: "9-10"
+              group_1a:
+                subject: "דיסקציה גף תחתון 1 (קדמי)"
+                location: "מעבדת דיסקציה"
+                instructor: "פרופ' אלה בין / ד\"ר שחר קנין"
+              # group_2a is blank in the source image
+            # 10-11 is blank for both groups
+            # 11-12 is blank for both groups
+        - date: "1.5" # יום העצמאות - Independence Day
+          slots:
+            - time: "8-9"
+              group_1a:
+                subject: "יום העצמאות"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"
+              group_2a:
+                subject: "יום העצמאות"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"
+            - time: "9-10"
+              group_1a:
+                subject: "יום העצמאות"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"
+              group_2a:
+                subject: "יום העצמאות"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"
+            - time: "10-11"
+              group_1a:
+                subject: "יום העצמאות"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"
+              group_2a:
+                subject: "יום העצמאות"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"
+            - time: "11-12"
+              group_1a:
+                subject: "יום העצמאות"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"
+              group_2a:
+                subject: "יום העצמאות"
+                location: "עבודה עצמית"
+                instructor: "צוות מדריכים"
+
+course: נוירואנטומיה תשפ״ה סמסטר ב׳ # Neuroanatomy Course Schedule 2025 Semester B
+  schedule:
+    - date: "12.5.25"
+      events:
+        - hours: "08-10"
+          topic: "היסטוריה ומבוא לנוירואנטומיה"
+          lecturer: "ד\"ר עידו תבור"
+          reading_pages: null
+        - hours: "10-12"
+          topic: "התעלה השדרתית ותכולתה: מבנה עמוד השדרה, חוט השדרה והעצב הספינאלי"
+          lecturer: "ד\"ר עידו תבור"
+          reading_pages: "63-80"
+    - date: "15.5.25"
+      events:
+        - hours: "08-09"
+          topic: "טופוגרפיה של ההמיספרות (וידאו לקראת CBL)"
+          lecturer: "ד\"ר עידו תבור"
+          reading_pages: "213-220"
+          notes: "וידאו לקראת CBL"
+        - hours: "09-12"
+          topic: "היסטולוגיה, לוקליזציה פונקציונלית של קליפת המוח"
+          lecturer: "ד\"ר עידו תבור"
+          reading_pages: "221-227"
+        - hours: null # Appears as a separate item below the 09-12 slot in the source
+          topic: "דיאנצפלון (וידאו)"
+          lecturer: "ד\"ר עידו תבור"
+          reading_pages: "175-199"
+          notes: "Video assignment"
+    - date: "19.5.25"
+      events:
+        - hours: "08-11"
+          activities:
+            - group: "א"
+              type: "מעבדה"
+              details: "מעבדה 1: משטחי ההמיספרה וחוט השדרה"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "ב"
+              type: "צפייה בווידאו"
+              details: "צפייה בווידאו גרעיני הבסיס (לקראת CBL) + צפייה בווידאו המערכת הלימבית"
+              lecturer: null
+              reading_pages: null
+              notes: "לקראת CBL"
+        - hours: "11-12"
+          topic: "חומר לבן"
+          lecturer: "ד\"ר רננה ברץ-גולדשטיין"
+          reading_pages: "247-259"
+    - date: "22.5.25"
+      events:
+        - hours: "08-11"
+          activities:
+            - group: "ב"
+              type: "מעבדה"
+              details: "מעבדה 1: משטחי ההמיספרה וחוט השדרה"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "א"
+              type: "צפייה בווידאו"
+              details: "צפייה בווידאו גרעיני הבסיס (לקראת CBL) + צפייה בווידאו המערכת הלימבית"
+              lecturer: null
+              reading_pages: null
+              notes: "לקראת CBL"
+        - hours: "11-12"
+          topic: "חומר לבן (המשך)"
+          lecturer: "ד\"ר רננה ברץ-גולדשטיין"
+          reading_pages: "247-259"
+    - date: "26.5.25"
+      events:
+        - hours: "08-10"
+          activities:
+            - group: "ב"
+              type: "מעבדה"
+              details: "מעבדה 2: חומר לבן וגרעיני הבסיס"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "א"
+              type: "CBL"
+              details: "לוקליזציה פונקציונלית – CBL נוכחות חובה"
+              location: "דולפי, 100א, 200"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+              notes: "נוכחות חובה"
+        - hours: "10-12"
+          topic: "חדרי המוח"
+          lecturer: "ד\"ר רננה ברץ-גולדשטיין"
+          reading_pages: "256-259, 394-399, 198-199"
+    - date: "29.5.25"
+      events:
+        - hours: "08-10"
+          activities:
+            - group: "א"
+              type: "מעבדה"
+              details: "מעבדה 2: חומר לבן וגרעיני הבסיס"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "ב"
+              type: "CBL"
+              details: "לוקליזציה פונקציונלית – CBL נוכחות חובה"
+              location: "דולפי, מארבאום, 200"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+              notes: "נוכחות חובה"
+        - hours: "10-12"
+          topic: "גזע המוח"
+          lecturer: "ד\"ר עידו תבור"
+          reading_pages: "81-87"
+    - date: "5.6.25"
+      events:
+        - hours: "08-10"
+          topic: "קרומי המוח"
+          lecturer: "ד\"ר עידו תבור"
+          reading_pages: "387-398"
+        - hours: "10-12"
+          topic: "מסלולים עצביים עולים ויורדים"
+          lecturer: "ד\"ר עידו תבור"
+          reading_pages: null
+    - date: "9.6.25"
+      events:
+        - hours: "08-10"
+          activities:
+            - group: "א"
+              type: "מעבדה"
+              details: "מעבדה 3: חדרי המוח"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "ב"
+              type: "צפייה בווידאו"
+              details: "צפייה בווידאו המוח הקטן (לקראת CBL)"
+              lecturer: null
+              reading_pages: null
+              notes: "לקראת CBL"
+        - hours: "10-12"
+          activities:
+            - group: "ב"
+              type: "מעבדה"
+              details: "מעבדה 3: חדרי המוח"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "א"
+              type: "צפייה בווידאו"
+              details: "צפייה בווידאו המוח הקטן (לקראת CBL)"
+              lecturer: null
+              reading_pages: null
+              notes: "לקראת CBL"
+    - date: "12.6.25"
+      events:
+        - hours: "08-11" # Main slot time
+          activities:
+            - group: "ב"
+              type: "מעבדה"
+              details: "מעבדה מס' 4: המוח הקטן וגזע המוח"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "א"
+              type: "CBL"
+              specific_hours: "9-11" # Specific time within the 08-11 slot
+              details: "המוח הקטן וגרעיני הבסיס – CBL נוכחות חובה"
+              location: "דולפי, מארבאום, לולה"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+              notes: "נוכחות חובה"
+        - hours: "11-12"
+          topic: "עצבים קרניאליים (וידאו)"
+          lecturer: "ד\"ר עידו תבור"
+          reading_pages: "115-142"
+          notes: "וידאו"
+    - date: "16.6.25"
+      events:
+        - hours: "08-11" # Main slot time
+          activities:
+            - group: "א"
+              type: "מעבדה"
+              details: "מעבדה מס' 4: המוח הקטן וגזע המוח"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "ב"
+              type: "CBL"
+              specific_hours: "9-11" # Specific time within the 08-11 slot
+              details: "המוח הקטן וגרעיני הבסיס – CBL נוכחות חובה"
+              location: "דולפי, 100א', 119"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+              notes: "נוכחות חובה"
+    - date: "19.6.25"
+      events:
+        - hours: "08-10"
+          activities:
+            - group: "א"
+              type: "מעבדה"
+              details: "מעבדה מס' 5: חתכים קורונליים"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "ב"
+              type: "צפייה בווידאו"
+              details: "צפייה בווידאו כלי הדם של המוח (לקראת CBL)"
+              lecturer: null
+              reading_pages: null
+              notes: "לקראת CBL"
+        - hours: "10-12"
+          topic: "שיטות מתקדמות למיפוי פונקציות המוח"
+          lecturer: "ד\"ר עידו תבור"
+          reading_pages: null
+    - date: "23.6.25"
+      events:
+        - hours: "08-10"
+          activities:
+            - group: "ב"
+              type: "מעבדה"
+              details: "מעבדה מס' 5: חתכים קורונליים"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "א"
+              type: "צפייה בווידאו"
+              details: "צפייה בווידאו כלי הדם של המוח (לקראת CBL)"
+              lecturer: null
+              reading_pages: null
+              notes: "לקראת CBL"
+        - hours: "10-12"
+          activities:
+            - group: "ב"
+              type: "מעבדה"
+              details: "מעבדה מס' 6: קרומי המוח וכלי הדם"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "א"
+              type: "CBL"
+              details: "כלי הדם של המוח – CBL נוכחות חובה"
+              location: "דולפי, 100א', 119"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+              notes: "נוכחות חובה"
+    - date: "26.6.25"
+      events:
+        - hours: "08-10"
+          activities:
+            - group: "א"
+              type: "מעבדה"
+              details: "מעבדה מס' 6: קרומי המוח וכלי הדם"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "ב"
+              type: "CBL"
+              details: "כלי הדם של המוח – CBL נוכחות חובה"
+              location: "דולפי, לולה, מאירבאום"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+              notes: "נוכחות חובה"
+
+course_info:
+  title: "היבטים מעשיים של בינה מלאכותית ויזמות ברפואה"
+  year: "תשפ\"ה" # 2025 Academic Year
+  semester: "ב'" # Semester B
+  day: "ימי ג'" # Tuesdays
+  time: "15:15-17:00"
+  location: "אולם דולפי" # Dolphin Auditorium
+  target_audience: "סטודנטים לרפואה שנה א' בתוכנית הארבע שנתית, שנה ב' בתוכנית השש שנתית" # Medical students: 1st year (4-year program), 2nd year (6-year program)
+  coordinators:
+    - "פרופ' נועם שומרון"
+    - "ד\"ר גדי לוי"
+  lecturers:
+    - "פרופ' עידו וולף"
+    - "ד\"ר גדי לוי"
+    - "ד\"ר תום רבינוביץ'"
+    - "ד\"ר כפיר בר"
+    - "ליאת ארד"
+    - "עו\"ד תמר תבורי"
+    - "ד\"ר ליה בארון"
+    - "פרופ' נועם שומרון"
+  notes: "יתכנו שינויים קלים במערכת במהלך הסמסטר" # Slight changes may occur during the semester
+  description_he: |
+    קורס "היבטים מעשיים של בינה מלאכותית ויזמות ברפואה" מיועד לסטודנטים לרפואה ועוסק בשילוב של בינה
+    מלאכותית בתחומי הרפואה השונים וביישומיה היזמיים. באמצעות הרצאות פרונטליות ומוקלטות, הסטודנטים
+    יחשפו לנושאים כגון ניהול נתונים רפואיים, יסודות למידת מכונה, עיבוד שפה טבעית, מודלי שפה, יישומי בינה
+    מלאכותית קיימים ברדיולוגיה ובתחומים קליניים נוספים, כמו גם שיקולים רגולטוריים ואתיים, וקידום יזמות
+    המשלבת פתרונות בינה מלאכותית.
+    תוכנית הקורס שמה דגש על פרויקטים קבוצתיים מעשיים, שבהם הסטודנטים מזהים אתגרים רפואיים בעולם
+    האמיתי ומציעים עבורם פתרונות מבוססי בינה מלאכותית. מספר עבודות אשר ייבחרו על ידי סגל הקורס יוצגו
+    בסיום. תוכנית זו נועדה לצייד את רופאות ורופאי העתיד בידע ובכישורים הדרושים למינוף יישום בינה מלאכותית
+    ברפואה, לקידום שירותי הבריאות ולטיפוח חדשנות.
+  description_en: |
+    The course "Practical Aspects of AI in Medicine and Entrepreneurship" is designed for second-year
+    medical students to explore the integration of artificial intelligence (AI) within the medical field
+    and its entrepreneurial applications. Through a blend of in-person and recorded lectures, students
+    will engage with topics such as medical data management, machine learning (ML) fundamentals,
+    natural language processing (NLP), large language models (LLMs), AI applications in radiology and
+    clinical domains, regulatory and ethical considerations, and the development of AI-driven medical
+    innovations. The curriculum emphasizes hands-on group projects in which students identify real-
+    world medical challenges and propose AI-based solutions, culminating in final presentations of
+    selected proposals. This program equips future medical professionals with the knowledge and
+    skills necessary to leverage AI to advance healthcare and foster innovation.
+
+schedule:
+  - meeting_number: 1
+    date: "18/03/2025"
+    topic: "מבוא" # Introduction
+    details: "מבנה ומטרות הקורס, בינה מלאכותית, מדוע זה קורה כעת ומה החשיבות. הצגת המשימות – האתגר לסיום הקורס. בחירת בעיה רפואית והפתרון המוצע באמצעות כלי בינה מלאכותית או דיגיטציה. התפתחות הבינה המלאכותית." # Course structure & goals, AI, why now & importance. Presenting tasks - end-of-course challenge. Choosing a medical problem & proposed AI/digitization solution. AI development.
+    mode: "בכיתה" # In-class
+    lecturer: ["גדי לוי ונועם שומרון", "תום רבינוביץ'"] # Gadi Levi & Noam Shomron, Tom Rabinowitz' (Listed on two lines in source)
+  - meeting_number: 2
+    date: "25/03/2025"
+    topic: "דאטה ברפואה" # Data in Medicine
+    details: "מהי דאטה, היסטוריה של דאטה ברפואה, מערכות קידוד SNOMED, LOINC, ICD, OMOP, FHIR" # What is data, history of data in medicine, coding systems SNOMED, LOINC, ICD, OMOP, FHIR
+    mode: "מוקלט" # Recorded
+    lecturer: "גדי לוי" # Gadi Levi
+  - meeting_number: 3
+    date: "01/04/2025"
+    topic: "הארגון הרפואי הממוחשב" # The Computerized Medical Organization
+    details: "הרשומה הרפואית הממוחשבת, מערכות הנישה, הבסיס החוקי, מגמות." # EHR, niche systems, legal basis, trends.
+    mode: "מוקלט" # Recorded
+    lecturer: "גדי לוי" # Gadi Levi
+  - meeting_number: 4
+    date: "22/04/2025"
+    topic: "יסודות בלמידת מכונה" # Fundamentals of Machine Learning
+    details: "היסטוריה, שיטות עיקריות בלמידת מכונה, יישום העקרונות התיאורטיים, רשתות נוירונים, למידה עמוקה, ראיית מחשב." # History, main ML methods, applying theoretical principles, neural networks, deep learning, computer vision.
+    mode: "בכיתה" # In-class
+    lecturer: "תום רבינוביץ'" # Tom Rabinowitz'
+  - meeting_number: 5
+    date: "29/04/2025"
+    topic: "NLP ו-LLM" # NLP and LLM
+    details: "מבוא לניתוח טקסטים ושפה. מה הם Foundation Models ו-LLM. מאפיינים ויכולות, חסרונות, Prompt Engineering." # Intro to text & language analysis. What are Foundation Models & LLMs. Characteristics & capabilities, drawbacks, Prompt Engineering.
+    mode: "מוקלט" # Recorded
+    lecturer: "כפיר בר" # Kfir Bar
+  - meeting_number: 6
+    date: "06/05/2025"
+    topic: "שימוש קליני ב-LLM" # Clinical use of LLM
+    details: "הכוונה לבחירת בעיות קליניות ממשיות עבור משימת הקבוצות, דוגמאות מהחיים הקליניים." # Guidance for choosing real clinical problems for group assignment, examples from clinical life.
+    mode: "בכיתה" # In-class
+    lecturer: "פרופ' עידו וולף" # Prof. Ido Wolf
+  - meeting_number: 7
+    date: "13/05/2025"
+    topic: "רדיולוגיה" # Radiology
+    details: "שימושים בבינה מלאכותית ברדיולוגיה, הווה ועתיד, עתיד הרדיולוגיה והרדיולוג." # Uses of AI in radiology, present & future, future of radiology & the radiologist.
+    mode: "מוקלט" # Recorded
+    lecturer: "גדי לוי" # Gadi Levi
+  - meeting_number: 8
+    date: "20/05/2025"
+    topic: "יזמות וחדשנות" # Entrepreneurship and Innovation
+    details: "תכני יזמות ופיתוח המצאות, פטנטים, מרעיון לחברה. דוגמאות מעשיות של הקמת מיזמים בתחומי הבינה מלאכותית." # Entrepreneurship content & invention development, patents, from idea to company. Practical examples of AI venture creation.
+    mode: "בכיתה" # In-class
+    lecturer: "פרופ' נועם שומרון" # Prof. Noam Shomron
+  - meeting_number: 9
+    date: "27/05/2025"
+    topic: "רגולציה ואתיקה" # Regulation and Ethics
+    details: "היבטים רגולטוריים של בינה מלאכותית בארץ ובעולם. היבטים אתיים להפעלת מערכות בינה מלאכותית ברפואה." # Regulatory aspects of AI in Israel & globally. Ethical aspects of operating AI systems in medicine.
+    mode: "מוקלט" # Recorded
+    lecturer: # Multiple lecturers listed with specific topics
+      - topic: "רגולציה"
+        name: "גדי לוי" # Gadi Levi
+      - topic: "אתיקה"
+        name: "עו\"ד תמר תבורי" # Adv. Tamar Tabori
+  - meeting_number: 10
+    date: "03/06/2025"
+    topic: "העבודה הרפואית" # The Medical Work
+    details: "שיקולים ואתגרים בפיתוח והטמעת מוצרים מבוססי בינה מלאכותית לעולם הרפואי." # Considerations & challenges in developing & implementing AI-based products for the medical world.
+    mode: "מוקלט" # Recorded
+    lecturer: "ליאת ארד" # Liat Arad
+  - meeting_number: 11
+    date: "10/06/2025"
+    topic: "מערכות תומכות החלטה" # Decision Support Systems
+    details: "מה הן CDSS. מה בין CDSS קלאסי ל-CDSS מבוסס בינה מלאכותית. לקחים ותובנות מפרויקט החולה המתדרדר." # What are CDSS. Difference between classic CDSS & AI-based CDSS. Lessons & insights from the deteriorating patient project.
+    mode: "בכיתה" # In-class
+    lecturer: "ד\"ר ליה בארון" # Dr. Lia Baron
+  - meeting_number: 12
+    date: "17/06/2025"
+    topic: "אופקים חדשים" # New Horizons
+    details: "מהפכות בינה מלאכותית ברפואה הנמצאות בחיתוליהן: רובוטיקה, גנומיקה, פיתוח תרופות ותחומים נוספים." # AI revolutions in medicine in their infancy: robotics, genomics, drug development & other fields.
+    mode: "מוקלט" # Recorded
+    lecturer: "ד\"ר תום רבינוביץ'" # Dr. Tom Rabinowitz'
+  - meeting_number: 13
+    date: "24/06/2025"
+    topic: "סיכום" # Summary
+    details: "הצגת העבודת הנבחרות ממשימת הקבוצות. סיכום המסרים העיקריים של הקורס, ושאלות ותשובות." # Presentation of selected works from group assignment. Summary of course's main messages, Q&A.
+    mode: "בכיתה" # In-class
+    lecturer: "גדי לוי ונועם שומרון" # Gadi Levi & Noam Shomron
+
+course_info:
+  faculty: "הפקולטה למדעי הרפואה והבריאות" # Faculty of Medicine and Health Sciences
+  title: "גנטיקה וגנומיקה רפואית" # Medical Genetics and Genomics (Inferred title)
+  year_semester: "תשפ\"ה" # 2025 Academic Year (Inferred from context)
+  target_audience: "שנה ב' ושנה שנית" # Year 2 and Second Year (From image title)
+  time: "ימי שלישי 13:00-15:00" # Tuesdays 13:00-15:00
+  location: "באולם דולפי והקרנה בכיתה 123" # In Dolphin Auditorium and broadcast to Classroom 123
+  notes: "רוב החומר הנלמד בקורס יהיה לימוד עצמי באמצעות סרטונים מוקלטים – מפורט למטה" # Most course material will be self-study via recorded videos - detailed below
+
+sections:
+  - section_title: "חטיבה ראשונה – גנטיקה קלינית" # Section 1 - Clinical Genetics
+    lecturer: "פרופ עידית מאיה" # Prof. Idit Maya (Main lecturer for section)
+    weeks:
+      - week: 1
+        date: "18.03.2025" # Assuming 2025
+        topic: "הרצאת הפתיחה- הגישה לגנומיקה קלינית ופתיחת הקורס" # Opening lecture - Approach to clinical genomics and course opening
+        type: "הרצאה פרונטלית" # Frontal lecture
+        lecturer: "פרופ עידית מאיה" # Explicitly mentioned
+      - week: 2
+        date: "25.03.2025"
+        topic: "יחידת שיטות בגנומיקה" # Genomics Methods Unit
+        type: "למידה עצמית" # Self-study
+      - week: 3
+        date: "01.04.2025"
+        topic: "יחידת גנטיקה כללית" # General Genetics Unit
+        type: "למידה עצמית" # Self-study
+      - week: 4
+        date: "22.04.2025"
+        topic: "יחידת גנטיקה ילדים" # Pediatric Genetics Unit
+        type: "למידה עצמית" # Self-study
+      - week: 5
+        date: "29.04.2025"
+        topic: "יחידת גנטיקה בהריונות / פרנטל" # Pregnancy/Prenatal Genetics Unit
+        type: "למידה עצמית" # Self-study
+      - week: 6
+        date: "06.05.2025"
+        topic: "יחידת מבוגרים" # Adult Genetics Unit
+        type: "למידה עצמית" # Self-study
+      - week: 7
+        date: "13.05.2025"
+        topic: "מפגש פרונטלי לסכום היחידה הראשונה- דיון במקרים קליניים במרפאה הגנטית" # Frontal meeting to summarize the first unit - Discussion of clinical cases in the genetic clinic
+        type: "הרצאה פרונטלית" # Frontal lecture (Corrected based on layout)
+        lecturer: "פרופ עידית מאיה" # Explicitly mentioned
+
+  - section_title: "חטיבה שניה – גנומיקה" # Section 2 - Genomics
+    lecturer: "פרופ' רני אלקון" # Prof. Rani Elkon (Main lecturer for section)
+    weeks:
+      - week: 8 # Overall week number
+        section_week: null # Not numbered 1 in source, but first in section
+        date: "20.05.2025"
+        topic: "הרצאת פתיחה -גנומיקה קלינית ומחלות מורכבות" # Opening lecture - Clinical genomics and complex diseases
+        type: "הרצאה פרונטלית" # Frontal lecture
+        lecturer: "פרופ רני אלקון" # Explicitly mentioned
+      - week: 9
+        section_week: 1 # Numbered 1 in section source
+        date: "27.05.2025"
+        topic: "Genetics of common diseases – the GWAS Era"
+        type: "למידה עצמית" # Self-study
+      - week: 10
+        section_week: 2 # Numbered 2 in section source
+        date: "03.06.2025"
+        topic: "GWAS discoveries – Breast Cancer (BC) as a showcase"
+        type: "למידה עצמית" # Self-study
+      - week: 11
+        section_week: 3 # Numbered 3 in section source
+        date: "10.06.2025"
+        topic: "Polygenic Risk Scores (PRS) and Personalized Medicine"
+        type: "למידה עצמית" # Self-study
+      - week: 12
+        section_week: 4 # Numbered 4 in section source
+        date: "17.06.2025"
+        topic: # Two topics listed for this week
+          - "Molecular mechanisms of pathogenesis of complex diseases"
+          - "Contribution of rare variants to common diseases"
+        type: "למידה עצמית" # Self-study
+      - week: 13
+        section_week: 5 # Numbered 5 in section source
+        date: "24.06.2025"
+        topic: "מפגש סיכום שו\"ת - גנומיקה קלינית ומחלות מורכבות" # Summary Q&A session - Clinical genomics and complex diseases
+        type: "הרצאה פרונטלית" # Frontal lecture
+        lecturer: "פרופ' רני אלקון" # Explicitly mentioned
+
+course_info:
+  title: "פתולוגיה כללית" # General Pathology
+  year: "תשפ\"ה" # 2025 Academic Year
+  semester: "ב'" # Semester B
+  target_audience:
+    - "התכנית ללימודי תואר דוקטור ברפואה – 6 שנתי" # 6-year MD program
+    - "התכנית ללימודי תואר דוקטור ברפואה לבעלי תואר ראשון – 4 שנתי" # 4-year MD program for BA/BSc holders
+  goal: "להקנות הבנה של התהליכים הבסיסיים העומדים בבסיס מחלות, ברמת המולקולה, התא, הרקמה והאיבר. כמו כן, נרכוש מושגי יסוד ושפה רפואית חדשה שיהיו רלבנטיים לכל תחומי העיסוק העתידיים של הסטודנטים."
+  location: "אולם דולפי" # Dolphin Auditorium
+  coordinator: "פרופ' דב הרשקוביץ" # Prof. Dov Hershkovitz
+  lecturers:
+    - "פרופ' דב הרשקוביץ" # Prof. Dov Hershkovitz
+    - "ד\"ר חנן ואקנין" # Dr. Hanan Vaknin
+    - "ד\"ר גיל גולדינר" # Dr. Gil Goldiner
+    - "פרופ' נטע ארז" # Prof. Neta Erez
+    - "ד\"ר דריה קוזלובה" # Dr. Daria Kozlova
+    - "ד\"ר מהראן עבד אל קאדר" # Dr. Mahran Abd Elkader
+    - "ד\"ר טימור פסטריקוב" # Dr. Timor Pestryakov
+    - "ד\"ר חן קוגל" # Dr. Chen Kugel
+    - "ד\"ר סוניה מנדלוביץ" # Dr. Sonia Mendelovic
+  requirements: "נדרשת נוכחות בתרגולים, מעבדות ו-CBL. נדרש מעבר של בחינת הסיום בציון 60." # Attendance required in exercises, labs, and CBL. Passing final exam grade of 60 required.
+  grading: "הציון בבחינה המסכמת יהווה 90% מהציון בקורס, בחני מעבדה יהיו 10% מהציון." # Final exam grade 90% of course grade, lab quizzes 10% of grade.
+
+schedule:
+  - day: "ב" # Monday
+    date: "17.03.2025"
+    events:
+      - time: "12:00-13:00"
+        topic: "הרצאת פתיחה והקדמה לפתולוגיה"
+        type: "הרצאה" # Lecture
+        lecturer: "פרופ' דב הרשקוביץ"
+      - time: "13:00-14:00"
+        topic: "שיטות עיבוד רקמה"
+        type: "הקלטה + תרגיל בית" # Recording + Homework
+        lecturer: "ד\"ר חנן ואקנין"
+  - day: "ה" # Thursday
+    date: "20.03.2025"
+    events:
+      - time: "12:00-13:00"
+        topic: "דלקת – הקדמה"
+        type: "הרצאה" # Lecture
+        lecturer: "פרופ' נטע ארז"
+      - time: "13:00-15:00"
+        topic: "דלקת"
+        type: "הקלטה + תרגיל בית" # Recording + Homework
+        lecturer: "פרופ' נטע ארז"
+  - day: "ב" # Monday
+    date: "24.03.2025"
+    events:
+      - time: "12:00-13:00"
+        topic: "רפוי פצע"
+        type: "הקלטה כולל תרגיל בית" # Recording including Homework
+        lecturer: "פרופ' נטע ארז"
+      - time: "13:00-14:00"
+        topic: "רפוי פצע – סיכום ודיון"
+        type: "סיכום ודיון" # Summary and Discussion
+        lecturer: "פרופ' נטע ארז"
+  - day: "ה" # Thursday
+    date: "27.03.2025"
+    events:
+      - time: "12:00-13:00"
+        topic: "מבנה התא"
+        lecturer: "ד\"ר גיל גולדינגר"
+      - time: "13:00-15:00"
+        topic: "הסתגלות תאים, נזק תאי ומוות תאי"
+        lecturer: "ד\"ר גיל גולדינגר"
+  - day: "ב" # Monday
+    date: "31.03.2025"
+    events:
+      - time: "12:00-14:00"
+        topic: "אין שיעור" # No class
+  - day: "ה" # Thursday
+    date: "03.04.2025"
+    events:
+      - time: "12:00-14:00"
+        topic: "מחלות המודינמיות"
+        lecturer: "ד\"ר מהראן עבדאלקאדר"
+        notes: "שיעור מסתיים ב-14:00" # Class ends at 14:00
+  - day: "ב" # Monday
+    date: "07.04.2025"
+    events:
+      - time: "12:00-14:00"
+        topic: "פתולוגיה של מחלות זיהומיות 2" # Topic includes number 2 in image
+        lecturer: "ד\"ר טימור פסטריקוב"
+  - day: "ג" # Tuesday
+    date: "08.04.2025"
+    events:
+      - time: "12:00-15:00"
+        topic: "מעבדה 1 דלקת" # Lab 1 Inflammation
+        type: "מעבדה" # Lab
+        lecturer: "ד\"ר טימור פסטריקוב"
+  - day: "ב" # Monday
+    date: "21.04.2025"
+    events:
+      - time: "12:00-14:00"
+        topic: "עמילואידוזיס ופיגמנטים"
+        lecturer: "פרופ' דב הרשקוביץ"
+  - day: "ה" # Thursday
+    date: "24.04.2025"
+    events:
+      - time: "13:00-15:00" # Note specific start time
+        topic: "ממאירות" # Malignancy
+        type: "הקלטה ולימוד עצמי" # Recording and self-study
+        lecturer: "פרופ' דב הרשקוביץ"
+  - day: "ב" # Monday
+    date: "28.04.2025"
+    events:
+      - time: "12:00-14:00"
+        topic: "ממאירות" # Malignancy
+        type: "הרצאה" # Lecture
+        lecturer: "פרופ' דב הרשקוביץ"
+  - day: "ב" # Monday
+    date: "05.05.2025"
+    events:
+      - time: "12:00-14:00"
+        topic: "ממאירות" # Malignancy
+        type: "כיתה" # Half class? (Exact meaning unclear from image)
+        lecturer: "פרופ' דב הרשקוביץ"
+      - time: "12:00-15:00" # Overlapping time
+        topic: "מעבדה 3" # Lab 3
+        type: "מעבדה" # Lab
+        lecturer: "פרופ' דב הרשקוביץ"
+  - day: "ה" # Thursday
+    date: "08.05.2025"
+    events:
+      - time: "12:00-14:00"
+        topic: "אין שיעור" # No class
+  - day: "ב" # Monday
+    date: "12.05.2025"
+    events:
+      - time: "12:00-14:00"
+        topic: "ממאירות" # Malignancy
+        type: "הרצאה" # Lecture
+        lecturer: "פרופ' דב הרשקוביץ"
+
+  - day: "ה" # Thursday
+    date: "15.05.2025"
+    events:
+      - time: "12:00-14:00"
+        topic: "ממאירות" # Malignancy
+        type: "חצי כיתה" # Half class?
+        lecturer: "פרופ' דב הרשקוביץ"
+      - time: "12:00-15:00" # Overlapping time
+        topic: "מעבדה 4 זיהומיות" # Lab 4 Infectious diseases
+        type: "מעבדה" # Lab
+        lecturer: "פרופ' דב הרשקוביץ"
+
+  - day: "ב" # Monday
+    date: "19.05.2025"
+    events:
+      - time: "12:00-14:00"
+        topic: "רפואה משפטית" # Forensic medicine
+        type: "הרצאה" # Lecture
+        lecturer: "ד\"ר חן קוגל"
+        notes: "ללא הקלטה!" # Without recording!
+  - day: "ה" # Thursday
+    date: "22.05.2025"
+    events:
+      - time: "12:00-14:00"
+        topic: "רפואה משפטית" # Forensic medicine
+        type: "הרצאה" # Lecture
+        lecturer: "ד\"ר חן קוגל"
+        notes: "ללא הקלטה!" # Without recording!
+  - day: "ב" # Monday
+    date: "26.05.2025"
+    events:
+      - time: "12:00-15:00"
+        topic: "פתולוגיה דיגיטלית ועיבוד תמונה" # Digital pathology and image processing
+        lecturer: "פרופ' דב הרשקוביץ"
+  - day: "ה" # Thursday
+    date: "29.05.2025"
+    events:
+      - time: "12:00-14:00"
+        topic: "רפואה משפטית" # Forensic medicine
+        type: "הרצאה" # Lecture
+        lecturer: "ד\"ר חן קוגל"
+        notes: "ללא הקלטה!" # Without recording!
+  - day: "ה" # Thursday
+    date: "05.06.2025"
+    events:
+      - time: "12:00-14:00"
+        topic: "אין שיעור" # No class
+  - day: "ב" # Monday
+    date: "09.06.2025"
+    events:
+      - time: "12:00-15:00"
+        topic: "פתולוגיה בעובר ובגיל הרך" # Pathology in the fetus and early childhood
+        lecturer: "ד\"ר דריה קוזלובה"
+  - day: "ה" # Thursday
+    date: "12.06.2025"
+    events:
+      - time: "12:00-14:00"
+        topic: "אין שיעור" # No class
+  - day: "ב" # Monday
+    date: "16.06.2025"
+    events:
+      - time: "12:00-15:00"
+        topic: "מחלות תזונה וסביבה" # Nutritional and environmental diseases
+        lecturer: "ד\"ר סוניה מנדלוביץ"
+  - day: "ה" # Thursday
+    date: "19.06.2025"
+    events:
+      - time: "12:00-14:00"
+        topic: "אין שיעור" # No class
+  - day: "ב" # Monday
+    date: "23.06.2025"
+    events:
+      - time: "12:00-15:00"
+        topic: "מעבדה 5 עובר ותזונה" # Lab 5 Fetus and nutrition
+        type: "מעבדה" # Lab
+        lecturer: ["ד\"ר דריה קוזלובה", "ד\"ר סוניה מנדלוביץ"] # Implied combination
+  - day: "ה" # Thursday
+    date: "26.06.2025"
+    events:
+      - time: "12:00-14:00"
+        topic: "אין שיעור" # No class
+
+program_info:
+  program_name: "תוכנית לימודים לתואר ד\"ר לרפואה (M.D.) - תוכנית שש שנתית" # 6-year MD Program
+  academic_year: "תשפ\"ה" # 2025 Academic Year
+  note: "ייתכנו שינויים בלוח הבחינות. יש להתעדכן באתר באופן שוטף." # Exam schedule may change. Check the site regularly for updates.
+
+exam_schedule:
+  year: "שנה ב' חובה" # Year 2 Mandatory
+  semester: "סמסטר ב'" # Semester B
+  exams_and_assignments:
+    - course_code: "0102-1119"
+      course_name: "קורס פתולוגיה כללית - מבוא לתורת המחלות" # General Pathology - Intro to Disease Theory
+      group: "01"
+      assignments:
+        - type: "בחינה סופית" # Final Exam
+          moed_a:
+            date: "24/07/2025"
+            day: "יום ה'" # Thursday
+            time: "09:00"
+          moed_b:
+            date: "04/09/2025"
+            day: "יום ה'" # Thursday
+            time: "09:00"
+    - course_code: "0102-2130"
+      course_name: "קורס גנטיקה וגנומיקה רפואית" # Medical Genetics and Genomics
+      group: "01"
+      assignments:
+        - type: "בחינה סופית" # Final Exam
+          moed_a:
+            date: "28/07/2025"
+            day: "יום ב'" # Monday
+            time: "09:00"
+          moed_b:
+            date: "07/09/2025"
+            day: "יום א'" # Sunday
+            time: "09:00"
+    - course_code: "0102-2210"
+      course_name: "קורס אימונולוגיה קלינית - חלק ב'" # Clinical Immunology - Part B
+      group: "01"
+      assignments:
+        - type: "בחינה סופית" # Final Exam
+          moed_a:
+            date: "04/08/2025"
+            day: "יום ב'" # Monday
+            time: "09:00"
+          moed_b:
+            date: "11/09/2025"
+            day: "יום ה'" # Thursday
+            time: "09:00"
+    - course_code: "0102-2212"
+      course_name: "קורס וירולוגיה בסיסית וקלינית" # Basic and Clinical Virology
+      group: "01"
+      assignments:
+        - type: "בחינה סופית" # Final Exam
+          moed_a:
+            date: "10/07/2025"
+            day: "יום ה'" # Thursday
+            time: "09:00"
+          moed_b:
+            date: "14/08/2025"
+            day: "יום ה'" # Thursday
+            time: "09:00"
+    - course_code: "0102-2314"
+      course_name: "קורס אנטומיה של גוף האדם ב'" # Anatomy of the Human Body B
+      group: "01"
+      assignments:
+        - type: "בחינה סופית" # Final Exam
+          moed_a:
+            date: "06/07/2025"
+            day: "יום א'" # Sunday
+            time: "09:00"
+          moed_b:
+            date: "17/08/2025"
+            day: "יום א'" # Sunday
+            time: "09:00"
+        - type: "בחינה מעשית" # Practical Exam
+          moed_a:
+            date: "07/07/2025"
+            day: "יום ב'" # Monday
+            time: "09:00"
+          moed_b:
+            date: "17/08/2025"
+            day: "יום א'" # Sunday
+            time: "14:00"
+    - course_code: "0102-2315"
+      course_name: "קורס נוירו-אנטומיה" # Neuro-Anatomy
+      group: "01"
+      assignments:
+        - type: "בחינה סופית" # Final Exam
+          moed_a:
+            date: "14/07/2025"
+            day: "יום ב'" # Monday
+            time: "09:00"
+          moed_b:
+            date: "20/08/2025"
+            day: "יום ד'" # Wednesday
+            time: "09:00"
+        - type: "בחינה מעשית" # Practical Exam
+          moed_a:
+            date: "15/07/2025"
+            day: "יום ג'" # Tuesday
+            time: "09:00"
+          moed_b:
+            date: "20/08/2025"
+            day: "יום ד'" # Wednesday
+            time: "14:00"
+    - course_code: "0102-2318"
+      course_name: "קורס קורס R" # R Course (Name appears duplicated in source)
+      group: "01"
+      assignments:
+        - type: "עבודת בית" # Homework Assignment
+          moed_a:
+            due_date: "07/08/2025"
+            day: "יום ה'" # Thursday
+            time: "09:00" # Assuming submission deadline time
+            notes: "תאריך ושעת הגשת מטלה" # Assignment submission date and time
+          moed_b:
+            due_date: "14/09/2025"
+            day: "יום א'" # Sunday
+            time: "09:00" # Assuming submission deadline time
+            notes: "תאריך ושעת הגשת מטלה" # Assignment submission date and time
+    - course_code: "0102-2319"
+      course_name: "קורס היבטים מעשיים של בינה מלאכותית ויזמות" # Practical Aspects of AI and Entrepreneurship
+      group: "01"
+      assignments:
+        - type: "עבודת בית" # Homework Assignment
+          moed_a:
+            due_date: null # Date is not specified in the provided image section
+            day: null
+            time: null
+          moed_b: null
+    - course_code: "0111-2126"
+      course_name: "קורס מבוא לפרמקולוגיה" # Intro to Pharmacology
+      group: "01"
+      assignments:
+        - type: "בחינה סופית" # Final Exam
+          moed_a:
+            date: "20/07/2025"
+            day: "יום א'" # Sunday
+            time: "09:00"
+          moed_b:
+            date: "01/09/2025"
+            day: "יום ב'" # Monday
+            time: "12:00" # Note different time for Moed B
+course: נוירואנטומיה # Neuroanatomy
+lab_groups:
+  group_a: # Group א
+    - table: 1
+      students:
+        - first_name: "טליה"
+          last_name: "כהן קזמן"
+          email: "cohenkeizman@mail.tau.ac.il"
+        - first_name: "רון"
+          last_name: "שרייבר"
+          email: "ronschreiber@mail.tau.ac.il"
+        - first_name: "הילה"
+          last_name: "הניג"
+          email: "hilahclarah@mail.tau.ac.il"
+        - first_name: "אביעד"
+          last_name: "הראל"
+          email: "aviadharel@mail.tau.ac.il"
+        - first_name: "ליאור"
+          last_name: "ארזי"
+          email: "liorarazi@mail.tau.ac.il"
+        - first_name: "אחינועם רחל"
+          last_name: "אליהו"
+          email: "achinoame@mail.tau.ac.il"
+        - first_name: "אביטל"
+          last_name: "קופיאצקי"
+          email: "avitalk2@mail.tau.ac.il"
+        - first_name: "ירון"
+          last_name: "צינקין"
+          email: "yarontsinkin@mail.tau.ac.il"
+        - first_name: "רועי"
+          last_name: "בנקוביץ'"
+          email: "roybenkovich@mail.tau.ac.il"
+    - table: 2
+      students:
+        - first_name: "אריאל"
+          last_name: "טראוב"
+          email: "arieltraub@mail.tau.ac.il"
+        - first_name: "אביה"
+          last_name: "דוידי"
+          email: "aviyadavidi@mail.tau.ac.il"
+        - first_name: "ענבר"
+          last_name: "שושן"
+          email: "shushan2@mail.tau.ac.il"
+        - first_name: "שירי"
+          last_name: "ברוש"
+          email: "shiribrosh@mail.tau.ac.il"
+        - first_name: "אסף"
+          last_name: "רומן"
+          email: "asafroman@mail.tau.ac.il"
+        - first_name: "ציונית"
+          last_name: "גליקמן"
+          email: "ziyonitg@mail.tau.ac.il"
+        - first_name: "תובל"
+          last_name: "טפירו"
+          email: "tuvaltapiro@mail.tau.ac.il"
+        - first_name: "אמילי לאה"
+          last_name: "מסטווי"
+          email: "emilyleam@mail.tau.ac.il"
+        - first_name: "תמר"
+          last_name: "עמוסי"
+          email: "tamaramosi@mail.tau.ac.il"
+    - table: 3
+      students:
+        - first_name: "ליעד"
+          last_name: "כץ"
+          email: "liadk1@mail.tau.ac.il"
+        - first_name: "גל"
+          last_name: "רובננקו"
+          email: "galrubanenko@mail.tau.ac.il"
+        - first_name: "אפק"
+          last_name: "כהן"
+          email: "afekcohen@mail.tau.ac.il"
+        - first_name: "שרה"
+          last_name: "חנניאב"
+          email: "hananayev@mail.tau.ac.il"
+        - first_name: "אופיר"
+          last_name: "אליאס"
+          email: "ophirelias@mail.tau.ac.il"
+        - first_name: "אביב"
+          last_name: "ברק"
+          email: "avivbarak1@mail.tau.ac.il"
+        - first_name: "שחר"
+          last_name: "שטווי"
+          email: "shaharshtavi@mail.tau.ac.il"
+        - first_name: "הגר"
+          last_name: "הופמן"
+          email: "hagarhoffman@mail.tau.ac.il"
+        - first_name: "שיר"
+          last_name: "חננאל"
+          email: "shirhananel@mail.tau.ac.il"
+    - table: 4
+      students:
+        - first_name: "אלעד"
+          last_name: "דגני"
+          email: "eladdgani@mail.tau.ac.il"
+        - first_name: "שון"
+          last_name: "חנץ"
+          email: "shonhentz@mail.tau.ac.il"
+        - first_name: "בת אל"
+          last_name: "פישר"
+          email: "beithalevi1@mail.tau.ac.il" # Email suggests last name might be Halevi? Using Fischer as written.
+        - first_name: "סאני"
+          last_name: "ינאי"
+          email: "sunnyyanai@mail.tau.ac.il"
+        - first_name: "אליאס"
+          last_name: "רומאנו"
+          email: "eliasromano@mail.tau.ac.il"
+        - first_name: "אלונה"
+          last_name: "ירניצקי"
+          email: "alonay@mail.tau.ac.il"
+        - first_name: "יעל"
+          last_name: "הדר"
+          email: "yaelhadar@mail.tau.ac.il"
+        - first_name: "גל"
+          last_name: "בן סימחון סלומון"
+          email: "bensimchon2@mail.tau.ac.il"
+        - first_name: "עומר"
+          last_name: "שילון"
+          email: "omershilon@mail.tau.ac.il"
+    - table: 5
+      students:
+        - first_name: "יעקב"
+          last_name: "חוזינוב"
+          email: "hozainov@mail.tau.ac.il"
+        - first_name: "לונא"
+          last_name: "עבד"
+          email: "lunaabed@mail.tau.ac.il"
+        - first_name: "מאיה"
+          last_name: "מטצקי"
+          email: "mayamatetzky@mail.tau.ac.il"
+        - first_name: "טוהר"
+          last_name: "וויס"
+          email: "toharwaiss@mail.tau.ac.il"
+        - first_name: "איתי"
+          last_name: "ארץ"
+          email: "itayeretz@mail.tau.ac.il"
+        - first_name: "דרור"
+          last_name: "ברקו"
+          email: "berko1@mail.tau.ac.il"
+        - first_name: "שני"
+          last_name: "פרומקין"
+          email: "shanifrumkin@mail.tau.ac.il"
+        - first_name: "עומר"
+          last_name: "בדיחי"
+          email: "omerbadihi@mail.tau.ac.il"
+        - first_name: "צח יצחק"
+          last_name: "ויסמן"
+          email: "tzachitzhakv@mail.tau.ac.il"
+    - table: 6
+      students:
+        - first_name: "דבורה"
+          last_name: "גרשון"
+          email: "devorag@mail.tau.ac.il"
+        - first_name: "אלגרה"
+          last_name: "דן"
+          email: "allegrad@mail.tau.ac.il"
+        - first_name: "יהודית"
+          last_name: "שטיינברגר"
+          email: "judith2@mail.tau.ac.il"
+        - first_name: "אביחי"
+          last_name: "דורון"
+          email: "avichaidoron@mail.tau.ac.il"
+        - first_name: "דורין"
+          last_name: "ארד"
+          email: "doreenarad@mail.tau.ac.il"
+        - first_name: "איתמר"
+          last_name: "בן עמי"
+          email: "itamarbenami@mail.tau.ac.il"
+        - first_name: "רותם"
+          last_name: "מעיין"
+          email: "rotemmaayan@mail.tau.ac.il"
+        - first_name: "חיים"
+          last_name: "מרקס"
+          email: "chaimmarks@mail.tau.ac.il"
+        - first_name: "איתי דניאל"
+          last_name: "בלאו"
+          email: "itaidanielb@mail.tau.ac.il"
+    - table: 7
+      students:
+        - first_name: "רומי"
+          last_name: "ספרן"
+          email: "romisafran@mail.tau.ac.il"
+        - first_name: "רתם"
+          last_name: "הורוביץ"
+          email: "rotemh2@mail.tau.ac.il"
+        - first_name: "נעם"
+          last_name: "ברכה"
+          email: "noambraha@mail.tau.ac.il"
+        - first_name: "אביעד"
+          last_name: "דגן"
+          email: "aviaddagan@mail.tau.ac.il"
+        - first_name: "איתמר"
+          last_name: "הניג"
+          email: "itamarhenig@mail.tau.ac.il"
+        - first_name: "שירה"
+          last_name: "גודמן הולנד"
+          email: "sg6@mail.tau.ac.il"
+        - first_name: "רוני"
+          last_name: "בן זיקרי"
+          email: "ronibenzikry@mail.tau.ac.il"
+        - first_name: "מוריה"
+          last_name: "מאיירס"
+          email: "moriahmeyers@mail.tau.ac.il"
+        - first_name: "חיה"
+          last_name: "שמחוביץ"
+          email: "simhovich@mail.tau.ac.il"
+    - table: 8
+      students:
+        - first_name: "טל"
+          last_name: "שחורי"
+          email: "talshchory@mail.tau.ac.il"
+        - first_name: "עדן"
+          last_name: "אפרתי"
+          email: "edenefrati@mail.tau.ac.il"
+        - first_name: "ליהי"
+          last_name: "קליינשטרן"
+          email: "kleinstern@mail.tau.ac.il"
+        - first_name: "אוריאל"
+          last_name: "קלעי"
+          email: "orialcalay@mail.tau.ac.il"
+        - first_name: "אלי"
+          last_name: "טימקובסקי"
+          email: "elitimkovski@mail.tau.ac.il"
+        - first_name: "יותם"
+          last_name: "בן עמרם"
+          email: "benamram3@mail.tau.ac.il"
+        - first_name: "שי"
+          last_name: "כלפון"
+          email: "shaicalfon@mail.tau.ac.il"
+        - first_name: "אמיר"
+          last_name: "קיל"
+          email: "amirkiel@mail.tau.ac.il"
+        - first_name: "אמיר"
+          last_name: "וינברג"
+          email: "amirw1@mail.tau.ac.il"
+    - table: 9
+      students:
+        - first_name: "דוד"
+          last_name: "בן דוד"
+          email: "davidb6@mail.tau.ac.il"
+        - first_name: "גפן"
+          last_name: "מורמי" # Last name seems to be Keinan based on email? Using Murmi as written.
+          email: "gefenkeinan@mail.tau.ac.il"
+        - first_name: "מירב"
+          last_name: "מור"
+          email: "meiravmor@mail.tau.ac.il"
+        - first_name: "ספיר"
+          last_name: "סעדון"
+          email: "sapirsadon@mail.tau.ac.il"
+        - first_name: "גיל שרה"
+          last_name: "חוג'ה"
+          email: "gillsarahuja@mail.tau.ac.il"
+        - first_name: "ליאור"
+          last_name: "יגר"
+          email: "leeoryeger@mail.tau.ac.il"
+        - first_name: "שיל"
+          last_name: "הביאן" # Last name seems to be Lahav based on email? Using Havian as written.
+          email: "shaylahav@mail.tau.ac.il"
+        - first_name: "כנרת"
+          last_name: "אבירב"
+          email: "avirav@mail.tau.ac.il"
+        - first_name: "שיר שרה"
+          last_name: "שורץ"
+          email: "shirshwartz@mail.tau.ac.il"
+    - table: 10
+      students:
+        - first_name: "איתי"
+          last_name: "אריאלי"
+          email: "itaiariely1@mail.tau.ac.il"
+        - first_name: "נועה"
+          last_name: "מלכאי"
+          email: "noamalkai@mail.tau.ac.il"
+        - first_name: "רותם"
+          last_name: "רפאלי"
+          email: "raphaeli1@mail.tau.ac.il"
+        - first_name: "אריאל"
+          last_name: "שטיינברגר"
+          email: "ariel3@mail.tau.ac.il"
+        - first_name: "דניאל לאון"
+          last_name: "נחמיאס"
+          email: "danielleonn@mail.tau.ac.il"
+        - first_name: "ליה"
+          last_name: "שויחט"
+          email: "liashoikhet@mail.tau.ac.il"
+        - first_name: "אורי"
+          last_name: "בכר זינגר" # Last name seems to be Bahar based on email? Using Bachar Singer as written.
+          email: "oribahar@mail.tau.ac.il"
+        - first_name: "הילה"
+          last_name: "אשכנזי"
+          email: "ashkenasy@mail.tau.ac.il"
+        - first_name: "גיא"
+          last_name: "טל"
+          email: "gt1@mail.tau.ac.il"
+    - table: 11
+      students:
+        - first_name: "בר"
+          last_name: "אבנית"
+          email: "baravnit@mail.tau.ac.il"
+        - first_name: "יעל"
+          last_name: "פסטרנק"
+          email: "pasternak2@mail.tau.ac.il"
+        - first_name: "אמונה"
+          last_name: "דיעי"
+          email: "emunahdiei@mail.tau.ac.il"
+        - first_name: "אריאל"
+          last_name: "פיינשטט"
+          email: "fainshtat1@mail.tau.ac.il"
+        - first_name: "מריה"
+          last_name: "מזרחי"
+          email: "mariamizrahi@mail.tau.ac.il"
+        - first_name: "עדי נטע"
+          last_name: "פחימה"
+          email: "adinetahf@mail.tau.ac.il"
+        - first_name: "עומר"
+          last_name: "מסה"
+          email: "omermessa@mail.tau.ac.il"
+        - first_name: "דניאל"
+          last_name: "קפלן"
+          email: "daniellek3@mail.tau.ac.il"
+        - first_name: "אריאל"
+          last_name: "בר דוד נפתלי"
+          email: "arielle1@mail.tau.ac.il"
+    - table: 12
+      students:
+        - first_name: "מאיה"
+          last_name: "ליבוביץ"
+          email: "leibovitz4@mail.tau.ac.il"
+        - first_name: "שירה שמחה"
+          last_name: "מויאל"
+          email: "shirasimham@mail.tau.ac.il"
+        - first_name: "יואב"
+          last_name: "זמנבודה"
+          email: "yoavz@mail.tau.ac.il"
+        - first_name: "נועם"
+          last_name: "ינוביץ"
+          email: "noamy1@mail.tau.ac.il"
+        - first_name: "הילה"
+          last_name: "מגד"
+          email: "hilamegged@mail.tau.ac.il"
+        - first_name: "עלמה"
+          last_name: "צין"
+          email: "almaz@mail.tau.ac.il"
+        - first_name: "אודיה (מאי)"
+          last_name: "בוזגלו"
+          email: "maybuzaglo@mail.tau.ac.il"
+        - first_name: "הדר"
+          last_name: "רזון"
+          email: "hadarrazon@mail.tau.ac.il"
+        - first_name: "ספיר"
+          last_name: "עברי"
+          email: "sapirivri@mail.tau.ac.il"
+    - table: 13
+      students:
+        - first_name: "חן חנין"
+          last_name: "נצר"
+          email: "hennetzer@mail.tau.ac.il"
+        - first_name: "שי"
+          last_name: "קליין"
+          email: "shayklein1@mail.tau.ac.il"
+        - first_name: "נועם"
+          last_name: "דן"
+          email: "noamdan3@mail.tau.ac.il"
+        - first_name: "גור"
+          last_name: "הדר"
+          email: "gurhadar@mail.tau.ac.il"
+        - first_name: "מירית"
+          last_name: "מלינסקי"
+          email: "malinsky1@mail.tau.ac.il"
+        - first_name: "שחר"
+          last_name: "מור"
+          email: "shaharmor@mail.tau.ac.il"
+        - first_name: "עומר"
+          last_name: "כספי"
+          email: "omerkaspi@mail.tau.ac.il"
+        - first_name: "יובל"
+          last_name: "מוסלי"
+          email: "mosli@mail.tau.ac.il"
+        - first_name: "רון"
+          last_name: "וויס"
+          email: "ronweiss@mail.tau.ac.il"
+    - table: 14
+      students:
+        - first_name: "סיגל"
+          last_name: "זלדין"
+          email: "sigalzeldin@mail.tau.ac.il"
+        - first_name: "דיאנה"
+          last_name: "אנדרחנוב"
+          email: "dianaa@mail.tau.ac.il"
+        - first_name: "נוי"
+          last_name: "אירופה"
+          email: "noyeropa@mail.tau.ac.il"
+        - first_name: "קים"
+          last_name: "גפסון קרביץ"
+          email: "kim1@mail.tau.ac.il"
+        - first_name: "אפרת"
+          last_name: "בארי"
+          email: "efratbeeri@mail.tau.ac.il"
+        - first_name: "נועה"
+          last_name: "מורן"
+          email: "noamoran@mail.tau.ac.il"
+        - first_name: "שיר"
+          last_name: "מטרי"
+          email: "shirmatari@mail.tau.ac.il"
+        - first_name: "בר"
+          last_name: "קולכינסקי" # Last name seems to be Volochiansky based on email? Using Kolchinsky as written.
+          email: "volochiansky@mail.tau.ac.il"
+        - first_name: "מאיה מושקא"
+          last_name: "אלישע"
+          email: "mayaelisha@mail.tau.ac.il"
+    - table: 15
+      students:
+        - first_name: "מישאל"
+          last_name: "מור"
+          email: "michellemor@mail.tau.ac.il"
+        - first_name: "אידנה"
+          last_name: "אפרמוב"
+          email: "idanaafremov@mail.tau.ac.il"
+        - first_name: "צור שלמה"
+          last_name: "פלדשטיין"
+          email: "tzurshlmof@mail.tau.ac.il"
+        - first_name: "נריה"
+          last_name: "גבאי"
+          email: "neryagabay@mail.tau.ac.il"
+        - first_name: "אבישג"
+          last_name: "כהן בנבנישתי"
+          email: "avishagc2@mail.tau.ac.il"
+        - first_name: "יהודה"
+          last_name: "ליאון"
+          email: "yehudalion@mail.tau.ac.il"
+        - first_name: "ינאי"
+          last_name: "כהן אופנהיים"
+          email: "yannaik@mail.tau.ac.il"
+        - first_name: "מעיין"
+          last_name: "ברמי"
+          email: "maayanbrami@mail.tau.ac.il"
+        - first_name: "נעה"
+          last_name: "גבאי"
+          email: "noagabay2@mail.tau.ac.il"
+    - table: 16
+      students:
+        - first_name: "אורן"
+          last_name: "דוגמא"
+          email: "orendugma@mail.tau.ac.il"
+        - first_name: "מתניה"
+          last_name: "ידידיה"
+          email: "matanyay@mail.tau.ac.il"
+        - first_name: "שני"
+          last_name: "בינו"
+          email: "shanibino@mail.tau.ac.il"
+        - first_name: "קרן"
+          last_name: "סגל"
+          email: "kerensegal@mail.tau.ac.il"
+        - first_name: "עמית"
+          last_name: "תורגמן"
+          email: "amitt3@mail.tau.ac.il"
+        - first_name: "זוהר"
+          last_name: "הבאוקר" # Last name missing 'ה' based on image text? Using Habauker as written.
+          email: "zoharab1@mail.tau.ac.il"
+        - first_name: "אבשלום"
+          last_name: "דרשר"
+          email: "avshalomd@mail.tau.ac.il"
+        - first_name: "שירז"
+          last_name: "שתווי"
+          email: "shirazshtivi@mail.tau.ac.il"
+        - first_name: "נועה"
+          last_name: "מרום"
+          email: "noamarom3@mail.tau.ac.il"
+    - table: 17
+      students:
+        - first_name: "אפרת"
+          last_name: "טיברג עטון"
+          email: "tybergatoon@mail.tau.ac.il"
+        - first_name: "תמיר"
+          last_name: "איתן"
+          email: "tamireitan@mail.tau.ac.il"
+        - first_name: "שרה הודיה"
+          last_name: "לנדוי"
+          email: "sarahodayal@mail.tau.ac.il"
+        - first_name: "קטי"
+          last_name: "רוזנטל קטלן"
+          email: "kettyr@mail.tau.ac.il"
+        - first_name: "לינוי"
+          last_name: "סעדון"
+          email: "saadon@mail.tau.ac.il"
+        - first_name: "שי"
+          last_name: "הופמן"
+          email: "shaihoffman@mail.tau.ac.il"
+        - first_name: "שירי"
+          last_name: "בולוטין"
+          email: "shiribolotin@mail.tau.ac.il"
+        - first_name: "אור"
+          last_name: "רוזנברג"
+          email: "orrozenberg1@mail.tau.ac.il"
+        - first_name: "תומר"
+          last_name: "אלוני"
+          email: "tomeraloni@mail.tau.ac.il"
+    - table: 18
+      students:
+        - first_name: "תהילה"
+          last_name: "קבלה"
+          email: "tehilakabala@mail.tau.ac.il"
+        - first_name: "רינה"
+          last_name: "רדנסקי"
+          email: "rinaredensky@mail.tau.ac.il"
+        - first_name: "אלחנן"
+          last_name: "לונגיני"
+          email: "longini@mail.tau.ac.il"
+        - first_name: "אסף"
+          last_name: "גרינשטיין"
+          email: "grinshtain@mail.tau.ac.il"
+        - first_name: "נעם"
+          last_name: "רושה"
+          email: "noamrosha@mail.tau.ac.il"
+        - first_name: "אורלי"
+          last_name: "פורטנוי"
+          email: "orlyportnoy@mail.tau.ac.il"
+        - first_name: "אוריאל"
+          last_name: "כהן"
+          email: "orielc@mail.tau.ac.il"
+        - first_name: "גיא"
+          last_name: "רבי"
+          email: "guyrabi@mail.tau.ac.il"
+        - first_name: "הדס"
+          last_name: "רוזמן"
+          email: "hadasrosman@mail.tau.ac.il"
+    - table: 19
+      students:
+        - first_name: "נועה"
+          last_name: "שבירו"
+          email: "noashaviro@mail.tau.ac.il"
+        - first_name: "צופיה"
+          last_name: "הירשברג"
+          email: "tsofiyah@mail.tau.ac.il"
+        - first_name: "אלמוג"
+          last_name: "פרידמן"
+          email: "frydman1@mail.tau.ac.il"
+        - first_name: "דניאלה"
+          last_name: "פישר"
+          email: "daniellaf2@mail.tau.ac.il"
+        - first_name: "עמית"
+          last_name: "שקד"
+          email: "amitshaked3@mail.tau.ac.il"
+        - first_name: "עינבל"
+          last_name: "כהן אדיב"
+          email: "enbalc@mail.tau.ac.il"
+        - first_name: "עדי"
+          last_name: "שלו"
+          email: "adishalev@mail.tau.ac.il"
+        - first_name: "מיכל"
+          last_name: "קמרי"
+          email: "michalkamari@mail.tau.ac.il"
+        - first_name: "אמילי"
+          last_name: "ברוך"
+          email: "emilybaruch@mail.tau.ac.il"
+    - table: 20
+      students:
+        - first_name: "יונתן"
+          last_name: "פישר"
+          email: "joanthanf@mail.tau.ac.il"
+        - first_name: "נגה-ג'ני"
+          last_name: "בורבין"
+          email: "nogagennyb@mail.tau.ac.il"
+        - first_name: "ירין"
+          last_name: "עזר"
+          email: "yarina@mail.tau.ac.il"
+        - first_name: "גל"
+          last_name: "עוז"
+          email: "galoz1@mail.tau.ac.il"
+        - first_name: "יולי"
+          last_name: "גולדשטיין"
+          email: "yulig1@mail.tau.ac.il"
+        - first_name: "נועה"
+          last_name: "בנסל"
+          email: "noabensal@mail.tau.ac.il"
+        - first_name: "אפרת"
+          last_name: "ברוק"
+          email: "efratbrook@mail.tau.ac.il"
+        - first_name: "עומרי"
+          last_name: "ויסברג"
+          email: "omriweisberg@mail.tau.ac.il"
+  group_b: # Group ב
+    - table: 21
+      students:
+        - first_name: "אליסה"
+          last_name: "שומסקי"
+          email: "alisashusmky@mail.tau.ac.il"
+        - first_name: "לינוי"
+          last_name: "רז"
+          email: "linoyraz@mail.tau.ac.il"
+        - first_name: "קרין"
+          last_name: "עזרילביץ"
+          email: "azrilevich@mail.tau.ac.il"
+        - first_name: "מיכל"
+          last_name: "הרן" # Last name seems to be Hertz based on email? Using Heren as written.
+          email: "michalhertz@mail.tau.ac.il"
+        - first_name: "אנסטסיה"
+          last_name: "אישנקו"
+          email: "anastasiyai@mail.tau.ac.il"
+        - first_name: "עדן"
+          last_name: "ברבי"
+          email: "edenbarabi@mail.tau.ac.il"
+        - first_name: "סתיו"
+          last_name: "שקד"
+          email: "stavshaked@mail.tau.ac.il"
+        - first_name: "עדן"
+          last_name: "משולם"
+          email: "edenmeshulam@mail.tau.ac.il"
+        - first_name: "עדינה"
+          last_name: "גרינפלד"
+          email: "adinag1@mail.tau.ac.il"
+    - table: 22
+      students:
+        - first_name: "שרון מישל"
+          last_name: "הרמן דשבסקי" # Assuming this is the intended name based on email/layout
+          email: "sh3@mail.tau.ac.il"
+        - first_name: "אריאל"
+          last_name: "חדד"
+          email: "arielhadad@mail.tau.ac.il"
+        - first_name: "תו"
+          last_name: "כהן"
+          email: "tavcohen@mail.tau.ac.il"
+        - first_name: "עדן"
+          last_name: "רודריגז"
+          email: "edenrodrigez@mail.tau.ac.il"
+        - first_name: "אליס חן"
+          last_name: "קלמן"
+          email: "alicechenk@mail.tau.ac.il"
+        - first_name: "בילי"
+          last_name: "כרמלי"
+          email: "billiec@mail.tau.ac.il"
+        - first_name: "מאיה"
+          last_name: "בראון"
+          email: "mayabrown@mail.tau.ac.il"
+        - first_name: "אופיר"
+          last_name: "חורי"
+          email: "ofirhuri@mail.tau.ac.il"
+        - first_name: null # First name missing
+          last_name: "אלישוב"
+          email: "elishuv@mail.tau.ac.il"
+    - table: 23
+      students:
+        - first_name: "שרון"
+          last_name: "צדיקוב"
+          email: "zadikov@mail.tau.ac.il"
+        - first_name: "הדר"
+          last_name: "קיפר"
+          email: "hadarkeiper@mail.tau.ac.il"
+        - first_name: "מריאן"
+          last_name: "זייבק"
+          email: "marianz@mail.tau.ac.il"
+        - first_name: "ערן"
+          last_name: "אסולין"
+          email: "eranassulin@mail.tau.ac.il"
+        - first_name: "בן"
+          last_name: "רוזנטל"
+          email: "benrosenthal@mail.tau.ac.il"
+        - first_name: "דנה"
+          last_name: "חדאד"
+          email: "danahaddad@mail.tau.ac.il"
+        - first_name: "נטלי"
+          last_name: "איצקוביץ"
+          email: "izkovich@mail.tau.ac.il"
+        - first_name: "חן"
+          last_name: "זפרני"
+          email: "henzafrany@mail.tau.ac.il"
+        - first_name: "ירון"
+          last_name: "וויס"
+          email: "yaronweiss@mail.tau.ac.il"
+    - table: 24
+      students:
+        - first_name: "מרים"
+          last_name: "קעדאן"
+          email: "mariamkeadan@mail.tau.ac.il"
+        - first_name: "ליהי"
+          last_name: "אלחיאני"
+          email: "lihilahyani@mail.tau.ac.il"
+        - first_name: "רעות"
+          last_name: "פרוטיץ"
+          email: "reutprotis@mail.tau.ac.il"
+        - first_name: "ענבר"
+          last_name: "ריינגולד"
+          email: "reingold2@mail.tau.ac.il"
+        - first_name: "אסף"
+          last_name: "גבעון"
+          email: "asafgivon@mail.tau.ac.il"
+        - first_name: "ענבר"
+          last_name: "רויסמן"
+          email: "inbarw1@mail.tau.ac.il"
+        - first_name: "ספיר"
+          last_name: "מזרחי"
+          email: "sapirmizrahi@mail.tau.ac.il"
+        - first_name: "נופר"
+          last_name: "לוי"
+          email: "nofarlevy2@mail.tau.ac.il"
+        - first_name: "חגית"
+          last_name: "דניאל"
+          email: "chagitdaniel@mail.tau.ac.il"
+    - table: 25
+      students:
+        - first_name: "שלומית"
+          last_name: "כהן"
+          email: "shlomitc3@mail.tau.ac.il"
+        - first_name: "ראמי"
+          last_name: "עילוטי"
+          email: "ramielouti@mail.tau.ac.il"
+        - first_name: "מאיה"
+          last_name: "שחף"
+          email: "mayashahaf@mail.tau.ac.il"
+        - first_name: "סתיו"
+          last_name: "מטמון"
+          email: "stavmatmon@mail.tau.ac.il"
+        - first_name: "רוני"
+          last_name: "פרידמן דוידוביץ"
+          email: "ronifrydman@mail.tau.ac.il"
+        - first_name: "אסתי"
+          last_name: "צייגר"
+          email: "estitseiger@mail.tau.ac.il"
+        - first_name: "נועה"
+          last_name: "נוימן"
+          email: "noaneumann1@mail.tau.ac.il"
+        - first_name: "עידו"
+          last_name: "ערד"
+          email: "idoarad2@mail.tau.ac.il"
+        - first_name: "סתיו"
+          last_name: "ליטוין"
+          email: "stavlitvin@mail.tau.ac.il"
+    - table: 26
+      students:
+        - first_name: "יוסף"
+          last_name: "קיורר"
+          email: "yosefkurer@mail.tau.ac.il"
+        - first_name: "אנט"
+          last_name: "דהן"
+          email: "anetdahan@mail.tau.ac.il"
+        - first_name: "יהלי"
+          last_name: "בסל"
+          email: "yahlibasel@mail.tau.ac.il"
+        - first_name: "רוני"
+          last_name: "מלה"
+          email: "ronymala@mail.tau.ac.il"
+        - first_name: "ירדן"
+          last_name: "צעירי"
+          email: "yardentzairi@mail.tau.ac.il"
+        - first_name: "שהרבאן"
+          last_name: "אברהים"
+          email: "shehrbani@mail.tau.ac.il"
+        - first_name: "שירה"
+          last_name: "נמירובסקי"
+          email: "nemirovsky1@mail.tau.ac.il"
+        - first_name: "מיה"
+          last_name: "פיביך"
+          email: "mayafibich1@mail.tau.ac.il"
+        - first_name: "נועם"
+          last_name: "ברוך"
+          email: "noambaruch@mail.tau.ac.il"
+    - table: 27
+      students:
+        - first_name: "אסתר"
+          last_name: "פושצ'נסקי"
+          email: "pushchansky@mail.tau.ac.il"
+        - first_name: "ורוניקה"
+          last_name: "ליוטקו"
+          email: "liutko@mail.tau.ac.il"
+        - first_name: "נוי"
+          last_name: "פיניש"
+          email: "noyfinish@mail.tau.ac.il"
+        - first_name: "עפרי"
+          last_name: "אילון"
+          email: "ofryeilon@mail.tau.ac.il"
+        - first_name: "ניקולאי"
+          last_name: "גריגורייב"
+          email: "nicolayg@mail.tau.ac.il"
+        - first_name: "נגה"
+          last_name: "בן דרור"
+          email: "nogabendror@mail.tau.ac.il"
+        - first_name: "היא"
+          last_name: "חביב"
+          email: "hayahabib1@mail.tau.ac.il"
+        - first_name: "לינוי"
+          last_name: "קיזמן"
+          email: "linoykizman@mail.tau.ac.il"
+        - first_name: "מעין מרלה"
+          last_name: "עטיה"
+          email: "maayanem@mail.tau.ac.il"
+    - table: 28
+      students:
+        - first_name: "מתן"
+          last_name: "פדרו"
+          email: "matanpedro@mail.tau.ac.il"
+        - first_name: "ליאור זאב"
+          last_name: "לוי"
+          email: "liorzeevlevy@mail.tau.ac.il"
+        - first_name: "יובל"
+          last_name: "איתן"
+          email: "yuvaleitan1@mail.tau.ac.il"
+        - first_name: "הגר"
+          last_name: "נחמיאס"
+          email: "hagarnahmias@mail.tau.ac.il"
+        - first_name: "אסתר"
+          last_name: "דיסקין"
+          email: "esterdyskin@mail.tau.ac.il"
+        - first_name: "שירה"
+          last_name: "בן יוסף"
+          email: "benyosef5@mail.tau.ac.il"
+        - first_name: "טל"
+          last_name: "רוזן"
+          email: "talrosen@mail.tau.ac.il"
+        - first_name: "נעם"
+          last_name: "עופר"
+          email: "noamofer1@mail.tau.ac.il"
+        - first_name: "דנה"
+          last_name: "לווינרד"
+          email: "danalevinrad@mail.tau.ac.il"
+    - table: 29
+      students:
+        - first_name: "שלמה"
+          last_name: "סטופל"
+          email: "stupel@mail.tau.ac.il"
+        - first_name: "ניר"
+          last_name: "גנות"
+          email: "nirganot@mail.tau.ac.il"
+        - first_name: "רננה"
+          last_name: "דרומר"
+          email: "drummer@mail.tau.ac.il"
+        - first_name: "יובל"
+          last_name: "איבגי"
+          email: "yovelivgi@mail.tau.ac.il"
+        - first_name: "טל"
+          last_name: "וויינשטיין"
+          email: "talw2@mail.tau.ac.il"
+        - first_name: "יעל"
+          last_name: "לבנון"
+          email: "yaellevanon@mail.tau.ac.il"
+        - first_name: "בר" # First name seems to be missing 'י'? Using Bar as written.
+          last_name: "ילינוביץ"
+          email: "yelinovich@mail.tau.ac.il"
+        - first_name: "נטע"
+          last_name: "קפקא"
+          email: "nettakafka@mail.tau.ac.il"
+        - first_name: "נועם"
+          last_name: "מזרחי"
+          email: "noammizrahi1@mail.tau.ac.il"
+    - table: 30
+      students:
+        - first_name: "נוף"
+          last_name: "הדר"
+          email: "nofhadar@mail.tau.ac.il"
+        - first_name: "דפנה"
+          last_name: "פדרמן"
+          email: "dafnaf1@mail.tau.ac.il"
+        - first_name: "לירון"
+          last_name: "ארוך"
+          email: "lironaroch@mail.tau.ac.il"
+        - first_name: "אחינועם"
+          last_name: "שטרנליכט"
+          email: "achinoams1@mail.tau.ac.il"
+        - first_name: "דנה"
+          last_name: "גרינהויז"
+          email: "danagrunhaus@mail.tau.ac.il"
+        - first_name: "יניר"
+          last_name: "שפירא"
+          email: "yanirshapira@mail.tau.ac.il"
+        - first_name: "נעה"
+          last_name: "דוד"
+          email: "noadavid1@mail.tau.ac.il"
+        - first_name: "ויקטוריה"
+          last_name: "יכנוביץ'"
+          email: "yahnovich@mail.tau.ac.il"
+        - first_name: "מור"
+          last_name: "פלוס"
+          email: "morfelous@mail.tau.ac.il"
+    - table: 31
+      students:
+        - first_name: "לי"
+          last_name: "רודניק"
+          email: "leerudnick@mail.tau.ac.il"
+        - first_name: "טל"
+          last_name: "פוקס"
+          email: "talfux@mail.tau.ac.il"
+        - first_name: "יובל"
+          last_name: "מוהל"
+          email: "yuvalmohl@mail.tau.ac.il"
+        - first_name: "ענבר"
+          last_name: "גרינברג"
+          email: "inbarg1@mail.tau.ac.il"
+        - first_name: "שחר"
+          last_name: "רושה גביזון"
+          email: "roshegabizon@mail.tau.ac.il"
+        - first_name: "מוטי"
+          last_name: "פרגי"
+          email: "motifaragi@mail.tau.ac.il"
+        - first_name: "מאי"
+          last_name: "אזולאי"
+          email: "mayazulay@mail.tau.ac.il"
+        - first_name: "ליה"
+          last_name: "כהן"
+          email: "liacohen1@mail.tau.ac.il"
+        - first_name: "נועה"
+          last_name: "נוי"
+          email: "noanoy1@mail.tau.ac.il"
+    - table: 32
+      students:
+        - first_name: "הדס שרה"
+          last_name: "הרשקוביץ"
+          email: "hadassarah@mail.tau.ac.il"
+        - first_name: "אלון"
+          last_name: "לאין"
+          email: "alonlain@mail.tau.ac.il"
+        - first_name: "יוסף"
+          last_name: "בן יהודה"
+          email: "yosefb1@mail.tau.ac.il"
+        - first_name: "שי"
+          last_name: "פרידמן"
+          email: "shayfridman@mail.tau.ac.il"
+        - first_name: "עדן"
+          last_name: "אלטשולר" # Last name seems to be Zelig based on email? Using Altshuler as written.
+          email: "edenzelig@mail.tau.ac.il"
+        - first_name: "עקיבא"
+          last_name: "שטיינר"
+          email: "akivasteiner@mail.tau.ac.il"
+        - first_name: "טל"
+          last_name: "גרא"
+          email: "talgera@mail.tau.ac.il"
+        - first_name: "יהונתן"
+          last_name: "ברוכי"
+          email: "baruchi@mail.tau.ac.il"
+        - first_name: "אריאל"
+          last_name: "וולף"
+          email: "arielwolf@mail.tau.ac.il"
+    - table: 33
+      students:
+        - first_name: "יעל"
+          last_name: "אוסטרייך"
+          email: "yaelostraich@mail.tau.ac.il"
+        - first_name: "עמית"
+          last_name: "אורון"
+          email: "amitoron@mail.tau.ac.il"
+        - first_name: "אור" # First name seems to be Ora based on email? Using Or as written.
+          last_name: "האשרפוב" # Last name seems to be Penera based on email? Using Ha'ashrafov as written.
+          email: "orapenera@mail.tau.ac.il"
+        - first_name: "סוזנה"
+          last_name: "בארי"
+          email: "suzanaa@mail.tau.ac.il"
+        - first_name: "גולדי"
+          last_name: "חיינר"
+          email: "goldikhainer@mail.tau.ac.il"
+        - first_name: "מאי"
+          last_name: "בכור"
+          email: "maybechor@mail.tau.ac.il"
+        - first_name: "יונית"
+          last_name: "ברונשטיין"
+          email: "yonitb@mail.tau.ac.il"
+        - first_name: "יובל"
+          last_name: "גבאי"
+          email: "yuvalgabay1@mail.tau.ac.il"
+    - table: 34
+      students:
+        - first_name: "עידו"
+          last_name: "גבאי"
+          email: "idogabay@mail.tau.ac.il"
+        - first_name: "אריאל דוד"
+          last_name: "גולדמן"
+          email: "arielgoldman@mail.tau.ac.il"
+        - first_name: "אביגיל"
+          last_name: "גולדרייך"
+          email: "avigailg1@mail.tau.ac.il"
+        - first_name: "טל"
+          last_name: "דהן"
+          email: "tald1@mail.tau.ac.il"
+        - first_name: "נופר"
+          last_name: "שקד"
+          email: "nofarshaked@mail.tau.ac.il"
+        - first_name: "יונתן"
+          last_name: "דיין"
+          email: "jd1@mail.tau.ac.il"
+        - first_name: "דויד"
+          last_name: "ביטון"
+          email: "davidbiton1@mail.tau.ac.il"
+        - first_name: "דוד"
+          last_name: "דישל"
+          email: "daviddyshel@mail.tau.ac.il"
+    - table: 35
+      students:
+        - first_name: "מיכל"
+          last_name: "ואק"
+          email: "michalvak@mail.tau.ac.il"
+        - first_name: "יהונתן"
+          last_name: "והב"
+          email: "yehonatanv1@mail.tau.ac.il"
+        - first_name: "שיר"
+          last_name: "וויסלר"
+          email: "shirweissler@mail.tau.ac.il"
+        - first_name: "אנסטסיה"
+          last_name: "וולמוז'קו"
+          email: "anastasiiav@mail.tau.ac.il"
+        - first_name: "לינוי"
+          last_name: "שרון"
+          email: "linoysharon@mail.tau.ac.il"
+        - first_name: "ורג'יניה"
+          last_name: "זכאכ"
+          email: "zakkak@mail.tau.ac.il"
+        - first_name: "אדם"
+          last_name: "חביב"
+          email: "adamhabib@mail.tau.ac.il"
+        - first_name: "עמיחי"
+          last_name: "דביר"
+          email: "amichaidvir@mail.tau.ac.il"
+    - table: 36
+      students:
+        - first_name: "סלימאן"
+          last_name: "חוטבא"
+          email: "sleemank@mail.tau.ac.il"
+        - first_name: "מוחמד"
+          last_name: "שמאליה"
+          email: "shamaliah@mail.tau.ac.il"
+        - first_name: "יומנא"
+          last_name: "חבשי"
+          email: "yomnahabashi@mail.tau.ac.il"
+        - first_name: "מירנה"
+          last_name: "חיר"
+          email: "mirnakheir@mail.tau.ac.il"
+        - first_name: "מרים"
+          last_name: "טהה"
+          email: "maryamt@mail.tau.ac.il"
+        - first_name: "מאיה"
+          last_name: "טויטו"
+          email: "mayatwito@mail.tau.ac.il"
+        - first_name: "דניאלה"
+          last_name: "יוסופוב"
+          email: "yusupov@mail.tau.ac.il" # Email spelling yusu pov
+        - first_name: "דניאלה"
+          last_name: "יוסופוב" # Second entry with same name?
+          email: "yosupov@mail.tau.ac.il" # Email spelling yosupov
+    - table: 37
+      students:
+        - first_name: "אמיר"
+          last_name: "יוסף"
+          email: "amiryoseph@mail.tau.ac.il"
+        - first_name: "מאיה"
+          last_name: "יעבץ חן"
+          email: "mayy@mail.tau.ac.il"
+        - first_name: "ליאן"
+          last_name: "שרארה"
+          email: "sharara@mail.tau.ac.il"
+        - first_name: "טליה"
+          last_name: "כהן"
+          email: "talyac2@mail.tau.ac.il"
+        - first_name: "עומר"
+          last_name: "כהן"
+          email: "omer7@mail.tau.ac.il"
+        - first_name: "נועה"
+          last_name: "כרמל"
+          email: "noacarmel@mail.tau.ac.il"
+        - first_name: "איתי"
+          last_name: "לוי"
+          email: "itaylevi3@mail.tau.ac.il"
+        - first_name: "ילין"
+          last_name: "לוי"
+          email: "yalinlevy@mail.tau.ac.il"
+    - table: 38
+      students:
+        - first_name: "נועה"
+          last_name: "לישינסקי"
+          email: "noalishinsky@mail.tau.ac.il"
+        - first_name: "מורן"
+          last_name: "מנור"
+          email: "moranmanor1@mail.tau.ac.il"
+        - first_name: "אבלין"
+          last_name: "נוביצקי"
+          email: "evelinn@mail.tau.ac.il"
+        - first_name: "שאדי"
+          last_name: "נסאר"
+          email: "shadinassar@mail.tau.ac.il"
+        - first_name: "יאסמין"
+          last_name: "סולטאני"
+          email: "yasmins2@mail.tau.ac.il"
+        - first_name: "שני"
+          last_name: "סימון"
+          email: "shanisimon@mail.tau.ac.il"
+        - first_name: "רוזה"
+          last_name: "תומא"
+          email: "rosat@mail.tau.ac.il"
+        - first_name: "שקד"
+          last_name: "ערוסי"
+          email: "shakedarusi@mail.tau.ac.il"
+    - table: 39
+      students:
+        - first_name: "נגם"
+          last_name: "פריג"
+          email: "nagamfreg@mail.tau.ac.il"
+        - first_name: "דני"
+          last_name: "צ'צ'שוילי"
+          email: "dani@mail.tau.ac.il"
+        - first_name: "יסמין"
+          last_name: "רוזנברג"
+          email: "yasminr1@mail.tau.ac.il"
+        - first_name: "הילה"
+          last_name: "רחמיאל"
+          email: "hilarachmiel@mail.tau.ac.il"
+        - first_name: "תמר"
+          last_name: "רימון"
+          email: "tamarrimon@mail.tau.ac.il"
+        - first_name: "שקד"
+          last_name: "אלקון"
+          email: "shakedelkon@mail.tau.ac.il"
+        - first_name: "ידידיה"
+          last_name: "רשף"
+          email: "yedidyar@mail.tau.ac.il"
+        - first_name: "סלמא"
+          last_name: "שומרי"
+          email: "salmashomary@mail.tau.ac.il"
+    - table: 40
+      students:
+        - first_name: "שחר"
+          last_name: "שילת"
+          email: "shaharshilat@mail.tau.ac.il"
+        - first_name: "לין"
+          last_name: "חזיזה"
+          email: "linhaziza@mail.tau.ac.il"
+        - first_name: "אפק"
+          last_name: "שפיגלר"
+          email: "ofekshpigler@mail.tau.ac.il"
+        - first_name: "רונן"
+          last_name: "דוידוב"
+          email: "ronendavidov@mail.tau.ac.il"
+        - first_name: "מתן"
+          last_name: "יצחקי מירון"
+          email: "matanitzhaki@mail.tau.ac.il"
+        - first_name: "אשר" # First name seems to be Osher based on image text? Using Asher as written.
+          last_name: "וקנין"
+          email: "oshervaknin@mail.tau.ac.il"
+        - first_name: "לי"
+          last_name: "סימן טוב"
+          email: "leesimantov@mail.tau.ac.il"
+        - first_name: "דניאל"
+          last_name: "תמם"
+          email: "danieltamam@mail.tau.ac.il"
+
+Double-checking names where the written name differs slightly from the email username, but mostly transcribing as written in the name columns.```yaml
+course: נוירואנטומיה # Neuroanatomy
+lab_groups:
+  group_a: # Group א
+    - table: 1
+      students:
+        - first_name: "טליה"
+          last_name: "כהן קזמן"
+          email: "cohenkeizman@mail.tau.ac.il"
+        - first_name: "רון"
+          last_name: "שרייבר"
+          email: "ronschreiber@mail.tau.ac.il"
+        - first_name: "הילה"
+          last_name: "הניג"
+          email: "hilahclarah@mail.tau.ac.il"
+        - first_name: "אביעד"
+          last_name: "הראל"
+          email: "aviadharel@mail.tau.ac.il"
+        - first_name: "ליאור"
+          last_name: "ארזי"
+          email: "liorarazi@mail.tau.ac.il"
+        - first_name: "אחינועם רחל"
+          last_name: "אליהו"
+          email: "achinoame@mail.tau.ac.il"
+        - first_name: "אביטל"
+          last_name: "קופיאצקי"
+          email: "avitalk2@mail.tau.ac.il"
+        - first_name: "ירון"
+          last_name: "צינקין"
+          email: "yarontsinkin@mail.tau.ac.il"
+        - first_name: "רועי"
+          last_name: "בנקוביץ'"
+          email: "roybenkovich@mail.tau.ac.il"
+    - table: 2
+      students:
+        - first_name: "אריאל"
+          last_name: "טראוב"
+          email: "arieltraub@mail.tau.ac.il"
+        - first_name: "אביה"
+          last_name: "דוידי"
+          email: "aviyadavidi@mail.tau.ac.il"
+        - first_name: "ענבר"
+          last_name: "שושן"
+          email: "shushan2@mail.tau.ac.il"
+        - first_name: "שירי"
+          last_name: "ברוש"
+          email: "shiribrosh@mail.tau.ac.il"
+        - first_name: "אסף"
+          last_name: "רומן"
+          email: "asafroman@mail.tau.ac.il"
+        - first_name: "ציונית"
+          last_name: "גליקמן"
+          email: "ziyonitg@mail.tau.ac.il"
+        - first_name: "תובל"
+          last_name: "טפירו"
+          email: "tuvaltapiro@mail.tau.ac.il"
+        - first_name: "אמילי לאה"
+          last_name: "מסטווי"
+          email: "emilyleam@mail.tau.ac.il"
+        - first_name: "תמר"
+          last_name: "עמוסי"
+          email: "tamaramosi@mail.tau.ac.il"
+    - table: 3
+      students:
+        - first_name: "ליעד"
+          last_name: "כץ"
+          email: "liadk1@mail.tau.ac.il"
+        - first_name: "גל"
+          last_name: "רובננקו"
+          email: "galrubanenko@mail.tau.ac.il"
+        - first_name: "אפק"
+          last_name: "כהן"
+          email: "afekcohen@mail.tau.ac.il"
+        - first_name: "שרה"
+          last_name: "חנניאב"
+          email: "hananayev@mail.tau.ac.il"
+        - first_name: "אופיר"
+          last_name: "אליאס"
+          email: "ophirelias@mail.tau.ac.il"
+        - first_name: "אביב"
+          last_name: "ברק"
+          email: "avivbarak1@mail.tau.ac.il"
+        - first_name: "שחר"
+          last_name: "שטווי"
+          email: "shaharshtavi@mail.tau.ac.il"
+        - first_name: "הגר"
+          last_name: "הופמן"
+          email: "hagarhoffman@mail.tau.ac.il"
+        - first_name: "שיר"
+          last_name: "חננאל"
+          email: "shirhananel@mail.tau.ac.il"
+    - table: 4
+      students:
+        - first_name: "אלעד"
+          last_name: "דגני"
+          email: "eladdgani@mail.tau.ac.il"
+        - first_name: "שון"
+          last_name: "חנץ"
+          email: "shonhentz@mail.tau.ac.il"
+        - first_name: "בת אל"
+          last_name: "פישר"
+          email: "beithalevi1@mail.tau.ac.il"
+        - first_name: "סאני"
+          last_name: "ינאי"
+          email: "sunnyyanai@mail.tau.ac.il"
+        - first_name: "אליאס"
+          last_name: "רומאנו"
+          email: "eliasromano@mail.tau.ac.il"
+        - first_name: "אלונה"
+          last_name: "ירניצקי"
+          email: "alonay@mail.tau.ac.il"
+        - first_name: "יעל"
+          last_name: "הדר"
+          email: "yaelhadar@mail.tau.ac.il"
+        - first_name: "גל"
+          last_name: "בן סימחון סלומון"
+          email: "bensimchon2@mail.tau.ac.il"
+        - first_name: "עומר"
+          last_name: "שילון"
+          email: "omershilon@mail.tau.ac.il"
+    - table: 5
+      students:
+        - first_name: "יעקב"
+          last_name: "חוזינוב"
+          email: "hozainov@mail.tau.ac.il"
+        - first_name: "לונא"
+          last_name: "עבד"
+          email: "lunaabed@mail.tau.ac.il"
+        - first_name: "מאיה"
+          last_name: "מטצקי"
+          email: "mayamatetzky@mail.tau.ac.il"
+        - first_name: "טוהר"
+          last_name: "וויס"
+          email: "toharwaiss@mail.tau.ac.il"
+        - first_name: "איתי"
+          last_name: "ארץ"
+          email: "itayeretz@mail.tau.ac.il"
+        - first_name: "דרור"
+          last_name: "ברקו"
+          email: "berko1@mail.tau.ac.il"
+        - first_name: "שני"
+          last_name: "פרומקין"
+          email: "shanifrumkin@mail.tau.ac.il"
+        - first_name: "עומר"
+          last_name: "בדיחי"
+          email: "omerbadihi@mail.tau.ac.il"
+        - first_name: "צח יצחק"
+          last_name: "ויסמן"
+          email: "tzachitzhakv@mail.tau.ac.il"
+    - table: 6
+      students:
+        - first_name: "דבורה"
+          last_name: "גרשון"
+          email: "devorag@mail.tau.ac.il"
+        - first_name: "אלגרה"
+          last_name: "דן"
+          email: "allegrad@mail.tau.ac.il"
+        - first_name: "יהודית"
+          last_name: "שטיינברגר"
+          email: "judith2@mail.tau.ac.il"
+        - first_name: "אביחי"
+          last_name: "דורון"
+          email: "avichaidoron@mail.tau.ac.il"
+        - first_name: "דורין"
+          last_name: "ארד"
+          email: "doreenarad@mail.tau.ac.il"
+        - first_name: "איתמר"
+          last_name: "בן עמי"
+          email: "itamarbenami@mail.tau.ac.il"
+        - first_name: "רותם"
+          last_name: "מעיין"
+          email: "rotemmaayan@mail.tau.ac.il"
+        - first_name: "חיים"
+          last_name: "מרקס"
+          email: "chaimmarks@mail.tau.ac.il"
+        - first_name: "איתי דניאל"
+          last_name: "בלאו"
+          email: "itaidanielb@mail.tau.ac.il"
+    - table: 7
+      students:
+        - first_name: "רומי"
+          last_name: "ספרן"
+          email: "romisafran@mail.tau.ac.il"
+        - first_name: "רתם"
+          last_name: "הורוביץ"
+          email: "rotemh2@mail.tau.ac.il"
+        - first_name: "נעם"
+          last_name: "ברכה"
+          email: "noambraha@mail.tau.ac.il"
+        - first_name: "אביעד"
+          last_name: "דגן"
+          email: "aviaddagan@mail.tau.ac.il"
+        - first_name: "איתמר"
+          last_name: "הניג"
+          email: "itamarhenig@mail.tau.ac.il"
+        - first_name: "שירה"
+          last_name: "גודמן הולנד"
+          email: "sg6@mail.tau.ac.il"
+        - first_name: "רוני"
+          last_name: "בן זיקרי"
+          email: "ronibenzikry@mail.tau.ac.il"
+        - first_name: "מוריה"
+          last_name: "מאיירס"
+          email: "moriahmeyers@mail.tau.ac.il"
+        - first_name: "חיה"
+          last_name: "שמחוביץ"
+          email: "simhovich@mail.tau.ac.il"
+    - table: 8
+      students:
+        - first_name: "טל"
+          last_name: "שחורי"
+          email: "talshchory@mail.tau.ac.il"
+        - first_name: "עדן"
+          last_name: "אפרתי"
+          email: "edenefrati@mail.tau.ac.il"
+        - first_name: "ליהי"
+          last_name: "קליינשטרן"
+          email: "kleinstern@mail.tau.ac.il"
+        - first_name: "אוריאל"
+          last_name: "קלעי"
+          email: "orialcalay@mail.tau.ac.il"
+        - first_name: "אלי"
+          last_name: "טימקובסקי"
+          email: "elitimkovski@mail.tau.ac.il"
+        - first_name: "יותם"
+          last_name: "בן עמרם"
+          email: "benamram3@mail.tau.ac.il"
+        - first_name: "שי"
+          last_name: "כלפון"
+          email: "shaicalfon@mail.tau.ac.il"
+        - first_name: "אמיר"
+          last_name: "קיל"
+          email: "amirkiel@mail.tau.ac.il"
+        - first_name: "אמיר"
+          last_name: "וינברג"
+          email: "amirw1@mail.tau.ac.il"
+    - table: 9
+      students:
+        - first_name: "דוד"
+          last_name: "בן דוד"
+          email: "davidb6@mail.tau.ac.il"
+        - first_name: "גפן"
+          last_name: "מורמי" # Name vs email mismatch (gefenkeinan)
+          email: "gefenkeinan@mail.tau.ac.il"
+        - first_name: "מירב"
+          last_name: "מור"
+          email: "meiravmor@mail.tau.ac.il"
+        - first_name: "ספיר"
+          last_name: "סעדון"
+          email: "sapirsadon@mail.tau.ac.il"
+        - first_name: "גיל שרה"
+          last_name: "חוג'ה"
+          email: "gillsarahuja@mail.tau.ac.il"
+        - first_name: "ליאור"
+          last_name: "יגר"
+          email: "leeoryeger@mail.tau.ac.il"
+        - first_name: "שיל"
+          last_name: "הביאן" # Name vs email mismatch (shaylahav)
+          email: "shaylahav@mail.tau.ac.il"
+        - first_name: "כנרת"
+          last_name: "אבירב"
+          email: "avirav@mail.tau.ac.il"
+        - first_name: "שיר שרה"
+          last_name: "שורץ"
+          email: "shirshwartz@mail.tau.ac.il"
+    - table: 10
+      students:
+        - first_name: "איתי"
+          last_name: "אריאלי"
+          email: "itaiariely1@mail.tau.ac.il"
+        - first_name: "נועה"
+          last_name: "מלכאי"
+          email: "noamalkai@mail.tau.ac.il"
+        - first_name: "רותם"
+          last_name: "רפאלי"
+          email: "raphaeli1@mail.tau.ac.il"
+        - first_name: "אריאל"
+          last_name: "שטיינברגר"
+          email: "ariel3@mail.tau.ac.il"
+        - first_name: "דניאל לאון"
+          last_name: "נחמיאס"
+          email: "danielleonn@mail.tau.ac.il"
+        - first_name: "ליה"
+          last_name: "שויחט"
+          email: "liashoikhet@mail.tau.ac.il"
+        - first_name: "אורי"
+          last_name: "בכר זינגר" # Name vs email mismatch (oribahar)
+          email: "oribahar@mail.tau.ac.il"
+        - first_name: "הילה"
+          last_name: "אשכנזי"
+          email: "ashkenasy@mail.tau.ac.il"
+        - first_name: "גיא"
+          last_name: "טל"
+          email: "gt1@mail.tau.ac.il"
+    - table: 11
+      students:
+        - first_name: "בר"
+          last_name: "אבנית"
+          email: "baravnit@mail.tau.ac.il"
+        - first_name: "יעל"
+          last_name: "פסטרנק"
+          email: "pasternak2@mail.tau.ac.il"
+        - first_name: "אמונה"
+          last_name: "דיעי"
+          email: "emunahdiei@mail.tau.ac.il"
+        - first_name: "אריאל"
+          last_name: "פיינשטט"
+          email: "fainshtat1@mail.tau.ac.il"
+        - first_name: "מריה"
+          last_name: "מזרחי"
+          email: "mariamizrahi@mail.tau.ac.il"
+        - first_name: "עדי נטע"
+          last_name: "פחימה"
+          email: "adinetahf@mail.tau.ac.il"
+        - first_name: "עומר"
+          last_name: "מסה"
+          email: "omermessa@mail.tau.ac.il"
+        - first_name: "דניאל"
+          last_name: "קפלן"
+          email: "daniellek3@mail.tau.ac.il"
+        - first_name: "אריאל"
+          last_name: "בר דוד נפתלי"
+          email: "arielle1@mail.tau.ac.il"
+    - table: 12
+      students:
+        - first_name: "מאיה"
+          last_name: "ליבוביץ"
+          email: "leibovitz4@mail.tau.ac.il"
+        - first_name: "שירה שמחה"
+          last_name: "מויאל"
+          email: "shirasimham@mail.tau.ac.il"
+        - first_name: "יואב"
+          last_name: "זמנבודה"
+          email: "yoavz@mail.tau.ac.il"
+        - first_name: "נועם"
+          last_name: "ינוביץ"
+          email: "noamy1@mail.tau.ac.il"
+        - first_name: "הילה"
+          last_name: "מגד"
+          email: "hilamegged@mail.tau.ac.il"
+        - first_name: "עלמה"
+          last_name: "צין"
+          email: "almaz@mail.tau.ac.il"
+        - first_name: "אודיה (מאי)"
+          last_name: "בוזגלו"
+          email: "maybuzaglo@mail.tau.ac.il"
+        - first_name: "הדר"
+          last_name: "רזון"
+          email: "hadarrazon@mail.tau.ac.il"
+        - first_name: "ספיר"
+          last_name: "עברי"
+          email: "sapirivri@mail.tau.ac.il"
+    - table: 13
+      students:
+        - first_name: "חן חנין"
+          last_name: "נצר"
+          email: "hennetzer@mail.tau.ac.il"
+        - first_name: "שי"
+          last_name: "קליין"
+          email: "shayklein1@mail.tau.ac.il"
+        - first_name: "נועם"
+          last_name: "דן"
+          email: "noamdan3@mail.tau.ac.il"
+        - first_name: "גור"
+          last_name: "הדר"
+          email: "gurhadar@mail.tau.ac.il"
+        - first_name: "מירית"
+          last_name: "מלינסקי"
+          email: "malinsky1@mail.tau.ac.il"
+        - first_name: "שחר"
+          last_name: "מור"
+          email: "shaharmor@mail.tau.ac.il"
+        - first_name: "עומר"
+          last_name: "כספי"
+          email: "omerkaspi@mail.tau.ac.il"
+        - first_name: "יובל"
+          last_name: "מוסלי"
+          email: "mosli@mail.tau.ac.il"
+        - first_name: "רון"
+          last_name: "וויס"
+          email: "ronweiss@mail.tau.ac.il"
+    - table: 14
+      students:
+        - first_name: "סיגל"
+          last_name: "זלדין"
+          email: "sigalzeldin@mail.tau.ac.il"
+        - first_name: "דיאנה"
+          last_name: "אנדרחנוב"
+          email: "dianaa@mail.tau.ac.il"
+        - first_name: "נוי"
+          last_name: "אירופה"
+          email: "noyeropa@mail.tau.ac.il"
+        - first_name: "קים"
+          last_name: "גפסון קרביץ"
+          email: "kim1@mail.tau.ac.il"
+        - first_name: "אפרת"
+          last_name: "בארי"
+          email: "efratbeeri@mail.tau.ac.il"
+        - first_name: "נועה"
+          last_name: "מורן"
+          email: "noamoran@mail.tau.ac.il"
+        - first_name: "שיר"
+          last_name: "מטרי"
+          email: "shirmatari@mail.tau.ac.il"
+        - first_name: "בר"
+          last_name: "קולכינסקי" # Name vs email mismatch (volochiansky)
+          email: "volochiansky@mail.tau.ac.il"
+        - first_name: "מאיה מושקא"
+          last_name: "אלישע"
+          email: "mayaelisha@mail.tau.ac.il"
+    - table: 15
+      students:
+        - first_name: "מישאל"
+          last_name: "מור"
+          email: "michellemor@mail.tau.ac.il"
+        - first_name: "אידנה"
+          last_name: "אפרמוב"
+          email: "idanaafremov@mail.tau.ac.il"
+        - first_name: "צור שלמה"
+          last_name: "פלדשטיין"
+          email: "tzurshlmof@mail.tau.ac.il"
+        - first_name: "נריה"
+          last_name: "גבאי"
+          email: "neryagabay@mail.tau.ac.il"
+        - first_name: "אבישג"
+          last_name: "כהן בנבנישתי"
+          email: "avishagc2@mail.tau.ac.il"
+        - first_name: "יהודה"
+          last_name: "ליאון"
+          email: "yehudalion@mail.tau.ac.il"
+        - first_name: "ינאי"
+          last_name: "כהן אופנהיים"
+          email: "yannaik@mail.tau.ac.il"
+        - first_name: "מעיין"
+          last_name: "ברמי"
+          email: "maayanbrami@mail.tau.ac.il"
+        - first_name: "נעה"
+          last_name: "גבאי"
+          email: "noagabay2@mail.tau.ac.il"
+    - table: 16
+      students:
+        - first_name: "אורן"
+          last_name: "דוגמא"
+          email: "orendugma@mail.tau.ac.il"
+        - first_name: "מתניה"
+          last_name: "ידידיה"
+          email: "matanyay@mail.tau.ac.il"
+        - first_name: "שני"
+          last_name: "בינו"
+          email: "shanibino@mail.tau.ac.il"
+        - first_name: "קרן"
+          last_name: "סגל"
+          email: "kerensegal@mail.tau.ac.il"
+        - first_name: "עמית"
+          last_name: "תורגמן"
+          email: "amitt3@mail.tau.ac.il"
+        - first_name: "זוהר"
+          last_name: "הבאוקר"
+          email: "zoharab1@mail.tau.ac.il"
+        - first_name: "אבשלום"
+          last_name: "דרשר"
+          email: "avshalomd@mail.tau.ac.il"
+        - first_name: "שירז"
+          last_name: "שתווי"
+          email: "shirazshtivi@mail.tau.ac.il"
+        - first_name: "נועה"
+          last_name: "מרום"
+          email: "noamarom3@mail.tau.ac.il"
+    - table: 17
+      students:
+        - first_name: "אפרת"
+          last_name: "טיברג עטון"
+          email: "tybergatoon@mail.tau.ac.il"
+        - first_name: "תמיר"
+          last_name: "איתן"
+          email: "tamireitan@mail.tau.ac.il"
+        - first_name: "שרה הודיה"
+          last_name: "לנדוי"
+          email: "sarahodayal@mail.tau.ac.il"
+        - first_name: "קטי"
+          last_name: "רוזנטל קטלן"
+          email: "kettyr@mail.tau.ac.il"
+        - first_name: "לינוי"
+          last_name: "סעדון"
+          email: "saadon@mail.tau.ac.il"
+        - first_name: "שי"
+          last_name: "הופמן"
+          email: "shaihoffman@mail.tau.ac.il"
+        - first_name: "שירי"
+          last_name: "בולוטין"
+          email: "shiribolotin@mail.tau.ac.il"
+        - first_name: "אור"
+          last_name: "רוזנברג"
+          email: "orrozenberg1@mail.tau.ac.il"
+        - first_name: "תומר"
+          last_name: "אלוני"
+          email: "tomeraloni@mail.tau.ac.il"
+    - table: 18
+      students:
+        - first_name: "תהילה"
+          last_name: "קבלה"
+          email: "tehilakabala@mail.tau.ac.il"
+        - first_name: "רינה"
+          last_name: "רדנסקי"
+          email: "rinaredensky@mail.tau.ac.il"
+        - first_name: "אלחנן"
+          last_name: "לונגיני"
+          email: "longini@mail.tau.ac.il"
+        - first_name: "אסף"
+          last_name: "גרינשטיין"
+          email: "grinshtain@mail.tau.ac.il"
+        - first_name: "נעם"
+          last_name: "רושה"
+          email: "noamrosha@mail.tau.ac.il"
+        - first_name: "אורלי"
+          last_name: "פורטנוי"
+          email: "orlyportnoy@mail.tau.ac.il"
+        - first_name: "אוריאל"
+          last_name: "כהן"
+          email: "orielc@mail.tau.ac.il"
+        - first_name: "גיא"
+          last_name: "רבי"
+          email: "guyrabi@mail.tau.ac.il"
+        - first_name: "הדס"
+          last_name: "רוזמן"
+          email: "hadasrosman@mail.tau.ac.il"
+    - table: 19
+      students:
+        - first_name: "נועה"
+          last_name: "שבירו"
+          email: "noashaviro@mail.tau.ac.il"
+        - first_name: "צופיה"
+          last_name: "הירשברג"
+          email: "tsofiyah@mail.tau.ac.il"
+        - first_name: "אלמוג"
+          last_name: "פרידמן"
+          email: "frydman1@mail.tau.ac.il"
+        - first_name: "דניאלה"
+          last_name: "פישר"
+          email: "daniellaf2@mail.tau.ac.il"
+        - first_name: "עמית"
+          last_name: "שקד"
+          email: "amitshaked3@mail.tau.ac.il"
+        - first_name: "עינבל"
+          last_name: "כהן אדיב"
+          email: "enbalc@mail.tau.ac.il"
+        - first_name: "עדי"
+          last_name: "שלו"
+          email: "adishalev@mail.tau.ac.il"
+        - first_name: "מיכל"
+          last_name: "קמרי"
+          email: "michalkamari@mail.tau.ac.il"
+        - first_name: "אמילי"
+          last_name: "ברוך"
+          email: "emilybaruch@mail.tau.ac.il"
+    - table: 20
+      students:
+        - first_name: "יונתן"
+          last_name: "פישר"
+          email: "joanthanf@mail.tau.ac.il"
+        - first_name: "נגה-ג'ני"
+          last_name: "בורבין"
+          email: "nogagennyb@mail.tau.ac.il"
+        - first_name: "ירין"
+          last_name: "עזר"
+          email: "yarina@mail.tau.ac.il"
+        - first_name: "גל"
+          last_name: "עוז"
+          email: "galoz1@mail.tau.ac.il"
+        - first_name: "יולי"
+          last_name: "גולדשטיין"
+          email: "yulig1@mail.tau.ac.il"
+        - first_name: "נועה"
+          last_name: "בנסל"
+          email: "noabensal@mail.tau.ac.il"
+        - first_name: "אפרת"
+          last_name: "ברוק"
+          email: "efratbrook@mail.tau.ac.il"
+        - first_name: "עומרי"
+          last_name: "ויסברג"
+          email: "omriweisberg@mail.tau.ac.il"
+  group_b: # Group ב
+    - table: 21
+      students:
+        - first_name: "אליסה"
+          last_name: "שומסקי"
+          email: "alisashusmky@mail.tau.ac.il"
+        - first_name: "לינוי"
+          last_name: "רז"
+          email: "linoyraz@mail.tau.ac.il"
+        - first_name: "קרין"
+          last_name: "עזרילביץ"
+          email: "azrilevich@mail.tau.ac.il"
+        - first_name: "מיכל"
+          last_name: "הרן" # Name vs email mismatch (michalhertz)
+          email: "michalhertz@mail.tau.ac.il"
+        - first_name: "אנסטסיה"
+          last_name: "אישנקו"
+          email: "anastasiyai@mail.tau.ac.il"
+        - first_name: "עדן"
+          last_name: "ברבי"
+          email: "edenbarabi@mail.tau.ac.il"
+        - first_name: "סתיו"
+          last_name: "שקד"
+          email: "stavshaked@mail.tau.ac.il"
+        - first_name: "עדן"
+          last_name: "משולם"
+          email: "edenmeshulam@mail.tau.ac.il"
+        - first_name: "עדינה"
+          last_name: "גרינפלד"
+          email: "adinag1@mail.tau.ac.il"
+    - table: 22
+      students:
+        - first_name: "שרון מישל"
+          last_name: "הרמן דשבסקי" # Interpreted from source
+          email: "sh3@mail.tau.ac.il"
+        - first_name: "אריאל"
+          last_name: "חדד"
+          email: "arielhadad@mail.tau.ac.il"
+        - first_name: "תו"
+          last_name: "כהן"
+          email: "tavcohen@mail.tau.ac.il"
+        - first_name: "עדן"
+          last_name: "רודריגז"
+          email: "edenrodrigez@mail.tau.ac.il"
+        - first_name: "אליס חן"
+          last_name: "קלמן"
+          email: "alicechenk@mail.tau.ac.il"
+        - first_name: "בילי"
+          last_name: "כרמלי"
+          email: "billiec@mail.tau.ac.il"
+        - first_name: "מאיה"
+          last_name: "בראון"
+          email: "mayabrown@mail.tau.ac.il"
+        - first_name: "אופיר"
+          last_name: "חורי"
+          email: "ofirhuri@mail.tau.ac.il"
+        - first_name: null
+          last_name: "אלישוב"
+          email: "elishuv@mail.tau.ac.il"
+    - table: 23
+      students:
+        - first_name: "שרון"
+          last_name: "צדיקוב"
+          email: "zadikov@mail.tau.ac.il"
+        - first_name: "הדר"
+          last_name: "קיפר"
+          email: "hadarkeiper@mail.tau.ac.il"
+        - first_name: "מריאן"
+          last_name: "זייבק"
+          email: "marianz@mail.tau.ac.il"
+        - first_name: "ערן"
+          last_name: "אסולין"
+          email: "eranassulin@mail.tau.ac.il"
+        - first_name: "בן"
+          last_name: "רוזנטל"
+          email: "benrosenthal@mail.tau.ac.il"
+        - first_name: "דנה"
+          last_name: "חדאד"
+          email: "danahaddad@mail.tau.ac.il"
+        - first_name: "נטלי"
+          last_name: "איצקוביץ"
+          email: "izkovich@mail.tau.ac.il"
+        - first_name: "חן"
+          last_name: "זפרני"
+          email: "henzafrany@mail.tau.ac.il"
+        - first_name: "ירון"
+          last_name: "וויס"
+          email: "yaronweiss@mail.tau.ac.il"
+    - table: 24
+      students:
+        - first_name: "מרים"
+          last_name: "קעדאן"
+          email: "mariamkeadan@mail.tau.ac.il"
+        - first_name: "ליהי"
+          last_name: "אלחיאני"
+          email: "lihilahyani@mail.tau.ac.il"
+        - first_name: "רעות"
+          last_name: "פרוטיץ"
+          email: "reutprotis@mail.tau.ac.il"
+        - first_name: "ענבר"
+          last_name: "ריינגולד"
+          email: "reingold2@mail.tau.ac.il"
+        - first_name: "אסף"
+          last_name: "גבעון"
+          email: "asafgivon@mail.tau.ac.il"
+        - first_name: "ענבר"
+          last_name: "רויסמן"
+          email: "inbarw1@mail.tau.ac.il"
+        - first_name: "ספיר"
+          last_name: "מזרחי"
+          email: "sapirmizrahi@mail.tau.ac.il"
+        - first_name: "נופר"
+          last_name: "לוי"
+          email: "nofarlevy2@mail.tau.ac.il"
+        - first_name: "חגית"
+          last_name: "דניאל"
+          email: "chagitdaniel@mail.tau.ac.il"
+    - table: 25
+      students:
+        - first_name: "שלומית"
+          last_name: "כהן"
+          email: "shlomitc3@mail.tau.ac.il"
+        - first_name: "ראמי"
+          last_name: "עילוטי"
+          email: "ramielouti@mail.tau.ac.il"
+        - first_name: "מאיה"
+          last_name: "שחף"
+          email: "mayashahaf@mail.tau.ac.il"
+        - first_name: "סתיו"
+          last_name: "מטמון"
+          email: "stavmatmon@mail.tau.ac.il"
+        - first_name: "רוני"
+          last_name: "פרידמן דוידוביץ"
+          email: "ronifrydman@mail.tau.ac.il"
+        - first_name: "אסתי"
+          last_name: "צייגר"
+          email: "estitseiger@mail.tau.ac.il"
+        - first_name: "נועה"
+          last_name: "נוימן"
+          email: "noaneumann1@mail.tau.ac.il"
+        - first_name: "עידו"
+          last_name: "ערד"
+          email: "idoarad2@mail.tau.ac.il"
+        - first_name: "סתיו"
+          last_name: "ליטוין"
+          email: "stavlitvin@mail.tau.ac.il"
+    - table: 26
+      students:
+        - first_name: "יוסף"
+          last_name: "קיורר"
+          email: "yosefkurer@mail.tau.ac.il"
+        - first_name: "אנט"
+          last_name: "דהן"
+          email: "anetdahan@mail.tau.ac.il"
+        - first_name: "יהלי"
+          last_name: "בסל"
+          email: "yahlibasel@mail.tau.ac.il"
+        - first_name: "רוני"
+          last_name: "מלה"
+          email: "ronymala@mail.tau.ac.il"
+        - first_name: "ירדן"
+          last_name: "צעירי"
+          email: "yardentzairi@mail.tau.ac.il"
+        - first_name: "שהרבאן"
+          last_name: "אברהים"
+          email: "shehrbani@mail.tau.ac.il"
+        - first_name: "שירה"
+          last_name: "נמירובסקי"
+          email: "nemirovsky1@mail.tau.ac.il"
+        - first_name: "מיה"
+          last_name: "פיביך"
+          email: "mayafibich1@mail.tau.ac.il"
+        - first_name: "נועם"
+          last_name: "ברוך"
+          email: "noambaruch@mail.tau.ac.il"
+    - table: 27
+      students:
+        - first_name: "אסתר"
+          last_name: "פושצ'נסקי"
+          email: "pushchansky@mail.tau.ac.il"
+        - first_name: "ורוניקה"
+          last_name: "ליוטקו"
+          email: "liutko@mail.tau.ac.il"
+        - first_name: "נוי"
+          last_name: "פיניש"
+          email: "noyfinish@mail.tau.ac.il"
+        - first_name: "עפרי"
+          last_name: "אילון"
+          email: "ofryeilon@mail.tau.ac.il"
+        - first_name: "ניקולאי"
+          last_name: "גריגורייב"
+          email: "nicolayg@mail.tau.ac.il"
+        - first_name: "נגה"
+          last_name: "בן דרור"
+          email: "nogabendror@mail.tau.ac.il"
+        - first_name: "היא"
+          last_name: "חביב"
+          email: "hayahabib1@mail.tau.ac.il"
+        - first_name: "לינוי"
+          last_name: "קיזמן"
+          email: "linoykizman@mail.tau.ac.il"
+        - first_name: "מעין מרלה"
+          last_name: "עטיה"
+          email: "maayanem@mail.tau.ac.il"
+    - table: 28
+      students:
+        - first_name: "מתן"
+          last_name: "פדרו"
+          email: "matanpedro@mail.tau.ac.il"
+        - first_name: "ליאור זאב"
+          last_name: "לוי"
+          email: "liorzeevlevy@mail.tau.ac.il"
+        - first_name: "יובל"
+          last_name: "איתן"
+          email: "yuvaleitan1@mail.tau.ac.il"
+        - first_name: "הגר"
+          last_name: "נחמיאס"
+          email: "hagarnahmias@mail.tau.ac.il"
+        - first_name: "אסתר"
+          last_name: "דיסקין"
+          email: "esterdyskin@mail.tau.ac.il"
+        - first_name: "שירה"
+          last_name: "בן יוסף"
+          email: "benyosef5@mail.tau.ac.il"
+        - first_name: "טל"
+          last_name: "רוזן"
+          email: "talrosen@mail.tau.ac.il"
+        - first_name: "נעם"
+          last_name: "עופר"
+          email: "noamofer1@mail.tau.ac.il"
+        - first_name: "דנה"
+          last_name: "לווינרד"
+          email: "danalevinrad@mail.tau.ac.il"
+    - table: 29
+      students:
+        - first_name: "שלמה"
+          last_name: "סטופל"
+          email: "stupel@mail.tau.ac.il"
+        - first_name: "ניר"
+          last_name: "גנות"
+          email: "nirganot@mail.tau.ac.il"
+        - first_name: "רננה"
+          last_name: "דרומר"
+          email: "drummer@mail.tau.ac.il"
+        - first_name: "יובל"
+          last_name: "איבגי"
+          email: "yovelivgi@mail.tau.ac.il"
+        - first_name: "טל"
+          last_name: "וויינשטיין"
+          email: "talw2@mail.tau.ac.il"
+        - first_name: "יעל"
+          last_name: "לבנון"
+          email: "yaellevanon@mail.tau.ac.il"
+        - first_name: "בר"
+          last_name: "ילינוביץ" # Name vs email mismatch (yelinovich)
+          email: "yelinovich@mail.tau.ac.il"
+        - first_name: "נטע"
+          last_name: "קפקא"
+          email: "nettakafka@mail.tau.ac.il"
+        - first_name: "נועם"
+          last_name: "מזרחי"
+          email: "noammizrahi1@mail.tau.ac.il"
+    - table: 30
+      students:
+        - first_name: "נוף"
+          last_name: "הדר"
+          email: "nofhadar@mail.tau.ac.il"
+        - first_name: "דפנה"
+          last_name: "פדרמן"
+          email: "dafnaf1@mail.tau.ac.il"
+        - first_name: "לירון"
+          last_name: "ארוך"
+          email: "lironaroch@mail.tau.ac.il"
+        - first_name: "אחינועם"
+          last_name: "שטרנליכט"
+          email: "achinoams1@mail.tau.ac.il"
+        - first_name: "דנה"
+          last_name: "גרינהויז"
+          email: "danagrunhaus@mail.tau.ac.il"
+        - first_name: "יניר"
+          last_name: "שפירא"
+          email: "yanirshapira@mail.tau.ac.il"
+        - first_name: "נעה"
+          last_name: "דוד"
+          email: "noadavid1@mail.tau.ac.il"
+        - first_name: "ויקטוריה"
+          last_name: "יכנוביץ'"
+          email: "yahnovich@mail.tau.ac.il"
+        - first_name: "מור"
+          last_name: "פלוס"
+          email: "morfelous@mail.tau.ac.il"
+    - table: 31
+      students:
+        - first_name: "לי"
+          last_name: "רודניק"
+          email: "leerudnick@mail.tau.ac.il"
+        - first_name: "טל"
+          last_name: "פוקס"
+          email: "talfux@mail.tau.ac.il"
+        - first_name: "יובל"
+          last_name: "מוהל"
+          email: "yuvalmohl@mail.tau.ac.il"
+        - first_name: "ענבר"
+          last_name: "גרינברג"
+          email: "inbarg1@mail.tau.ac.il"
+        - first_name: "שחר"
+          last_name: "רושה גביזון"
+          email: "roshegabizon@mail.tau.ac.il"
+        - first_name: "מוטי"
+          last_name: "פרגי"
+          email: "motifaragi@mail.tau.ac.il"
+        - first_name: "מאי"
+          last_name: "אזולאי"
+          email: "mayazulay@mail.tau.ac.il"
+        - first_name: "ליה"
+          last_name: "כהן"
+          email: "liacohen1@mail.tau.ac.il"
+        - first_name: "נועה"
+          last_name: "נוי"
+          email: "noanoy1@mail.tau.ac.il"
+    - table: 32
+      students:
+        - first_name: "הדס שרה"
+          last_name: "הרשקוביץ"
+          email: "hadassarah@mail.tau.ac.il"
+        - first_name: "אלון"
+          last_name: "לאין"
+          email: "alonlain@mail.tau.ac.il"
+        - first_name: "יוסף"
+          last_name: "בן יהודה"
+          email: "yosefb1@mail.tau.ac.il"
+        - first_name: "שי"
+          last_name: "פרידמן"
+          email: "shayfridman@mail.tau.ac.il"
+        - first_name: "עדן"
+          last_name: "אלטשולר" # Name vs email mismatch (edenzelig)
+          email: "edenzelig@mail.tau.ac.il"
+        - first_name: "עקיבא"
+          last_name: "שטיינר"
+          email: "akivasteiner@mail.tau.ac.il"
+        - first_name: "טל"
+          last_name: "גרא"
+          email: "talgera@mail.tau.ac.il"
+        - first_name: "יהונתן"
+          last_name: "ברוכי"
+          email: "baruchi@mail.tau.ac.il"
+        - first_name: "אריאל"
+          last_name: "וולף"
+          email: "arielwolf@mail.tau.ac.il"
+    - table: 33
+      students:
+        - first_name: "יעל"
+          last_name: "אוסטרייך"
+          email: "yaelostraich@mail.tau.ac.il"
+        - first_name: "עמית"
+          last_name: "אורון"
+          email: "amitoron@mail.tau.ac.il"
+        - first_name: "אור"
+          last_name: "האשרפוב" # Name vs email mismatch (orapenera)
+          email: "orapenera@mail.tau.ac.il"
+        - first_name: "סוזנה"
+          last_name: "בארי"
+          email: "suzanaa@mail.tau.ac.il"
+        - first_name: "גולדי"
+          last_name: "חיינר"
+          email: "goldikhainer@mail.tau.ac.il"
+        - first_name: "מאי"
+          last_name: "בכור"
+          email: "maybechor@mail.tau.ac.il"
+        - first_name: "יונית"
+          last_name: "ברונשטיין"
+          email: "yonitb@mail.tau.ac.il"
+        - first_name: "יובל"
+          last_name: "גבאי"
+          email: "yuvalgabay1@mail.tau.ac.il"
+    - table: 34
+      students:
+        - first_name: "עידו"
+          last_name: "גבאי"
+          email: "idogabay@mail.tau.ac.il"
+        - first_name: "אריאל דוד"
+          last_name: "גולדמן"
+          email: "arielgoldman@mail.tau.ac.il"
+        - first_name: "אביגיל"
+          last_name: "גולדרייך"
+          email: "avigailg1@mail.tau.ac.il"
+        - first_name: "טל"
+          last_name: "דהן"
+          email: "tald1@mail.tau.ac.il"
+        - first_name: "נופר"
+          last_name: "שקד"
+          email: "nofarshaked@mail.tau.ac.il"
+        - first_name: "יונתן"
+          last_name: "דיין"
+          email: "jd1@mail.tau.ac.il"
+        - first_name: "דויד"
+          last_name: "ביטון"
+          email: "davidbiton1@mail.tau.ac.il"
+        - first_name: "דוד"
+          last_name: "דישל"
+          email: "daviddyshel@mail.tau.ac.il"
+    - table: 35
+      students:
+        - first_name: "מיכל"
+          last_name: "ואק"
+          email: "michalvak@mail.tau.ac.il"
+        - first_name: "יהונתן"
+          last_name: "והב"
+          email: "yehonatanv1@mail.tau.ac.il"
+        - first_name: "שיר"
+          last_name: "וויסלר"
+          email: "shirweissler@mail.tau.ac.il"
+        - first_name: "אנסטסיה"
+          last_name: "וולמוז'קו"
+          email: "anastasiiav@mail.tau.ac.il"
+        - first_name: "לינוי"
+          last_name: "שרון"
+          email: "linoysharon@mail.tau.ac.il"
+        - first_name: "ורג'יניה"
+          last_name: "זכאכ"
+          email: "zakkak@mail.tau.ac.il"
+        - first_name: "אדם"
+          last_name: "חביב"
+          email: "adamhabib@mail.tau.ac.il"
+        - first_name: "עמיחי"
+          last_name: "דביר"
+          email: "amichaidvir@mail.tau.ac.il"
+    - table: 36
+      students:
+        - first_name: "סלימאן"
+          last_name: "חוטבא"
+          email: "sleemank@mail.tau.ac.il"
+        - first_name: "מוחמד"
+          last_name: "שמאליה"
+          email: "shamaliah@mail.tau.ac.il"
+        - first_name: "יומנא"
+          last_name: "חבשי"
+          email: "yomnahabashi@mail.tau.ac.il"
+        - first_name: "מירנה"
+          last_name: "חיר"
+          email: "mirnakheir@mail.tau.ac.il"
+        - first_name: "מרים"
+          last_name: "טהה"
+          email: "maryamt@mail.tau.ac.il"
+        - first_name: "מאיה"
+          last_name: "טויטו"
+          email: "mayatwito@mail.tau.ac.il"
+        - first_name: "דניאלה"
+          last_name: "יוסופוב" # Name vs email mismatch (yusupov)
+          email: "yusupov@mail.tau.ac.il"
+        - first_name: "דניאלה" # Duplicate name/email?
+          last_name: "יוסופוב" # Name vs email mismatch (yosupov)
+          email: "yosupov@mail.tau.ac.il"
+    - table: 37
+      students:
+        - first_name: "אמיר"
+          last_name: "יוסף"
+          email: "amiryoseph@mail.tau.ac.il"
+        - first_name: "מאיה"
+          last_name: "יעבץ חן"
+          email: "mayy@mail.tau.ac.il"
+        - first_name: "ליאן"
+          last_name: "שרארה"
+          email: "sharara@mail.tau.ac.il"
+        - first_name: "טליה"
+          last_name: "כהן"
+          email: "talyac2@mail.tau.ac.il"
+        - first_name: "עומר"
+          last_name: "כהן"
+          email: "omer7@mail.tau.ac.il"
+        - first_name: "נועה"
+          last_name: "כרמל"
+          email: "noacarmel@mail.tau.ac.il"
+        - first_name: "איתי"
+          last_name: "לוי"
+          email: "itaylevi3@mail.tau.ac.il"
+        - first_name: "ילין"
+          last_name: "לוי"
+          email: "yalinlevy@mail.tau.ac.il"
+    - table: 38
+      students:
+        - first_name: "נועה"
+          last_name: "לישינסקי"
+          email: "noalishinsky@mail.tau.ac.il"
+        - first_name: "מורן"
+          last_name: "מנור"
+          email: "moranmanor1@mail.tau.ac.il"
+        - first_name: "אבלין"
+          last_name: "נוביצקי"
+          email: "evelinn@mail.tau.ac.il"
+        - first_name: "שאדי"
+          last_name: "נסאר"
+          email: "shadinassar@mail.tau.ac.il"
+        - first_name: "יאסמין"
+          last_name: "סולטאני"
+          email: "yasmins2@mail.tau.ac.il"
+        - first_name: "שני"
+          last_name: "סימון"
+          email: "shanisimon@mail.tau.ac.il"
+        - first_name: "רוזה"
+          last_name: "תומא"
+          email: "rosat@mail.tau.ac.il"
+        - first_name: "שקד"
+          last_name: "ערוסי"
+          email: "shakedarusi@mail.tau.ac.il"
+    - table: 39
+      students:
+        - first_name: "נגם"
+          last_name: "פריג"
+          email: "nagamfreg@mail.tau.ac.il"
+        - first_name: "דני"
+          last_name: "צ'צ'שוילי"
+          email: "dani@mail.tau.ac.il"
+        - first_name: "יסמין"
+          last_name: "רוזנברג"
+          email: "yasminr1@mail.tau.ac.il"
+        - first_name: "הילה"
+          last_name: "רחמיאל"
+          email: "hilarachmiel@mail.tau.ac.il"
+        - first_name: "תמר"
+          last_name: "רימון"
+          email: "tamarrimon@mail.tau.ac.il"
+        - first_name: "שקד"
+          last_name: "אלקון"
+          email: "shakedelkon@mail.tau.ac.il"
+        - first_name: "ידידיה"
+          last_name: "רשף"
+          email: "yedidyar@mail.tau.ac.il"
+        - first_name: "סלמא"
+          last_name: "שומרי"
+          email: "salmashomary@mail.tau.ac.il"
+    - table: 40
+      students:
+        - first_name: "שחר"
+          last_name: "שילת"
+          email: "shaharshilat@mail.tau.ac.il"
+        - first_name: "לין"
+          last_name: "חזיזה"
+          email: "linhaziza@mail.tau.ac.il"
+        - first_name: "אפק"
+          last_name: "שפיגלר"
+          email: "ofekshpigler@mail.tau.ac.il"
+        - first_name: "רונן"
+          last_name: "דוידוב"
+          email: "ronendavidov@mail.tau.ac.il"
+        - first_name: "מתן"
+          last_name: "יצחקי מירון"
+          email: "matanitzhaki@mail.tau.ac.il"
+        - first_name: "אשר"
+          last_name: "וקנין" # Name vs email mismatch (oshervaknin)
+          email: "oshervaknin@mail.tau.ac.il"
+        - first_name: "לי"
+          last_name: "סימן טוב"
+          email: "leesimantov@mail.tau.ac.il"
+        - first_name: "דניאל"
+          last_name: "תמם"
+          email: "danieltamam@mail.tau.ac.il"
+
+clinical_day_schedule:
+  course: "יום קליני" # Clinical Day
+  year: "תשפ\"ה" # 2025 Academic Year
+  semester: "ב'" # Semester B
+  group_a:
+    schedule_title: "לו\"ז היום הקליני גוש א' - תשפ\"ה"
+    entries:
+      - date: "19.3.2025"
+        events:
+          - type: "הרצאות א-סינכרוניות" # Asynchronous Lectures
+            details: { number: 15, topic: "תקשורת: הראיון הרפואי מתן מידע" }
+          - type: "הרצאות פרונטליות" # Frontal Lectures
+            time: "10:15-13:45"
+            location: "אולם לולה"
+            topics:
+              - "אתיקה: מבוא, כבוד האדם וזכויות אדם"
+              - "אתיקה: ערך החיים, וקבלת החלטות בענייני חיים ומוות"
+          - type: "מצפ\"ן 6" # MATZPAN 6 Session
+            time: "14:15-15:45"
+            topic: "לאחר המבחנים- דרכי התמודדות וכוחות לסמסטר"
+      - date: "26.3.2025"
+        events:
+          - type: "הרצאות א-סינכרוניות" # Asynchronous Lectures
+            details: { number: "16-17", topics: ["תקשורת: קבלת החלטות משותפת", "תקשורת: השקעה בסיכום"] }
+          - type: "התנסות קלינית" # Clinical Experience
+            time: "10:15-13:45"
+      - date: "2.4.2025"
+        events:
+          - type: "סימולציה 2" # Simulation 2
+            time: "8:15-13:45"
+            topic: "הראיון הרפואי ובדיקה פיזיקלית"
+          - type: "מצפ\"ן 7" # MATZPAN 7 Session
+            time: "14:15-15:45"
+            topic: "עיבוד למידה" # Learning processing
+      - date: "23.4.2025"
+        events:
+          - type: "הרצאות א-סינכרוניות" # Asynchronous Lectures
+            details: { number: "18-19", topics: ["אתיקה: קבלת החלטות, והסכמה מדעת", "אתיקה: חסרי ישע ודפוסי יעוץ רפואי"] }
+          - type: "התנסות קלינית" # Clinical Experience
+            time: "10:15-13:45"
+      - date: "7.5.2025"
+        events:
+          - type: "הרצאות א-סינכרוניות" # Asynchronous Lectures
+            details:
+              number: "20-23"
+              topics:
+                - "סוציולוגיה: בריאות שלמה ומבוא לסומטיזציה"
+                - "אתיקה: מטרות הרפואה ותופעות הלוואי שלה"
+                - "אתיקה: ניגודי עניינים: האיזון בין האני למטופל"
+                - "משפט: פרקטיקה מקובלת ומטפל סביר"
+      - date: "14.5.2025"
+        events:
+          - type: "הרצאות א-סינכרוניות" # Asynchronous Lectures
+            details: { number: 24, topic: "פסיכולוגיה: היוריסטיקות והטיות בראיון הרפואי חלק ב'" }
+          - type: "הרצאה פרונטלית" # Frontal Lecture
+            time: "12:00-13:00" # Note specific time
+            location: "אולם דולפי" # Dolphin Hall
+            topic: "סוציולוגיה: מגוון, שיוויון, הכללה וכשירות תרבותית"
+            moodle_location: "תיאורטי -> סוציולוגיה -> שווים? שונים? פערי בריאות ותרבות" # From combined image
+          - type: "מצפ\"ן 8" # MATZPAN 8 Session
+            time: "10:15-13:45" # Note time overlaps with 12-13 lecture
+            topic: "סוציולוגיה: פערי בריאות וקובעים חברתיים של בריאות"
+            moodle_location: "תיאורטי -> סוציולוגיה" # From combined image
+          - type: "מצפ\"ן" # MATZPAN activity
+            time: "14:15-15:45"
+            topic: "שיחות אישיות בזום" # Personal Zoom calls
+          - type: "מטלת רפלקציה 3" # Reflection Assignment 3
+            details: "רפלקציה ררב\"ג"
+            deadline: "להגשה עד ה-20.5.2025, 23:59" # Due by 20.5.2025, 23:59
+      - date: "Reading Assignment for 21.5.2025"
+        topic: "רפואה ושואה" # Medicine and the Holocaust
+        readings:
+          - text: "נדב, ד' (2006). רפואה ונאציזם. פרקים א'-ד'. תל- אביב: האוניברסיטה המשודרת, משרד הביטחון."
+            moodle_location: "תיאורטי -> רפואה ושואה -> קריאת חובה"
+            link_name: "רפואה ונאציזם פרקים א-ד"
+          - text: "נדב, ד' (2006). רפואה ונאציזם. פרק ו'. תל - אביב: האוניברסיטה המשודרת, משרד הביטחון."
+            moodle_location: "תיאורטי -> רפואה ושואה -> קריאת חובה"
+            link_name: "רפואה ושואה - חומרי קריאה"
+          - text: "עופר, מ' (2015). חלוק לבן בגטו, מבט על קורות הרפואה היהודית בפולין בתקופת השואה (עמ' 475-488). ירושלים: יד ושם."
+            moodle_location: "תיאורטי -> רפואה ושואה -> קריאת חובה"
+            link_name: "חלוק לבן בגטו"
+      - date: "21.5.2025"
+        events:
+          - type: "הרצאות א-סינכרוניות" # Asynchronous Lectures
+            details:
+              number: "25-26"
+              topics:
+                - topic: "פסיכולוגיה: הנגשה ברפואה" # Psychology: Accessibility in medicine
+                  moodle_location: "תיאורטי -> פסיכולוגיה -> הנגשה ברפואה"
+                  link_name: "הנגשה ברפואה"
+                - topic: "רפואה ושואה" # Medicine and the Holocaust
+                  moodle_location: "תיאורטי -> רפואה ושואה"
+                  link_name: "רפואה ושואה"
+          - type: "התנסות קלינית" # Clinical Experience
+            time: "10:15-13:45"
+      - date: "28.5.2025"
+        events:
+          - type: "עזרה ראשונה" # First Aid
+            # Time not specified, covers this date and potentially 4.6.25
+      - date: "4.6.2025"
+        events:
+           - type: "עזרה ראשונה" # First Aid (Continuation)
+            # Time not specified
+      - date: "11.6.2025"
+        events:
+          - type: "סימולציה 3" # Simulation 3
+            time: "8:15-13:45"
+            topic: "אנמנזה + בדיקה פיזיקלית" # Anamnesis + Physical examination
+          - type: "מצפ\"ן 9" # MATZPAN 9 Session
+            time: "14:15-15:45"
+            topic: "עיבוד למידה" # Learning processing
+      - date: "18.6.2025"
+        events:
+          - type: "למידה עצמית 5" # Self-study 5
+            topic: "לקראת סימולציה מסכמת" # In preparation for summary simulation
+            moodle_location: "ראיון רפואי ובדיקה גופנית -> תוכן" # From combined image
+      - date: "25.6.2025"
+        events:
+          - type: "התנסות קלינית" # Clinical Experience
+            time: "8:15-11:45"
+            notes: "מילוי שאלוני הערכה" # Filling evaluation questionnaires
+          - type: "מצפ\"ן 10" # MATZPAN 10 Session
+            time: "14:15-15:45"
+            topic: "סיכום שנה" # Year summary
+          - type: "מטלת רפלקציה 4" # Reflection Assignment 4
+            details: "רפלקציה מצפ\"ן"
+            deadline: "להגשה עד ה-1.7.2025, 23:59" # Due by 1.7.2025, 23:59
+      - date: "2.7.2025"
+        events:
+          - type: "סימולציות מבחן" # Exam Simulations
+            time: "8:15-15:45"
+            topic: "אנמנזה + בדיקה" # Anamnesis + Examination
+
+  group_b:
+    schedule_title: "קורס יום קליני גוש ב׳ - סמסטר ב'"
+    entries:
+      - date: "19.3.25"
+        events:
+          - type: "עזרה ראשונה" # First Aid
+            # Time not specified
+      - date: "26.3.25"
+        events:
+          - type: "קריאה לקראת 2.4.25" # Reading for 2.4.25
+            topic: "ראיון רפואי ובדיקה גופנית"
+            details: "לקראת השיעור \"מתן מידע והשקעה בסיכום\" יש לקרוא בספר הקורס, עמ' 35-45"
+      - date: "2.4.25"
+        events:
+          - type: "הרצאה א-סינכרונית" # Asynchronous Lecture
+            topic: "תקשורת- הראיון הרפואי מתן מידע"
+            moodle_location: "תיאורטי->תקשורת->מתן מידע חלק א'"
+            link_name: "מתן מידע"
+          - type: "התנסות קלינית" # Clinical Experience
+            time: "10:15-13:45"
+          - type: "הרצאה א-סינכרונית" # Asynchronous Lecture
+            topic: "תקשורת- קבלת החלטות משותפת"
+            moodle_location: "תיאורטי->תקשורת->מתן מידע חלק ב'"
+            link_name: "קבלת החלטות משותפת"
+      - date: "23.4.25"
+        events:
+          - type: "הרצאה א-סינכרונית" # Asynchronous Lecture
+            topic: "תקשורת- השקעה בסיכום"
+            moodle_location: "תיאורטי->תקשורת->השקעה בסיכום"
+            link_name: "השקעה בסיכום"
+          - type: "הרצאה פרונטלית" # Frontal Lecture
+            time: "10:15-11:45"
+            topic: "סוציולוגיה- שווים? שונים? על פערי בריאות ופערי תרבות בעולם הרפואה"
+          - type: "הרצאה פרונטלית" # Frontal Lecture
+            time: "12:15-13:45"
+            topic: "סוציולוגיה- סוציולוגיה: חברה, מדע, כוח והרופא/ה שבינהם"
+          - type: "קבוצת מצפ\"ן" # MATZPAN Group
+            time: "14:15-15:45"
+            topic: "מפגש 6" # Meeting 6
+      - date: "7.5.25"
+        events:
+          - type: "הרצאה א-סינכרונית" # Asynchronous Lecture
+            topic: "פסיכולוגיה- היוריסטיקות והטיות בראיון הרפואי חלק ב' (מתן מידע, סיכום)"
+            moodle_location: "תיאורטי->פסיכולוגיה->היוריסטיקות והטיות בראיון הרפואי חלק ב' (מתן מידע, סיכום)"
+            link_name: "היוריסטיקות והטיות בראיון הרפואי חלק ב'"
+          - type: "סימולציה 2" # Simulation 2
+            time: "10:15-15:45"
+            topic: "אנמנזה+ בדיקה פיזיקלית"
+      - date: "14.5.25"
+        events:
+          - type: "הרצאה א-סינכרונית" # Asynchronous Lecture
+            topic: "משפט- פרקטיקה מקובלת ומטפל סביר"
+            moodle_location: "תיאורטי->משפט->פרקטיקה מקובלת ומטפל סביר"
+            link_name: "פרקטיקה מקובלת ומטפל סביר"
+          - type: "הרצאה פרונטלית" # Frontal Lecture
+            time: "10:15-11:45"
+            location: "אולם לולה"
+            topic: "אתיקה- מבוא, כבוד האדם וזכויות אדם"
+          - type: "הרצאה פרונטלית" # Frontal Lecture
+            time: "12:15-13:45"
+            location: "אולם לולה"
+            topic: "אתיקה- ערך החיים, וקבלת החלטות בענייני חיים ומוות"
+          - type: "קבוצת מצפ\"ן" # MATZPAN Group
+            time: "14:15-15:45"
+            topic: "מפגש 7- עיבוד למידה" # Meeting 7 - Learning processing
+      - date: "21.5.25"
+        events:
+          - type: "הרצאה א-סינכרונית" # Asynchronous Lecture
+            topic: "אתיקה- קבלת החלטות, והסכמה מדעת"
+            moodle_location: "תיאורטי->אתיקה->קבלת החלטות, והסכמה מדעת"
+            link_name: "קבלת החלטות והסכמה מדעת"
+          - type: "התנסות קלינית" # Clinical Experience
+            time: "10:15-13:45"
+          - type: "הרצאה א-סינכרונית" # Asynchronous Lecture
+            topic: "אתיקה- חסרי ישע ודפוסי יעוץ רפואי"
+            moodle_location: "תיאורטי->אתיקה->חסרי ישע ודפוסי יעוץ רפואי"
+            link_name: "חסרי ישע ודפוסי ייעוץ רפואי"
+          - type: "מטלת רפלקציה ררב\"ג" # Reflection Assignment RRBG
+            details: "מטלת רפלקציה מס' 3"
+            deadline: "להגשה עד 27.5.25 בשעה 23:59"
+            moodle_location: "ראיון רפואי ובדיקה גופנית->שם המנחה"
+      - date: "28.5.25"
+        events:
+          - type: "סימולציה 3" # Simulation 3
+            time: "8:15-13:45"
+            topic: "הריאיון הרפואי ובדיקה גופנית"
+          - type: "קבוצת מצפ\"ן" # MATZPAN Group
+            time: "14:15-15:45"
+            topic: "מפגש 8- ללמוד ממטופל" # Meeting 8 - Learning from patient
+      - date: "4.6.25"
+        events:
+          - type: "למידה עצמית" # Self-study
+            topic: "למידה לקראת סימולציה מסכמת"
+      - date: "Reading Assignment for 11.6.25"
+        topic: "רפואה ושואה" # Medicine and the Holocaust
+        readings:
+          - text: "נדב, ד' (2006). רפואה ונאציזם. פרקים א'-ד'. תל- אביב: האוניברסיטה המשודרת, משרד הביטחון."
+            moodle_location: "תיאורטי->רפואה ושואה->קריאת חובה"
+            link_name: "רפואה ונאציזם פרקים א'-ד'"
+          - text: "נדב, ד' (2006). רפואה ונאציזם. פרק ו'. תל- אביב: האוניברסיטה המשודרת, משרד הביטחון."
+            moodle_location: "תיאורטי->רפואה ושואה->קריאת חובה"
+            link_name: "רפואה ושואה- חומרי קריאה"
+          - text: "עופר, מ' (2015). חלוק לבן בגטו, מבט על קורות הרפואה היהודית בפולין בתקופת השואה (עמ' 475-488). ירושלים: יד ושם."
+            moodle_location: "תיאורטי->רפואה ושואה->קריאת חובה"
+            link_name: "חלוק לבן בגטו"
+      - date: "11.6.25"
+        events:
+          - type: "הרצאה א-סינכרונית" # Asynchronous Lecture
+            topic: "רפואה ושואה"
+            moodle_location: "תיאורטי->רפואה ושוא" # Moodle location seems cut off
+            link_name: "הרפואה ושואה"
+          - type: "התנסות קלינית" # Clinical Experience
+            time: "10:15-13:45"
+          - type: "קבוצת מצפ\"ן" # MATZPAN Group
+            time: "14:15-15:45"
+            topic: "שיחות אישיות בזום" # Personal Zoom calls
+      - date: "18.6.25"
+        events:
+          - type: "סימולציות מבחן" # Exam Simulations
+            time: "8:15-15:45"
+            topic: "אנמנזה+ בדיקות" # Anamnesis + Exams
+      - date: "25.6.25"
+        events:
+          - type: "הרצאות א-סינכרוניות" # Asynchronous Lectures
+            topics:
+              - topic: "אתיקה- מטרות הרפואה ותופעות הלוואי שלה"
+                moodle_location: "תיאורטי->אתיקה->מטרות הרפואה ותופעות הלוואי שלה"
+                link_name: "מטרות הרפואה ותופעות הלוואי שלה"
+              - topic: "אתיקה: ניגודי עניינים: האיזון בין האני למטופל"
+                moodle_location: "תיאורטי->אתיקה->ניגודי עניינים: האיזון בין האני למטופל"
+                link_name: "ניגוד עניינים: האיזון בין האני למטופל"
+              - topic: "סוציולוגיה- מבוא לסומטיזציה- כשהגוף מרחם על הנפש"
+                moodle_location: "תיאורטי->סוציולוגיה->מבוא לסומטיזציה- כשהגוף מרחם על הנפש"
+                # Link name missing
+              - topic: "פסיכולוגיה- הנגשה ברפואה"
+                moodle_location: "תיאורטי->פסיכולוגיה->הנגשה ברפואה"
+                link_name: "הנגשה ברפואה"
+      - date: "2.7.25"
+        events:
+          - type: "התנסות קלינית" # Clinical Experience
+            time: "8:15-11:45"
+            notes: "מילוי שאלוני הערכה" # Filling evaluation questionnaires
+          - type: "קבוצת מצפ\"ן" # MATZPAN Group
+            time: "14:15-15:45"
+            topic: "סיכום שנה" # Year summary
+          - type: "מטלת רפלקציה מצפ\"ן" # Reflection Assignment MATZPAN
+            details: "מטלת רפלקציה מס' 4"
+            deadline: "להגשה עד 8.7.25 בשעה 23:59"
+            moodle_location: "מצפ\"ן->שם המנחה"
+
+  group_c:
+    schedule_title: "קורס יום קליני גוש ג׳ - סמסטר ב'"
+    entries:
+      - date: "19.3.25"
+        events:
+          - type: "עזרה ראשונה" # First Aid
+            # Time not specified
+      - date: "26.3.25"
+        events:
+          - type: "קריאה לקראת 2.4.25" # Reading for 2.4.25
+            topic: "ראיון רפואי ובדיקה גופנית"
+            details: "לקראת השיעור \"מתן מידע והשקעה בסיכום\" יש לקרוא בספר הקורס, עמ' 35-45"
+            moodle_location: "תיאורטי->תקשורת->ספר הקורס"
+            link_name: "ספר הקורס"
+      - date: "2.4.25"
+        events:
+          - type: "הרצאות א-סינכרוניות" # Asynchronous Lectures
+            topics:
+              - topic: "תקשורת- הראיון הרפואי מתן מידע"
+                moodle_location: "תיאורטי->תקשורת->מתן מידע"
+                link_name: "מתן מידע"
+              - topic: "תקשורת- קבלת החלטות משותפת"
+                moodle_location: "תיאורטי->תקשורת->קבלת החלטות משותפת"
+                link_name: "קבלת החלטות משותפת"
+              - topic: "תקשורת- השקעה בסיכום"
+                moodle_location: "תיאורטי->תקשורת->השקעה בסיכום"
+                link_name: "השקעה בסיכום"
+              - topic: "משפט- פרקטיקה מקובלת ומטפל סביר"
+                moodle_location: "תיאורטי->משפט->פרקטיקה מקובלת ומטפל סביר"
+                link_name: "פרקטיקה מקובלת ומטפל סביר"
+      - date: "23.4.25"
+        events:
+          - type: "סימולציה 2" # Simulation 2
+            time: "8:15-13:45"
+            topic: "הריאיון הרפואי ובדיקה פיזיקלית"
+          - type: "קבוצת מצפ\"ן" # MATZPAN Group
+            time: "14:15-15:45"
+            topic: "מפגש 6- עיבוד למידה" # Meeting 6 - Learning processing
+      - date: "7.5.25"
+        events:
+          - type: "הרצאה א-סינכרונית" # Asynchronous Lecture
+            topic: "אתיקה- מבוא, כבוד האדם וזכויות אדם"
+            moodle_location: "תיאורטי->אתיקה->מבוא, כבוד האדם וזכויות אדם"
+            link_name: "מבוא כבוד האדם וזכויות אדם"
+          - type: "התנסות קלינית" # Clinical Experience
+            time: "10:15-13:45"
+          - type: "הרצאה א-סינכרונית" # Asynchronous Lecture
+            topic: "אתיקה- ערך החיים, וקבלת החלטות בענייני חיים ומוות"
+            moodle_location: "תיאורטי->אתיקה->ערך החיים, וקבלת החלטות בענייני חיים ומוות"
+            link_name: "ערך החיים וקבלת החלטות בענייני חיים ומוות"
+      - date: "14.5.25"
+        events:
+          - type: "הרצאה א-סינכרונית" # Asynchronous Lecture
+            topic: "פסיכולוגיה- היוריסטיקות והטיות בראיון הרפואי חלק ב' (מתן מידע, סיכום)"
+            moodle_location: "תיאורטי->פסיכולוגיה->היוריסטיקות והטיות בראיון הרפואי חלק ב'"
+            link_name: "היוריסטיקות והטיות בראיון הרפואי חלק ב'"
+          - type: "הרצאה פרונטלית" # Frontal Lecture
+            time: "10:15-11:45"
+            location: "אולם דולפי"
+            topic: "סוציולוגיה- שווים? שונים? על פערי בריאות ופערי תרבות בעולם הרפואה"
+          - type: "הרצאה פרונטלית" # Frontal Lecture
+            time: "12:15-13:45"
+            location: "אולם דולפי"
+            topic: "סוציולוגיה- חברה, מדע, כוח והרופא/ה שבניהם"
+          - type: "הרצאה א-סינכרונית" # Asynchronous Lecture
+            topic: "פסיכולוגיה- הנגשה ברפואה"
+            moodle_location: "תיאורטי->פסיכולוגיה->הנגשה ברפואה"
+            link_name: "הנגשה ברפואה"
+      - date: "21.5.25"
+        events:
+          - type: "סימולציה 3" # Simulation 3
+            time: "8:15-13:45"
+            topic: "אנמנזה+ בדיקה פיזיקלית"
+          - type: "קבוצת מצפ\"ן" # MATZPAN Group
+            time: "14:15-15:45"
+            topic: "מפגש 7- עיבוד למידה" # Meeting 7 - Learning processing
+      - date: "28.5.25"
+        events:
+          - type: "הרצאה א-סינכרונית" # Asynchronous Lecture
+            topic: "אתיקה- קבלת החלטות, והסכמה מדעת"
+            moodle_location: "תיאורטי->אתיקה->קבלת החלטות, והסכמה מדעת"
+            link_name: "קבלת החלטות והסכמה מדעת"
+          - type: "התנסות קלינית" # Clinical Experience
+            time: "10:15-13:45"
+          - type: "הרצאה א-סינכרונית" # Asynchronous Lecture
+            topic: "אתיקה- חסרי ישע ודפוסי יעוץ רפואי"
+            moodle_location: "תיאורטי->אתיקה->חסרי ישע ודפוסי יעוץ רפואי"
+            link_name: "חסרי ישע ודפוסי ייעוץ רפואי"
+          - type: "מטלת רפלקציה ררב\"ג" # Reflection Assignment RRBG
+            details: "מטלת רפלקציה מס' 3"
+            deadline: "להגשה עד 3.6.25 בשעה 23:59"
+            moodle_location: "ראיון רפואי ובדיקה גופנית->שם המנחה"
+      - date: "4.6.25"
+        events:
+          - type: "הרצאה א-סינכרונית" # Asynchronous Lecture
+            topic: "סוציולוגיה- בריאות שלמה ומבוא לסומטיזציה"
+            moodle_location: "תיאורטי->סוציולוגיה->בריאות שלמה ומבוא לסומטיזציה"
+            # Link name missing
+          - type: "הרצאה פרונטלית" # Frontal Lecture
+            time: "10:15-11:45"
+            location: "אולם לולה"
+            topic: "אתיקה- מטרות הרפואה ותופעות הלוואי שלה"
+          - type: "הרצאה פרונטלית" # Frontal Lecture
+            time: "12:15-13:45" # Labeled just "אתיקה" in title bar
+            location: "אולם לולה"
+            topic: "אתיקה: ניגודי עניינים: האיזון בין האני למטופל"
+          - type: "קבוצת מצפ\"ן" # MATZPAN Group
+            time: "14:15-15:45"
+            topic: "מפגש 8- ללמוד ממטופל" # Meeting 8 - Learning from patient
+      - date: "11.6.25"
+        events:
+          - type: "למידה עצמית" # Self-study
+            topic: "למידה לקראת סימולציה מסכמת"
+      - date: "Reading Assignment for 18.6.25"
+        topic: "רפואה ושואה" # Medicine and the Holocaust
+        readings:
+           - text: "נדב, ד' (2006). רפואה ונאציזם. פרקים א'-ד'. תל- אביב: האוניברסיטה המשודרת, משרד הביטחון."
+             moodle_location: "תיאורטי->רפואה ושואה->קריאת חובה"
+             link_name: "מבוא לרפואה ונאציזם פרק א'-ד'"
+           - text: "נדב, ד' (2006). רפואה ונאציזם. פרק ו'. תל- אביב: האוניברסיטה המשודרת, משרד הביטחון."
+             moodle_location: "תיאורטי->רפואה ושואה->קריאת חובה"
+             link_name: "רפואה ושואה- חומרי קריאה"
+           - text: "עופר, מ' (2015). חלוק לבן בגטו, מבט על קורות הרפואה היהודית בפולין בתקופת השואה (עמ' 475-488). ירושלים: יד ושם."
+             moodle_location: "תיאורטי->רפואה ושואה->קריאת חובה"
+             link_name: "חלוק לבן בגטו"
+      - date: "18.6.25"
+        events:
+          - type: "הרצאה א-סינכרונית" # Asynchronous Lecture
+            topic: "רפואה ושואה"
+            moodle_location: "תיאורטי->רפואה ושוא" # Moodle location seems cut off
+            link_name: "הרפואה ושואה"
+          - type: "התנסות קלינית" # Clinical Experience
+            time: "10:15-13:45"
+          - type: "קבוצת מצפ\"ן" # MATZPAN Group
+            time: "14:15-15:45"
+            topic: "שיחות אישיות בזום" # Personal Zoom calls
+      - date: "25.6.25"
+        events:
+          - type: "סימולציות מבחן" # Exam Simulations
+            time: "8:15-15:45"
+            topic: "אנמנזה+ בדיקות" # Anamnesis + Exams
+      - date: "2.7.25"
+        events:
+          - type: "התנסות קלינית" # Clinical Experience
+            time: "8:15-11:45"
+            notes: "מילוי שאלוני הערכה" # Filling evaluation questionnaires
+          - type: "קבוצת מצפ\"ן" # MATZPAN Group
+            time: "14:15-15:45"
+            topic: "סיכום שנה" # Year summary
+          - type: "מטלת רפלקציה מצפ\"ן" # Reflection Assignment MATZPAN
+            details: "מטלת רפלקציה מס' 4"
+            deadline: "להגשה עד 8.7.25 בשעה 23:59"
+            moodle_location: "מצפ\"ן->שם המנחה"
+
+rrbg_group_assignments:
+  group: "א'" # Block A
+  groups:
+    - instructor: "אדלר לימור" # Adler Limor
+      first_meeting:
+        date: "4.12.24"
+        room: "105"
+      students:
+        - last_name: "אזולאי"
+          first_name: "מאי"
+          gender: "נקבה" # Female
+        - last_name: "בולוטין"
+          first_name: "שירי"
+          gender: "נקבה"
+        - last_name: "בלאו"
+          first_name: "איתי דניאל"
+          gender: "זכר" # Male
+        - last_name: "גרינשטיין"
+          first_name: "אסף"
+          gender: "זכר"
+        - last_name: "טימקובסקי"
+          first_name: "אלי"
+          gender: "זכר"
+        - last_name: "טראוב"
+          first_name: "אריאל"
+          gender: "נקבה"
+        - last_name: "מאיירס"
+          first_name: "מוריה"
+          gender: "נקבה"
+        - last_name: "צין"
+          first_name: "עלמה"
+          gender: "נקבה"
+    - instructor: "אשר נתי" # Asher Nati
+      first_meeting:
+        date: "4.12.24"
+        room: "108"
+      students:
+        - last_name: "בן יהודה"
+          first_name: "יוסף"
+          gender: "זכר"
+        - last_name: "בסל"
+          first_name: "יהלי"
+          gender: "נקבה"
+        - last_name: "ברוך"
+          first_name: "נועם"
+          gender: "נקבה"
+        - last_name: "ברקו"
+          first_name: "דרור"
+          gender: "נקבה"
+        - last_name: "וולף"
+          first_name: "אריאל"
+          gender: "זכר"
+        - last_name: "חוג'ה"
+          first_name: "גיל שרה"
+          gender: "נקבה"
+        - last_name: "ירניצקי"
+          first_name: "אלונה"
+          gender: "נקבה"
+        - last_name: "פרידמן דוידוביץ"
+          first_name: "רוני"
+          gender: "נקבה"
+    - instructor: "גוליק טלי" # Golik Tali
+      first_meeting:
+        date: "4.12.24"
+        room: "120 א'" # Room 120 A
+      students:
+        - last_name: "אדר"
+          first_name: "מאיה"
+          gender: "נקבה"
+        - last_name: "בן דוד"
+          first_name: "דוד"
+          gender: "זכר"
+        - last_name: "ברק"
+          first_name: "אביב"
+          gender: "נקבה"
+        - last_name: "ולכינסקי" # Volochiansky/Kolchinsky
+          first_name: "ברק"
+          gender: "זכר"
+        - last_name: "כספי"
+          first_name: "עומר"
+          gender: "נקבה"
+        - last_name: "משולם"
+          first_name: "עדן"
+          gender: "נקבה"
+        - last_name: "עזר"
+          first_name: "ירין"
+          gender: "זכר"
+        - last_name: "רוזמן"
+          first_name: "הדס"
+          gender: "נקבה"
+    - instructor: "זכאי גליה" # Zakai Galia
+      first_meeting:
+        date: "4.12.24"
+        room: "120 ב'" # Room 120 B
+      students:
+        - last_name: "אליאס"
+          first_name: "אופיר"
+          gender: "נקבה"
+        - last_name: "ברוך"
+          first_name: "אמילי"
+          gender: "נקבה"
+        - last_name: "ברוש"
+          first_name: "שירי"
+          gender: "נקבה"
+        - last_name: "הדר"
+          first_name: "גור"
+          gender: "זכר"
+        - last_name: "טל"
+          first_name: "גיא"
+          gender: "נקבה"
+        - last_name: "טפירו"
+          first_name: "תובל"
+          gender: "זכר"
+        - last_name: "כהן"
+          first_name: "ליה"
+          gender: "נקבה"
+        - last_name: "עילוטי"
+          first_name: "ראמי"
+          gender: "זכר"
+    - instructor: "כהן נתנאל" # Cohen Netanel
+      first_meeting:
+        date: "4.12.24"
+        room: "122"
+      students:
+        - last_name: "בן עמי"
+          first_name: "איתמר"
+          gender: "זכר"
+        - last_name: "בראון"
+          first_name: "מאיה"
+          gender: "נקבה"
+        - last_name: "הופמן"
+          first_name: "שי"
+          gender: "נקבה"
+        - last_name: "זפרני"
+          first_name: "חן"
+          gender: "נקבה"
+        - last_name: "חביב"
+          first_name: "היא"
+          gender: "נקבה"
+        - last_name: "כלפון"
+          first_name: "שי"
+          gender: "זכר"
+        - last_name: "לחיאני" # Elhayani
+          first_name: "ליהיא"
+          gender: "נקבה"
+        - last_name: "רזון"
+          first_name: "הדר"
+          gender: "נקבה"
+    - instructor: "להב מוריה" # Lahav Moriah
+      first_meeting:
+        date: "4.12.24"
+        room: "123"
+      students:
+        - last_name: "בורבין"
+          first_name: "נגה-ג'ני"
+          gender: "נקבה"
+        - last_name: "גרא"
+          first_name: "טל"
+          gender: "נקבה"
+        - last_name: "דגן"
+          first_name: "אביעד"
+          gender: "זכר"
+        - last_name: "ויסמן" # Weissman
+          first_name: "ענבר"
+          gender: "נקבה"
+        - last_name: "לוי"
+          first_name: "ליאור זאב"
+          gender: "זכר"
+        - last_name: "מטמון"
+          first_name: "סתיו"
+          gender: "נקבה"
+        - last_name: "פסטרנק"
+          first_name: "יעל"
+          gender: "נקבה"
+        - last_name: "שלו"
+          first_name: "עדי"
+          gender: "נקבה"
+    - instructor: "להט שרון" # Lahatt Sharon
+      first_meeting:
+        date: "4.12.24"
+        room: "935"
+      students:
+        - last_name: "בנקוביץ'"
+          first_name: "רועי"
+          gender: "זכר"
+        - last_name: "הניג"
+          first_name: "איתמר"
+          gender: "זכר"
+        - last_name: "ינוביץ"
+          first_name: "נועם"
+          gender: "נקבה"
+        - last_name: "מסטווי"
+          first_name: "אמילי לאה"
+          gender: "נקבה"
+        - last_name: "עזרילביץ"
+          first_name: "קרין"
+          gender: "נקבה"
+        - last_name: "פדרמן"
+          first_name: "דפנה"
+          gender: "נקבה"
+        - last_name: "צדיקוב"
+          first_name: "שרון"
+          gender: "נקבה"
+        - last_name: "שחף"
+          first_name: "מאיה"
+          gender: "נקבה"
+    - instructor: "לייכט יוני" # Leicht Yoni
+      first_meeting:
+        date: "4.12.24"
+        room: "937"
+      students:
+        - last_name: "לונגיני"
+          first_name: "אלחנן"
+          gender: "זכר"
+        - last_name: "ליבוביץ"
+          first_name: "מאיה"
+          gender: "נקבה"
+        - last_name: "מלכאי"
+          first_name: "נועה"
+          gender: "נקבה"
+        - last_name: "ספרן"
+          first_name: "רומי"
+          gender: "נקבה"
+        - last_name: "פדרו"
+          first_name: "מתן"
+          gender: "זכר"
+        - last_name: "פחימה"
+          first_name: "עדי נטע"
+          gender: "נקבה"
+        - last_name: "שחורי"
+          first_name: "טל"
+          gender: "נקבה"
+        - last_name: "קבלה"
+          first_name: "תהילה"
+          gender: "נקבה"
+    - instructor: "מליק אלעד" # Malik Elad
+      first_meeting:
+        date: "4.12.24"
+        room: "938 א'" # Room 938 A
+      students:
+        - last_name: "כהן בנבנישתי"
+          first_name: "אבישג"
+          gender: "נקבה"
+        - last_name: "מורן"
+          first_name: "נועה"
+          gender: "נקבה"
+        - last_name: "מסה"
+          first_name: "עומר"
+          gender: "זכר"
+        - last_name: "סגל"
+          first_name: "קרן"
+          gender: "נקבה"
+        - last_name: "עמוסי"
+          first_name: "תמר"
+          gender: "נקבה"
+        - last_name: "ערד"
+          first_name: "עידו"
+          gender: "זכר"
+        - last_name: "פישר"
+          first_name: "דניאלה"
+          gender: "נקבה"
+        - last_name: "קופיאצקי"
+          first_name: "אביטל"
+          gender: "נקבה"
+    - instructor: "מנור אורי" # Manor Uri
+      first_meeting:
+        date: "4.12.24"
+        room: "938 ב'" # Room 938 B
+      students:
+        - last_name: "אליהו"
+          first_name: "אחינועם רחל"
+          gender: "נקבה"
+        - last_name: "גבאי"
+          first_name: "נעה"
+          gender: "נקבה"
+        - last_name: "דורון"
+          first_name: "אביחי"
+          gender: "זכר"
+        - last_name: "הורוביץ"
+          first_name: "רתם"
+          gender: "נקבה"
+        - last_name: "לווינרד"
+          first_name: "דנה"
+          gender: "נקבה"
+        - last_name: "ליאון"
+          first_name: "יהודה"
+          gender: "זכר"
+        - last_name: "ליטוין"
+          first_name: "סתיו"
+          gender: "נקבה"
+        - last_name: "פיביך"
+          first_name: "מיה"
+          gender: "נקבה"
+    - instructor: "פישר יוסף תהילה" # Fisher Yosef Tehila (Assuming Tehila Fisher)
+      first_meeting:
+        date: "4.12.24"
+        room: "938 ג'" # Room 938 C
+      students:
+        - last_name: "אנדרחנוב"
+          first_name: "דיאנה"
+          gender: "נקבה"
+        - last_name: "אשכנזי"
+          first_name: "הילה"
+          gender: "נקבה"
+        - last_name: "גבאי"
+          first_name: "נריה"
+          gender: "נקבה"
+        - last_name: "וויינשטיין" # Weinstein
+          first_name: "טל"
+          gender: "נקבה"
+        - last_name: "מטצקי"
+          first_name: "מאיה"
+          gender: "נקבה"
+        - last_name: "נוימן"
+          first_name: "נועה"
+          gender: "נקבה"
+        - last_name: "פרידמן"
+          first_name: "שי"
+          gender: "זכר"
+        - last_name: "רושה"
+          first_name: "נעם"
+          gender: "זכר"
+    - instructor: "קידר הדס" # Kedar Hadas
+      first_meeting:
+        date: "4.12.24"
+        room: "ספריה 2" # Library Room 2
+      students:
+        - last_name: "אבנית"
+          first_name: "בר"
+          gender: "נקבה"
+        - last_name: "אלוני"
+          first_name: "תומר"
+          gender: "זכר"
+        - last_name: "גבעון"
+          first_name: "אסף"
+          gender: "זכר"
+        - last_name: "הופמן"
+          first_name: "הגר"
+          gender: "נקבה"
+        - last_name: "וויס" # Waiss/Weiss
+          first_name: "טוהר"
+          gender: "נקבה"
+        - last_name: "לבנון"
+          first_name: "יעל"
+          gender: "נקבה"
+        - last_name: "לוי"
+          first_name: "נופר"
+          gender: "נקבה"
+        - last_name: "צינקין"
+          first_name: "ירון"
+          gender: "זכר"
+    - instructor: "שלומאי גדי" # Shlomai Gadi
+      first_meeting:
+        date: "4.12.24"
+        room: "ספריה 1" # Library Room 1
+      students:
+        - last_name: "ארוך"
+          first_name: "לירון"
+          gender: "נקבה"
+        - last_name: "גולדשטיין"
+          first_name: "יולי"
+          gender: "נקבה"
+        - last_name: "דוגמא"
+          first_name: "אורן"
+          gender: "נקבה"
+        - last_name: "דרשר"
+          first_name: "אבשלום"
+          gender: "זכר"
+        - last_name: "חננאל"
+          first_name: "שיר"
+          gender: "נקבה"
+        - last_name: "כרמלי"
+          first_name: "בילי"
+          gender: "נקבה"
+        - last_name: "מור"
+          first_name: "שחר"
+          gender: "זכר"
+        - last_name: "פלדשטיין"
+          first_name: "צור שלמה"
+          gender: "זכר"

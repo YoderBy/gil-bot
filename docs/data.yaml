@@ -1,0 +1,75 @@
+courses:
+  - id: "<course_id>"
+    name: "<course_name>"
+    heb_name: "<hebrew_course_name>"
+    year: "<academic_year>"
+    semester: "<semester>"
+
+    description:
+      en: "<course_description_en>"
+      he: "<course_description_he>"
+      goal: "<course_goal>"
+    target_audience:
+      - "<target_audience_1>"
+      - "<target_audience_2>"
+    general_location: "<general_location>"
+    general_day_time_info: "<general_day_time_info>"
+    
+    personnel:
+      coordinators:
+        - name: "<coordinator_name>"
+          email: "<coordinator_email>"
+      overall_lecturers:
+        - name: "<lecturer_name>"
+          email: "<lecturer_email>"
+    
+    requirements: "<requirements>"
+    grading_policy: "<grading_policy>"
+    course_notes: "<course_notes>"
+
+    student_groups:
+      - name: "<group_name>"
+        details: "<group_details>"
+        location: "<group_location>"
+
+    assignments:
+      - name: "<assignment_name>"
+        due_date: "<YYYY-MM-DD>"
+        due_time: "<HH:MM>"
+        submission_method: "<submission_method>"
+        details: "<assignment_details>"
+
+    schedule:
+      general_notes: "<general_schedule_notes>"
+      calendar_entries:
+        - date: "<YYYY-MM-DD>"
+          day_of_week_heb: "<day_of_week_heb>"
+          day_of_week_en: "<day_of_week_en>"
+          daily_notes: "<daily_notes>"
+          
+          time_slots:
+            - start_time: "<HH:MM>"
+              end_time: "<HH:MM>"
+              subject: "<subject>"
+              activity_type: "<activity_type>"
+              location: "<location>"
+              instructors:
+                - "<instructor_1>"
+                - "<instructor_2>"
+              details: "<slot_details>"
+              attending_groups: ["<group_1>", "<group_2>"]
+              resources:
+                - type: "<resource_type>"
+                  url: "<resource_url>"
+                  title: "<resource_title>"
+
+    tests:
+      - name: "<test_name>"
+        test_type: "<test_type>"
+        notes: "<test_notes>"
+        moadim:
+          - moad_name: "<moad_name>"
+            date: "<YYYY-MM-DD>"
+            time: "<HH:MM>"
+            duration_minutes: <duration_minutes>
+            location: "<test_location>"

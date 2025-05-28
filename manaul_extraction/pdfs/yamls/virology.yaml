@@ -1,0 +1,126 @@
+courses:
+  - id: "0102.2212" # Likely, based on other course codes, assuming 01 for group.
+    name: "Basic and Clinical Virology"
+    heb_name: "וירולוגיה"
+    year: "תשפ\"ה" # Assumed from other documents, if not specified, this is a placeholder
+    semester: "ב"
+
+    description:
+      en: "" # Not available in the provided images
+      he: "" # Not available in the provided images
+      goal: "" # Not available in the provided images
+    target_audience:
+      - "" # Not specified in the provided images
+    general_location: "" # Not specified, lectures are mostly 'צפיה בהרצאות' (watching lectures)
+    general_day_time_info: "" # Schedule varies, see calendar_entries
+    
+    personnel:
+      coordinators:
+        - name: "" # Not explicitly mentioned as coordinator
+      overall_lecturers:
+        - name: "פרופ' ארנון קובילר"
+        - name: "פרופ' אלה סקלן"
+        - name: "ד\"ר אלעד גולדברג"
+      student_representatives:
+        - name: "ליה שויחט"
+    
+    requirements: "נוכחות חובה במעבדה ומבחן סופי בכתב"
+    grading_policy: "מעבדה 15%, מבחן 85%"
+    course_notes: "קריאת רשות: Murray Medical Microbiology (9th Ed)"
+
+    schedule:
+      general_notes: "ייתכנו שינויים בימים ובשעות המעבדות."
+      calendar_entries:
+        - date: "2025-05-11" # Assuming 2025 based on other schedules
+          day_of_week_heb: "א'" # Sunday
+          day_of_week_en: "Sunday"
+          daily_notes: "צפיה בהרצאות (פרופ' אלה סקלן)"
+          time_slots:
+            - subject: "נגיפי רנ\"א חיוביים (פרט לרק\"ם, מאפיינים משותפים)"
+              activity_type: "צפיה בהרצאות"
+              details: "Picornaviridae -אורגניזציה וביטוי של הגנום, רפליקציה (461-471). Rhinoviruses, Enteroviruses, Poliovirus. Toga and Flaviviridae - Genome organization and expression, replication; HAV, HCV (550-564), Rubella, Arboviruses, DENV, WNV Chikungunya virus (515-526). Coronaviruses (472-477ii)."
+              instructors: ["פרופ' אלה סקלן"]
+        - date: "2025-05-18"
+          day_of_week_heb: "א'" # Sunday
+          day_of_week_en: "Sunday"
+          daily_notes: "צפיה בהרצאות (פרופ' אלה סקלן)"
+          time_slots:
+            - subject: "נגיפי רנ\"א שליליים (פרט לרק\"ם, מאפיינים משותפים)"
+              activity_type: "צפיה בהרצאות"
+              details: "Mononegavirals (non-segmented): Rabies (500-506), Paramyxoviridae: Measles, Mumps, Human respiratory syncytial virus (478-489). Filoviridae-Ebola (500-506). Segmented negative strand RNA viruses: Orthomyxoviridae: Influenza (490-499). dsRNA viruses: Reoviridae - Mammalian reoviruses, Rotaviruses (507-514)."
+              instructors: ["פרופ' אלה סקלן"]
+        - date: "2025-05-25"
+          day_of_week_heb: "א'" # Sunday
+          day_of_week_en: "Sunday"
+          time_slots:
+            - subject: "תרגול נגיפי רנ\"א (בכיתה) + הכנה למעבדה"
+              activity_type: "תרגול והכנה למעבדה"
+              instructors: ["פרופ' אלה סקלן"]
+        - date: "2025-06-08"
+          day_of_week_heb: "א'" # Sunday
+          day_of_week_en: "Sunday"
+          daily_notes: "צפיה בהרצאות (פרופ' ארנון קובילר, פרופ' אלה סקלן)"
+          time_slots:
+            - subject: "רטרווירוסים והפטיטיסB וירוסים (533-549, 550-564)"
+              activity_type: "צפיה בהרצאות"
+              details: "רטרווירוסים (פרופ' ארנון קובילר): מבנה, תהליך שכפול, Reverse transcriptase, HIV אפידמיולוגיה, דרכי הדבקה, תסמינים קליניים, דרכי טיפול. Hepadnaviruses (פרופ' אלה סקלן): HBV, HDV."
+              instructors: ["פרופ' ארנון קובילר", "פרופ' אלה סקלן"]
+        - date: "2025-06-15"
+          day_of_week_heb: "א'" # Sunday
+          day_of_week_en: "Sunday"
+          daily_notes: "מעבדות – חובת נוכחות (שתי משמרות). צפיה בהרצאה זיהוי הדבקה נגיפית (396-402) -לפתור את המקרים למעבדה."
+          time_slots:
+            - start_time: "08:30"
+              end_time: "12:00"
+              subject: "מעבדות"
+              activity_type: "מעבדה"
+              details: "זיהוי הדבקה נגיפית - אסקפט ציטופטי ואימונופלורסנציה, זיהוי ישיר – RT-PCR Western, זיהוי עקיף – זיהוי נוגדנים ELISA וסטיק. שתי משמרות."
+              instructors: ["ד\"ר אלעד גולדברג", "פרופ' קובילר", "פרופ' סקלן"] # Lecturers associated with labs
+        - date: "2025-06-22" # Date mentioned for labs
+          day_of_week_heb: "א'" # Sunday
+          day_of_week_en: "Sunday"
+          daily_notes: "המשך מעבדות (אם נדרש)"
+          time_slots:
+            - start_time: "08:30" # Placeholder if labs continue
+              end_time: "12:00"
+              subject: "מעבדות (המשך)"
+              activity_type: "מעבדה"
+              instructors: ["ד\"ר אלעד גולדברג", "פרופ' קובילר", "פרופ' סקלן"]
+        - date: "2025-06-29"
+          day_of_week_heb: "א'" # Sunday
+          day_of_week_en: "Sunday"
+          daily_notes: "צפיה בהקלטה (פרופ' סקלן). שיעור מתנגדי חיסונים (בכיתה) (פרופ' קובילר)"
+          time_slots:
+            - subject: "נגיפים מתפרצים"
+              activity_type: "צפיה בהקלטה"
+              instructors: ["פרופ' אלה סקלן"]
+            - subject: "שיעור מתנגדי חיסונים"
+              activity_type: "שיעור בכיתה"
+              instructors: ["פרופ' ארנון קובילר"]
+        - date: "2025-06-30"
+          day_of_week_heb: "ב'" # Monday
+          day_of_week_en: "Monday"
+          time_slots:
+            - subject: "סיכום – חובת נוכחות"
+              activity_type: "סיכום והגשת דוחות"
+              details: "הקשרים קליניים ודיון בתוצאות המעבדה – הגשת דוחו\"ת המעבדה לפני תחילת השיעור!"
+              instructors: ["פרופ' סקלן", "פרופ' קובילר", "ד\"ר גולדברג"]
+    tests:
+      - name: "מבחן סופי"
+        test_type: "מבחן בכתב"
+        notes: "85% מהציון הסופי"
+        moadim:
+          - moad_name: "מועד א'"
+            date: "" # To be added if available
+            time: ""
+          - moad_name: "מועד ב'"
+            date: "" # To be added if available
+            time: ""
+      - name: "מעבדה"
+        test_type: "הערכת מעבדה" # Lab evaluation
+        notes: "15% מהציון הסופי. כולל הגשת דוחות."
+        moadim:
+          - moad_name: "במהלך הקורס"
+            date: "2025-06-15" # Main lab date
+            time: "08:30"
+

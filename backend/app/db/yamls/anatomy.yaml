@@ -1,0 +1,47 @@
+courses:
+  - id: "ANAT_COURSE_ID" # Placeholder, e.g. 0102-2314 from exam schedule in docs/data.txt
+    name: "Human Anatomy" # Placeholder
+    heb_name: "אנטומיה של גוף האדם" # Placeholder
+    year: "תשפה" # Assuming for current academic year context
+    semester: "ב" # Assuming Semester B, adjust as needed
+
+    personnel:
+      coordinators:
+        - name: "" # Add coordinator if known
+      student_representatives:
+        - name: "אליס פישר/וולף" # Exact name might need verification
+        - name: "דניאלה פישר/וולף" # Exact name might need verification
+    
+    requirements: ""
+    grading_policy: ""
+    course_notes: ""
+
+    schedule:
+      general_notes: |
+        דיסקציות חזרה בקורס אנטומיה בוטלו לכל הקבוצות ונדחו לתאריך 7.1 (שנה עוקבת, שעה טרם נקבעה).
+        הנחיות למפגשי LBC של גף תחתון: יש להתמקד באנטומיית מפרק הירך (כלי הדם והעצבים המגיעים אליו), הברך (אנטומיה פנימית ואספקטים ביומכניים), ומסלול העצב הסיאטי (תפקודו הסנסורי והמוטורי ופיצוליו).
+      calendar_entries:
+        - date: "2026-01-07" # Assuming the 7.1 refers to Jan 7th of the following year
+          day_of_week_heb: "" # To be determined
+          day_of_week_en: "" # To be determined
+          daily_notes: "דיסקציות חזרה שנדחו"
+          time_slots:
+            - start_time: "" # To be determined
+              end_time: "" # To be determined
+              subject: "דיסקציות חזרה (נדחה)"
+              activity_type: "מעבדה"
+              details: "שעה טרם נקבעה. במקור בוטלו מועדים קודמים."
+              # instructors: [],
+              # attending_groups: []
+    tests:
+      - name: "מועד מיוחד - אנטומיה א'"
+        test_type: "בחינה"
+        notes: "מועד מיוחד לסמסטר א' תשפה"
+        moadim:
+          - moad_name: "מועד מיוחד"
+            date: "2025-04-27"
+            time: "" # Not specified
+            # duration_minutes: <duration_minutes> # Not specified
+            location: "" # Not specified
+    # assignments: []
+    # student_groups: []

@@ -1,0 +1,247 @@
+pcourse: נוירואנטומיה תשפ״ה סמסטר ב׳ # Neuroanatomy Course Schedule 2025 Semester B
+  schedule:
+    - date: "12.5.25"
+      events:
+        - hours: "08-10"
+          topic: "היסטוריה ומבוא לנוירואנטומיה"
+          lecturer: "ד"ר עידו תבור"
+          reading_pages: null
+        - hours: "10-12"
+          topic: "התעלה השדרתית ותכולתה: מבנה עמוד השדרה, חוט השדרה והעצב הספינאלי"
+          lecturer: "ד"ר עידו תבור"
+          reading_pages: "63-80"
+    - date: "15.5.25"
+      events:
+        - hours: "08-09"
+          topic: "טופוגרפיה של ההמיספרות (וידאו לקראת CBL)"
+          lecturer: "ד"ר עידו תבור"
+          reading_pages: "213-220"
+          notes: "וידאו לקראת CBL"
+        - hours: "09-12"
+          topic: "היסטולוגיה, לוקליזציה פונקציונלית של קליפת המוח"
+          lecturer: "ד"ר עידו תבור"
+          reading_pages: "221-227"
+        - hours: null # Appears as a separate item below the 09-12 slot in the source
+          topic: "דיאנצפלון (וידאו)"
+          lecturer: "ד"ר עידו תבור"
+          reading_pages: "175-199"
+          notes: "Video assignment"
+    - date: "19.5.25"
+      events:
+        - hours: "08-11"
+          activities:
+            - group: "א"
+              type: "מעבדה"
+              details: "מעבדה 1: משטחי ההמיספרה וחוט השדרה"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "ב"
+              type: "צפייה בווידאו"
+              details: "צפייה בווידאו גרעיני הבסיס (לקראת CBL) + צפייה בווידאו המערכת הלימבית"
+              lecturer: null
+              reading_pages: null
+              notes: "לקראת CBL"
+        - hours: "11-12"
+          topic: "חומר לבן"
+          lecturer: "ד"ר רננה ברץ-גולדשטיין"
+          reading_pages: "247-259"
+    - date: "22.5.25"
+      events:
+        - hours: "08-11"
+          activities:
+            - group: "ב"
+              type: "מעבדה"
+              details: "מעבדה 1: משטחי ההמיספרה וחוט השדרה"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "א"
+              type: "צפייה בווידאו"
+              details: "צפייה בווידאו גרעיני הבסיס (לקראת CBL) + צפייה בווידאו המערכת הלימבית"
+              lecturer: null
+              reading_pages: null
+              notes: "לקראת CBL"
+        - hours: "11-12"
+          topic: "חומר לבן (המשך)"
+          lecturer: "ד"ר רננה ברץ-גולדשטיין"
+          reading_pages: "247-259"
+    - date: "26.5.25"
+      events:
+        - hours: "08-10"
+          activities:
+            - group: "ב"
+              type: "מעבדה"
+              details: "מעבדה 2: חומר לבן וגרעיני הבסיס"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "א"
+              type: "CBL"
+              details: "לוקליזציה פונקציונלית – CBL נוכחות חובה"
+              location: "דולפי, 100א, 200"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+              notes: "נוכחות חובה"
+        - hours: "10-12"
+          topic: "חדרי המוח"
+          lecturer: "ד"ר רננה ברץ-גולדשטיין"
+          reading_pages: "256-259, 394-399, 198-199"
+    - date: "29.5.25"
+      events:
+        - hours: "08-10"
+          activities:
+            - group: "א"
+              type: "מעבדה"
+              details: "מעבדה 2: חומר לבן וגרעיני הבסיס"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "ב"
+              type: "CBL"
+              details: "לוקליזציה פונקציונלית – CBL נוכחות חובה"
+              location: "דולפי, מארבאום, 200"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+              notes: "נוכחות חובה"
+        - hours: "10-12"
+          topic: "גזע המוח"
+          lecturer: "ד"ר עידו תבור"
+          reading_pages: "81-87"
+    - date: "5.6.25"
+      events:
+        - hours: "08-10"
+          topic: "קרומי המוח"
+          lecturer: "ד"ר עידו תבור"
+          reading_pages: "387-398"
+        - hours: "10-12"
+          topic: "מסלולים עצביים עולים ויורדים"
+          lecturer: "ד"ר עידו תבור"
+          reading_pages: null
+    - date: "9.6.25"
+      events:
+        - hours: "08-10"
+          activities:
+            - group: "א"
+              type: "מעבדה"
+              details: "מעבדה 3: חדרי המוח"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "ב"
+              type: "צפייה בווידאו"
+              details: "צפייה בווידאו המוח הקטן (לקראת CBL)"
+              lecturer: null
+              reading_pages: null
+              notes: "לקראת CBL"
+        - hours: "10-12"
+          activities:
+            - group: "ב"
+              type: "מעבדה"
+              details: "מעבדה 3: חדרי המוח"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "א"
+              type: "צפייה בווידאו"
+              details: "צפייה בווידאו המוח הקטן (לקראת CBL)"
+              lecturer: null
+              reading_pages: null
+              notes: "לקראת CBL"
+    - date: "12.6.25"
+      events:
+        - hours: "08-11" # Main slot time
+          activities:
+            - group: "ב"
+              type: "מעבדה"
+              details: "מעבדה מס' 4: המוח הקטן וגזע המוח"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "א"
+              type: "CBL"
+              specific_hours: "9-11" # Specific time within the 08-11 slot
+              details: "המוח הקטן וגרעיני הבסיס – CBL נוכחות חובה"
+              location: "דולפי, מארבאום, לולה"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+              notes: "נוכחות חובה"
+        - hours: "11-12"
+          topic: "עצבים קרניאליים (וידאו)"
+          lecturer: "ד"ר עידו תבור"
+          reading_pages: "115-142"
+          notes: "וידאו"
+    - date: "16.6.25"
+      events:
+        - hours: "08-11" # Main slot time
+          activities:
+            - group: "א"
+              type: "מעבדה"
+              details: "מעבדה מס' 4: המוח הקטן וגזע המוח"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "ב"
+              type: "CBL"
+              specific_hours: "9-11" # Specific time within the 08-11 slot
+              details: "המוח הקטן וגרעיני הבסיס – CBL נוכחות חובה"
+              location: "דולפי, 100א', 119"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+              notes: "נוכחות חובה"
+    - date: "19.6.25"
+      events:
+        - hours: "08-10"
+          activities:
+            - group: "א"
+              type: "מעבדה"
+              details: "מעבדה מס' 5: חתכים קורונליים"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "ב"
+              type: "צפייה בווידאו"
+              details: "צפייה בווידאו כלי הדם של המוח (לקראת CBL)"
+              lecturer: null
+              reading_pages: null
+              notes: "לקראת CBL"
+        - hours: "10-12"
+          topic: "שיטות מתקדמות למיפוי פונקציות המוח"
+          lecturer: "ד"ר עידו תבור"
+          reading_pages: null
+    - date: "23.6.25"
+      events:
+        - hours: "08-10"
+          activities:
+            - group: "ב"
+              type: "מעבדה"
+              details: "מעבדה מס' 5: חתכים קורונליים"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "א"
+              type: "צפייה בווידאו"
+              details: "צפייה בווידאו כלי הדם של המוח (לקראת CBL)"
+              lecturer: null
+              reading_pages: null
+              notes: "לקראת CBL"
+        - hours: "10-12"
+          activities:
+            - group: "ב"
+              type: "מעבדה"
+              details: "מעבדה מס' 6: קרומי המוח וכלי הדם"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "א"
+              type: "CBL"
+              details: "כלי הדם של המוח – CBL נוכחות חובה"
+              location: "דולפי, 100א', 119"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+              notes: "נוכחות חובה"
+    - date: "26.6.25"
+      events:
+        - hours: "08-10"
+          activities:
+            - group: "א"
+              type: "מעבדה"
+              details: "מעבדה מס' 6: קרומי המוח וכלי הדם"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+            - group: "ב"
+              type: "CBL"
+              details: "כלי הדם של המוח – CBL נוכחות חובה"
+              location: "דולפי, לולה, מאירבאום"
+              lecturer: "צוות מדריכים"
+              reading_pages: null
+              notes: "נוכחות חובה" 

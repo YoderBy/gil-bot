@@ -1,0 +1,1117 @@
+courses:
+- id: anatomy-first-part
+  name: Anatomy First Part
+  schedule:
+    calendar_entries:
+    - date: '2025-03-17'
+      day_of_week_heb: יום שני
+      time_slots:
+      - subject: בטן CA
+        start_time: 08:00
+        end_time: 09:00
+        location: עבודה עצמית
+        instructors:
+        - ד\
+        activity_type: Self-Study
+        attending_groups:
+        - All
+      - subject: הרצאות אגן (מוקלט) / CA
+        start_time: 09:00
+        end_time: '10:00'
+        location: מוקלט
+        instructors:
+        - ד\
+        activity_type: Self-Study / CA
+        attending_groups:
+        - All
+      - subject: הרצאות אגן (מוקלט) / CA
+        start_time: '10:00'
+        end_time: '11:00'
+        location: מוקלט
+        instructors:
+        - ד\
+        activity_type: Self-Study / CA
+        attending_groups:
+        - All
+      - subject: הרצאות אגן (מוקלט) / CA
+        start_time: '11:00'
+        end_time: '12:00'
+        location: מוקלט
+        instructors:
+        - ד\
+        activity_type: Self-Study / CA
+        attending_groups:
+        - All
+      - subject: בטן CA
+        start_time: 08:00
+        end_time: 09:00
+        location: עבודה עצמית
+        instructors:
+        - ד\
+        activity_type: Self-Study
+        attending_groups:
+        - group_1a
+      - subject: דיסקציה בטן 1
+        start_time: 08:00
+        end_time: 09:00
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - group_2a
+      - subject: הרצאות אגן (מוקלט) / CA
+        start_time: 09:00
+        end_time: '10:00'
+        location: מוקלט
+        instructors:
+        - ד\
+        activity_type: Self-Study / CA
+        attending_groups:
+        - group_1a
+      - subject: דיסקציה בטן 1
+        start_time: 09:00
+        end_time: '10:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - group_2a
+      - subject: הרצאות אגן (מוקלט) / CA
+        start_time: '10:00'
+        end_time: '11:00'
+        location: מוקלט
+        instructors:
+        - ד\
+        activity_type: Self-Study / CA
+        attending_groups:
+        - group_1a
+      - subject: דיסקציה בטן 1
+        start_time: '10:00'
+        end_time: '11:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - group_2a
+      - subject: הרצאות אגן (מוקלט) / CA
+        start_time: '11:00'
+        end_time: '12:00'
+        location: מוקלט
+        instructors:
+        - ד\
+        activity_type: Self-Study / CA
+        attending_groups:
+        - group_1a
+      day_of_week_en: Monday
+    - date: '2025-03-20'
+      day_of_week_heb: יום חמישי
+      time_slots:
+      - subject: US בטן
+        start_time: 08:00
+        end_time: 09:00
+        location: חדרי US
+        instructors:
+        - צוות מדריכים
+        activity_type: General Activity
+        attending_groups:
+        - All
+      - subject: US בטן
+        start_time: 09:00
+        end_time: '10:00'
+        location: חדרי US
+        instructors:
+        - צוות מדריכים
+        activity_type: General Activity
+        attending_groups:
+        - All
+      - subject: הרצאה רדיולוגית אגן CT (פרונטלי)
+        start_time: '10:00'
+        end_time: '11:00'
+        location: דולפי
+        instructors:
+        - ד\
+        activity_type: Lecture
+        attending_groups:
+        - All
+      - subject: הרצאה רדיולוגית אגן US (פרונטלי)
+        start_time: '11:00'
+        end_time: '12:00'
+        location: דולפי
+        instructors:
+        - ד\
+        activity_type: Lecture
+        attending_groups:
+        - All
+      - subject: הרצאה רדיולוגיה CT (פרונטלי)
+        start_time: 08:00
+        end_time: 09:00
+        location: דולפי
+        instructors:
+        - ד\
+        activity_type: Lecture
+        attending_groups:
+        - group_1a
+      - subject: הרצאה רדיולוגיה US בטן (פרונטלי)
+        start_time: 09:00
+        end_time: '10:00'
+        location: דולפי
+        instructors:
+        - ד\
+        activity_type: Lecture
+        attending_groups:
+        - group_1a
+      day_of_week_en: Thursday
+    - date: '2025-03-24'
+      day_of_week_heb: יום שני
+      time_slots:
+      - subject: הרצאה רדיולוגיה US בטן (מוקלט)
+        start_time: 08:00
+        end_time: 09:00
+        location: מוקלט
+        instructors:
+        - ד\
+        activity_type: Recorded Lecture
+        attending_groups:
+        - All
+      - subject: דיסקציה בטן 1
+        start_time: 09:00
+        end_time: '10:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - All
+      - subject: דיסקציה בטן 1
+        start_time: '10:00'
+        end_time: '11:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - All
+      - subject: דיסקציה בטן 1
+        start_time: '11:00'
+        end_time: '12:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - All
+      - subject: PBL בטן
+        start_time: 08:00
+        end_time: 09:00
+        location: דולפי
+        instructors:
+        - ד\
+        activity_type: PBL
+        attending_groups:
+          - group_1a
+      - subject: דיסקציה בטן 2
+        start_time: 08:00
+        end_time: 09:00
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - group_2a
+      - subject: PBL בטן
+        start_time: 09:00
+        end_time: '10:00'
+        location: דולפי
+        instructors:
+        - ד\
+        activity_type: PBL
+        attending_groups:
+        - group_1a
+      - subject: דיסקציה בטן 2
+        start_time: 09:00
+        end_time: '10:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - group_2a
+      - subject: PBL בטן
+        start_time: '10:00'
+        end_time: '11:00'
+        location: דולפי
+        instructors:
+        - ד\
+        activity_type: PBL
+        attending_groups:
+        - group_1a
+      day_of_week_en: Monday
+    - date: '2025-03-27'
+      day_of_week_heb: יום חמישי
+      time_slots:
+      - subject: הרצאה רדיולוגיה CT בטן (מוקלט)
+        start_time: 08:00
+        end_time: 09:00
+        location: מוקלט
+        instructors:
+        - ד\
+        activity_type: Recorded Lecture
+        attending_groups:
+        - All
+      - subject: PBL בטן
+        start_time: 09:00
+        end_time: '10:00'
+        location: מארבאום
+        instructors:
+        - צוות מדריכים
+        activity_type: PBL
+        attending_groups:
+        - All
+      - subject: PBL בטן
+        start_time: '10:00'
+        end_time: '11:00'
+        location: מארבאום
+        instructors:
+        - צוות מדריכים
+        activity_type: PBL
+        attending_groups:
+        - All
+      - subject: PBL בטן
+        start_time: '11:00'
+        end_time: '12:00'
+        location: מארבאום
+        instructors:
+        - צוות מדריכים
+        activity_type: PBL
+        attending_groups:
+        - All
+      - subject: CT בטן
+        start_time: 08:00
+        end_time: 09:00
+        location: דולפי
+        instructors:
+        - ד\
+        activity_type: General Activity
+        attending_groups:
+        - group_1a
+      - subject: CT בטן
+        start_time: 09:00
+        end_time: '10:00'
+        location: דולפי
+        instructors:
+        - ד\
+        activity_type: General Activity
+        attending_groups:
+        - group_1a
+      day_of_week_en: Thursday
+    - date: '2025-03-31'
+      day_of_week_heb: יום שני
+      time_slots:
+      - subject: הרצאה גף תחתון (מוקלט) / CA
+        start_time: 08:00
+        end_time: 09:00
+        location: מוקלט
+        instructors:
+        - ד\
+        activity_type: Recorded Lecture
+        attending_groups:
+        - All
+      - subject: הרצאה גף תחתון (מוקלט) / CA
+        start_time: 09:00
+        end_time: '10:00'
+        location: מוקלט
+        instructors:
+        - ד\
+        activity_type: Recorded Lecture
+        attending_groups:
+        - All
+      - subject: דיסקציה בטן 2
+        start_time: '10:00'
+        end_time: '11:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - All
+      - subject: דיסקציה בטן 2
+        start_time: '11:00'
+        end_time: '12:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - All
+      - subject: PBL אגן
+        start_time: 08:00
+        end_time: 09:00
+        location: דולפי
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: PBL
+        attending_groups:
+        - group_1a
+      - subject: CT אגן
+        start_time: 08:00
+        end_time: 09:00
+        location: 100 א'
+        instructors:
+        - ד\
+        activity_type: Practical Session
+        attending_groups:
+        - group_2a
+      - subject: PBL אגן
+        start_time: 09:00
+        end_time: '10:00'
+        location: דולפי
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: PBL
+        attending_groups:
+        - group_1a
+      - subject: CT אגן
+        start_time: 09:00
+        end_time: '10:00'
+        location: 100 א'
+        instructors:
+        - ד\
+        activity_type: Practical Session
+        attending_groups:
+        - group_2a
+      - subject: PBL אגן
+        start_time: '10:00'
+        end_time: '11:00'
+        location: דולפי
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: PBL
+        attending_groups:
+        - group_1a
+      day_of_week_en: Monday
+    - date: '2025-04-03'
+      day_of_week_heb: יום חמישי
+      time_slots:
+      - subject: אגן CA
+        start_time: 08:00
+        end_time: 09:00
+        location: עבודה עצמית
+        instructors:
+        - ד\
+        activity_type: Self-Study
+        attending_groups:
+        - All
+      - subject: דיסקציה אגן
+        start_time: 09:00
+        end_time: '10:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: Lab
+        attending_groups:
+        - All
+      - subject: דיסקציה אגן
+        start_time: '10:00'
+        end_time: '11:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: Lab
+        attending_groups:
+        - All
+      - subject: דיסקציה אגן
+        start_time: '11:00'
+        end_time: '12:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - All
+      - subject: הרצאה רדיולוגית אגן CT (מוקלט)
+        start_time: 08:00
+        end_time: 09:00
+        location: מוקלט
+        activity_type: Recorded Lecture
+        attending_groups:
+        - group_1a
+      - subject: US בטן
+        start_time: 08:00
+        end_time: 09:00
+        location: חדרי US
+        instructors:
+        - צוות מדריכים
+        activity_type: General Activity
+        attending_groups:
+        - group_2a
+      - subject: US בטן
+        start_time: 09:00
+        end_time: '10:00'
+        location: חדרי US
+        instructors:
+        - צוות מדריכים
+        activity_type: General Activity
+        attending_groups:
+        - group_2a
+      day_of_week_en: Thursday
+    - date: '2025-04-07'
+      day_of_week_heb: יום שני
+      time_slots:
+      - subject: הרצאה גף תחתון (מוקלט) / CA
+        start_time: 08:00
+        end_time: 09:00
+        location: מוקלט
+        instructors:
+        - ד\
+        activity_type: Recorded Lecture
+        attending_groups:
+        - All
+      - subject: PBL אגן
+        start_time: 09:00
+        end_time: '10:00'
+        location: דולפי
+        instructors:
+        - ד\
+        activity_type: PBL
+        attending_groups:
+        - All
+      - subject: PBL אגן
+        start_time: '10:00'
+        end_time: '11:00'
+        location: דולפי
+        instructors:
+        - ד\
+        activity_type: PBL
+        attending_groups:
+        - All
+      - subject: PBL אגן
+        start_time: '11:00'
+        end_time: '12:00'
+        location: דולפי
+        instructors:
+        - ד\
+        activity_type: PBL
+        attending_groups:
+        - All
+      - subject: הרצאה גף תחתון (מוקלט) / CA
+        start_time: 08:00
+        end_time: 09:00
+        location: מוקלט
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: Recorded Lecture
+        attending_groups:
+        - group_1a
+      - subject: דיסקציה אגן
+        start_time: 08:00
+        end_time: 09:00
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - group_2a
+      - subject: הרצאה גף תחתון (מוקלט) / CA
+        start_time: 09:00
+        end_time: '10:00'
+        location: מוקלט
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: Recorded Lecture
+        attending_groups:
+        - group_1a
+      - subject: דיסקציה אגן
+        start_time: 09:00
+        end_time: '10:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - group_2a
+      - subject: הרצאה גף תחתון (מוקלט) / CA
+        start_time: '10:00'
+        end_time: '11:00'
+        location: מוקלט
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: Recorded Lecture
+        attending_groups:
+        - group_1a
+      - subject: דיסקציה אגן
+        start_time: '10:00'
+        end_time: '11:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - group_2a
+      day_of_week_en: Monday
+    - date: '2025-04-08'
+      day_of_week_heb: יום חמישי
+      time_slots:
+      - subject: CT בטן
+        start_time: 08:00
+        end_time: 09:00
+        location: '119'
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: General Activity
+        attending_groups:
+        - All
+      - subject: CT בטן
+        start_time: 09:00
+        end_time: '10:00'
+        location: '119'
+        instructors:
+        - ד\
+        activity_type: General Activity
+        attending_groups:
+        - All
+      - subject: CT אגן
+        start_time: '10:00'
+        end_time: '11:00'
+        location: '119'
+        instructors:
+        - ד\
+        activity_type: General Activity
+        attending_groups:
+        - All
+      - subject: CT אגן
+        start_time: '11:00'
+        end_time: '12:00'
+        location: '119'
+        instructors:
+        - ד\
+        activity_type: General Activity
+        attending_groups:
+        - All
+      - subject: הרצאה רדיולוגית אגן US (מוקלט)
+        start_time: 08:00
+        end_time: 09:00
+        location: מוקלט
+        activity_type: Recorded Lecture
+        attending_groups:
+        - group_1a
+      - subject: אגן CA
+        start_time: 08:00
+        end_time: 09:00
+        location: עבודה עצמית
+        instructors:
+        - עבודה עצמית
+        activity_type: Self-Study
+        attending_groups:
+        - group_2a
+      day_of_week_en: Thursday
+    - date: '2025-04-21'
+      day_of_week_heb: יום שני
+      time_slots:
+      - subject: הרצאה גף תחתון (מוקלט) / CA
+        start_time: 08:00
+        end_time: 09:00
+        location: מוקלט
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: Recorded Lecture
+        attending_groups:
+        - All
+      - subject: הרצאה גף תחתון (מוקלט) / CA
+        start_time: 09:00
+        end_time: '10:00'
+        location: מוקלט
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: Recorded Lecture
+        attending_groups:
+        - All
+      - subject: הרצאה גף תחתון (מוקלט) / CA
+        start_time: '10:00'
+        end_time: '11:00'
+        location: מוקלט
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: Recorded Lecture
+        attending_groups:
+        - All
+      - subject: גף תחתון CA
+        start_time: '11:00'
+        end_time: '12:00'
+        location: עבודה עצמית
+        instructors:
+        - צוות מדריכים
+        activity_type: Self-Study
+        attending_groups:
+        - All
+      - subject: הרצאה גף תחתון (מוקלט) / CA
+        start_time: 08:00
+        end_time: 09:00
+        location: מוקלט
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: Recorded Lecture
+        attending_groups:
+        - group_1a
+      - subject: CT גף תחתון
+        start_time: 08:00
+        end_time: 09:00
+        location: כיתה 100
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: General Activity
+        attending_groups:
+        - group_2a
+      - subject: הרצאה גף תחתון (מוקלט) / CA
+        start_time: 09:00
+        end_time: '10:00'
+        location: מוקלט
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: Recorded Lecture
+        attending_groups:
+        - group_1a
+      - subject: CT גף תחתון
+        start_time: 09:00
+        end_time: '10:00'
+        location: כיתה 100
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: General Activity
+        attending_groups:
+        - group_2a
+      - subject: גף תחתון CA
+        start_time: '10:00'
+        end_time: '11:00'
+        location: עבודה עצמית
+        instructors:
+        - צוות מדריכים
+        activity_type: Self-Study
+        attending_groups:
+        - group_1a
+      day_of_week_en: Monday
+    - date: '2025-04-24'
+      day_of_week_heb: יום חמישי
+      time_slots:
+      - subject: CT גף תחתון
+        start_time: 08:00
+        end_time: 09:00
+        location: דולפי
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: General Activity
+        attending_groups:
+        - All
+      - subject: CT גף תחתון
+        start_time: 09:00
+        end_time: '10:00'
+        location: דולפי
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: General Activity
+        attending_groups:
+        - All
+      - subject: דיסקציה גף תחתון 1 (קדמי)
+        start_time: '10:00'
+        end_time: '11:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: Lab
+        attending_groups:
+        - All
+      - subject: דיסקציה גף תחתון 1 (קדמי)
+        start_time: '11:00'
+        end_time: '12:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: Lab
+        attending_groups:
+        - All
+      - subject: דיסקציה גף תחתון 1 (קדמי)
+        start_time: 08:00
+        end_time: 09:00
+        location: מעבדת דיסקציה
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: Lab
+        attending_groups:
+        - group_1a
+      - subject: דיסקציה גף תחתון 1 (קדמי)
+        start_time: 09:00
+        end_time: '10:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - פרופ' אלה בין
+        - ד\
+        activity_type: Lab
+        attending_groups:
+        - group_1a
+      day_of_week_en: Thursday
+    - date: '2025-04-28'
+      day_of_week_heb: יום שני
+      time_slots:
+      - subject: הרצאה רדיולוגית CT (פרונטלי)
+        start_time: 08:00
+        end_time: 09:00
+        location: כיתה 201
+        instructors:
+        - צוות מדריכים
+        activity_type: Lecture
+        attending_groups:
+        - All
+      - subject: הרצאה רדיולוגית US (פרונטלי)
+        start_time: 09:00
+        end_time: '10:00'
+        location: כיתה 201
+        instructors:
+        - צוות מדריכים
+        activity_type: Lecture
+        attending_groups:
+        - All
+      - subject: דיסקציה גף תחתון 2 (אחורי)
+        start_time: '10:00'
+        end_time: '11:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - All
+      - subject: דיסקציה גף תחתון 2 (אחורי)
+        start_time: '11:00'
+        end_time: '12:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - All
+      - subject: דיסקציה גף תחתון 2 (אחורי)
+        start_time: 08:00
+        end_time: 09:00
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - group_1a
+      - subject: הרצאה רדיולוגית CT גף תחתון (פרונטלי)
+        start_time: 08:00
+        end_time: 09:00
+        location: דולפי
+        instructors:
+        - צוות מדריכים
+        activity_type: Lecture
+        attending_groups:
+        - group_2a
+      - subject: דיסקציה גף תחתון 2 (אחורי)
+        start_time: 09:00
+        end_time: '10:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - group_1a
+      - subject: הרצאה רדיולוגית US גף תחתון (פרונטלי)
+        start_time: 09:00
+        end_time: '10:00'
+        location: דולפי
+        instructors:
+        - צוות מדריכים
+        activity_type: Lecture
+        attending_groups:
+        - group_2a
+      day_of_week_en: Monday
+    - date: '2025-05-01'
+      day_of_week_heb: יום חמישי
+      time_slots:
+      - subject: יום העצמאות
+        start_time: 08:00
+        end_time: 09:00
+        location: עבודה עצמית
+        instructors:
+        - ד\
+        activity_type: Self-Study
+        attending_groups:
+        - All
+      - subject: יום העצמאות
+        start_time: 09:00
+        end_time: '10:00'
+        location: עבודה עצמית
+        instructors:
+        - ד\
+        activity_type: Self-Study
+        attending_groups:
+        - All
+      - subject: יום העצמאות
+        start_time: '10:00'
+        end_time: '11:00'
+        location: עבודה עצמית
+        instructors:
+        - ד\
+        activity_type: Self-Study
+        attending_groups:
+        - All
+      - subject: יום העצמאות
+        start_time: '11:00'
+        end_time: '12:00'
+        location: עבודה עצמית
+        instructors:
+        - ד\
+        activity_type: Self-Study
+        attending_groups:
+        - All
+      - subject: יום העצמאות
+        start_time: 08:00
+        end_time: 09:00
+        location: עבודה עצמית
+        instructors:
+        - צוות מדריכים
+        activity_type: Self-Study
+        attending_groups:
+        - group_1a
+      - subject: יום העצמאות
+        start_time: 08:00
+        end_time: 09:00
+        location: עבודה עצמית
+        instructors:
+        - צוות מדריכים
+        activity_type: Self-Study
+        attending_groups:
+        - group_2a
+      - subject: יום העצמאות
+        start_time: 09:00
+        end_time: '10:00'
+        location: עבודה עצמית
+        instructors:
+        - צוות מדריכים
+        activity_type: Self-Study
+        attending_groups:
+        - group_1a
+      - subject: יום העצמאות
+        start_time: 09:00
+        end_time: '10:00'
+        location: עבודה עצמית
+        instructors:
+        - צוות מדריכים
+        activity_type: Self-Study
+        attending_groups:
+        - group_2a
+      - subject: יום העצמאות
+        start_time: '10:00'
+        end_time: '11:00'
+        location: עבודה עצמית
+        instructors:
+        - צוות מדריכים
+        activity_type: Self-Study
+        attending_groups:
+        - group_1a
+      - subject: יום העצמאות
+        start_time: '10:00'
+        end_time: '11:00'
+        location: עבודה עצמית
+        instructors:
+        - צוות מדריכים
+        activity_type: Self-Study
+        attending_groups:
+        - group_2a
+      - subject: יום העצמאות
+        start_time: '11:00'
+        end_time: '12:00'
+        location: עבודה עצמית
+        instructors:
+        - צוות מדריכים
+        activity_type: Self-Study
+        attending_groups:
+        - group_1a
+      - subject: יום העצמאות
+        start_time: '11:00'
+        end_time: '12:00'
+        location: עבודה עצמית
+        instructors:
+        - צוות מדריכים
+        activity_type: Self-Study
+        attending_groups:
+        - group_2a
+      day_of_week_en: Thursday
+    - date: '2025-05-05'
+      day_of_week_heb: יום שני
+      time_slots:
+      - subject: US גף תחתון
+        start_time: 08:00
+        end_time: 09:00
+        location: חדרי US
+        instructors:
+        - צוות מדריכים
+        activity_type: General Activity
+        attending_groups:
+        - All
+      - subject: US גף תחתון
+        start_time: 09:00
+        end_time: '10:00'
+        location: חדרי US
+        instructors:
+        - צוות מדריכים
+        activity_type: General Activity
+        attending_groups:
+        - All
+      - subject: חזרה US
+        start_time: '10:00'
+        end_time: '11:00'
+        location: חדרי US
+        instructors:
+        - צוות מדריכים
+        activity_type: Review Session
+        attending_groups:
+        - All
+      - subject: חזרה מעבדה דיסקציה
+        start_time: '11:00'
+        end_time: '12:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - All
+      - subject: PBL גף תחתון
+        start_time: 08:00
+        end_time: 09:00
+        location: דולפי
+        instructors:
+        - ד\
+        activity_type: PBL
+        attending_groups:
+        - group_1a
+      - subject: US גף תחתון
+        start_time: 08:00
+        end_time: 09:00
+        location: חדרי US
+        instructors:
+        - צוות מדריכים
+        activity_type: General Activity
+        attending_groups:
+        - group_2a
+      - subject: PBL גף תחתון
+        start_time: 09:00
+        end_time: '10:00'
+        location: דולפי
+        instructors:
+        - ד\
+        activity_type: PBL
+        attending_groups:
+        - group_1a
+      - subject: US גף תחתון
+        start_time: 09:00
+        end_time: '10:00'
+        location: חדרי US
+        instructors:
+        - צוות מדריכים
+        activity_type: General Activity
+        attending_groups:
+        - group_2a
+      - subject: PBL גף תחתון
+        start_time: '10:00'
+        end_time: '11:00'
+        location: דולפי
+        instructors:
+        - ד\
+        activity_type: PBL
+        attending_groups:
+        - group_1a
+      - subject: חזרה US
+        start_time: '10:00'
+        end_time: '11:00'
+        location: חדרי US
+        instructors:
+        - צוות מדריכים
+        activity_type: Review Session
+        attending_groups:
+        - group_2a
+      - subject: חזרה CT
+        start_time: '11:00'
+        end_time: '12:00'
+        location: דולפי
+        instructors:
+        - ד\
+        activity_type: Review Session
+        attending_groups:
+        - group_1a
+      - subject: חזרה מעבדה דיסקציה
+        start_time: '11:00'
+        end_time: '12:00'
+        location: מעבדת דיסקציה
+        instructors:
+        - צוות מדריכים
+        activity_type: Lab
+        attending_groups:
+        - group_2a
+      day_of_week_en: Monday
+    - date: '2025-05-08'
+      day_of_week_heb: יום חמישי
+      time_slots:
+      - subject: PBL גף תחתון
+        start_time: 08:00
+        end_time: 09:00
+        location: דולפי
+        instructors:
+        - צוות מדריכים
+        activity_type: PBL
+        attending_groups:
+        - All
+      - subject: PBL גף תחתון
+        start_time: 09:00
+        end_time: '10:00'
+        location: דולפי
+        instructors:
+        - צוות מדריכים
+        activity_type: PBL
+        attending_groups:
+        - All
+      - subject: PBL גף תחתון
+        start_time: '10:00'
+        end_time: '11:00'
+        location: דולפי
+        instructors:
+        - צוות מדריכים
+        activity_type: PBL
+        attending_groups:
+        - All
+      - subject: חזרה CT
+        start_time: '11:00'
+        end_time: '12:00'
+        location: דולפי
+        instructors:
+        - צוות מדריכים
+        activity_type: Review Session
+        attending_groups:
+        - All
+      day_of_week_en: Thursday
+  student_groups:
+  - name: group_1a
+  - name: group_2a

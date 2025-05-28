@@ -1,0 +1,216 @@
+courses:
+  - id: "0102.1119.01"
+    name: "General Pathology"
+    heb_name: "פתולוגיה כללית"
+    year: "2025"
+    semester: "b"
+
+    description:
+      en: "The course aims to provide understanding of basic disease processes at molecular, cellular, tissue and organ levels. Throughout the course, students will learn about pathological processes in molecular biology, cell, tissue and organ levels. Additionally, it includes basic concepts and medical terminology relevant to students' future fields of practice."
+      he: "הקורס בפתולוגיה כללית נועד להקנות הבנה של התהליכים הבסיסיים העומדים בבסיס מחלות. במהלך הקורס נלמד על תהליכים פתולוגיים ברמת המולקולה, התא, הרקמה והאיבר. כמו כן, נרכוש מושגי יסוד ושפה רפואית חדשה שיהיו רלבנטיים לכל תחומי העיסוק העתידיים של הסטודנטים"
+      goal: "להקנות הבנה של התהליכים הבסיסיים העומדים בבסיס מחלות, ברמת המולקולה, התא, הרקמה והאיבר"
+    target_audience:
+      - "התכנית ללימודי תואר דוקטור ברפואה – 6 שנתי"
+      - "התכנית ללימודי תואר דוקטור ברפואה לבעלי תואר ראשון – 4 שנתי"
+    general_location: "אולם דולפי"
+    general_day_time_info: "סמסטר ב' - תשפ\"ה 2025"
+    
+    personnel:
+      coordinators:
+        - name: "<coordinator_name>"
+          email: "<coordinator_email>"
+      overall_lecturers:
+        - name: "<lecturer_name>"
+          email: "<lecturer_email>"
+    
+    requirements: "<requirements>"
+    grading_policy: "הציון בבחינה המסכמת יהווה 90% מהציון בקורס, בחני מעבדה יהיו 10% מהציון."
+    course_notes: |
+      הנוכחות חובה בכל המעבדות.
+      יש להתכונן לכל מעבדה כמפורט בהודעות הקורס (לצפות בסרטון המעבדה, להוריד למחשב האישי סליידים רלוונטיים ותוכנה ייעודית ולהוריד את דף העבודה).
+
+    student_groups:
+      - name: "<group_name>"
+        details: "<group_details>"
+        location: "<group_location>"
+
+    assignments:
+      - name: "<assignment_name>"
+        due_date: "<YYYY-MM-DD>"
+        due_time: "<HH:MM>"
+        submission_method: "<submission_method>"
+        details: "<assignment_details>"
+
+    schedule:
+      general_notes: "לוח זמנים לקורס פתולוגיה כללית"
+      calendar_entries:
+        - date: "2025-04-28"
+          day_of_week_heb: "ב"
+          day_of_week_en: "Monday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "ממאירות - הרצאה"
+              instructors:
+                - "פרופ' דב הרשקוביץ"
+
+        - date: "2025-05-05"
+          day_of_week_heb: "ב"
+          day_of_week_en: "Monday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "מעבדה 3 ממאירות - חצי כיתה"
+              instructors:
+                - "פרופ' דב הרשקוביץ"
+
+        - date: "2025-05-08"
+          day_of_week_heb: "ה"
+          day_of_week_en: "Thursday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "15:00"
+              subject: "אין שיעור"
+
+        - date: "2025-05-12"
+          day_of_week_heb: "ב"
+          day_of_week_en: "Monday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "ממאירות - הרצאה"
+              instructors:
+                - "פרופ' דב הרשקוביץ"
+
+        - date: "2025-05-15"
+          day_of_week_heb: "ה"
+          day_of_week_en: "Thursday"
+          daily_notes: "מעבדה מס' 3 לכל התלמידים יחד. נוכחות חובה. יש להתכונן למעבדה."
+          time_slots:
+            - start_time: "12:00"
+              end_time: "15:00"
+              subject: "מעבדה מס' 3 (במקום מעבדה 4 זיהומיות)"
+              activity_type: "מעבדה"
+              details: "המעבדה מתקיימת לכל התלמידים יחד. יש להתכונן כמפורט בהודעות: צפייה בסרטון, הורדת סליידים ותוכנה, הורדת דף עבודה."
+              attending_groups: ["כולם"]
+
+        - date: "2025-05-19"
+          day_of_week_heb: "ב"
+          day_of_week_en: "Monday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "מעבדה 3 ממאירות - חצי כיתה"
+              instructors:
+                - "פרופ' דב הרשקוביץ"
+
+        - date: "2025-05-22"
+          day_of_week_heb: "ה"
+          day_of_week_en: "Thursday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "15:00"
+              subject: "רפואה משפטית"
+              instructors:
+                - "ד\"ר חן קוגל"
+              details: "הרצאה ללא הקלטה!"
+
+        - date: "2025-05-26"
+          day_of_week_heb: "ב"
+          day_of_week_en: "Monday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "רפואה משפטית"
+              instructors:
+                - "ד\"ר חן קוגל"
+              details: "הרצאה ללא הקלטה!"
+
+        - date: "2025-05-29"
+          day_of_week_heb: "ה"
+          day_of_week_en: "Thursday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "פתולוגיה דיגיטלית ועיבוד תמונה"
+              instructors:
+                - "פרופ' דב הרשקוביץ"
+
+        - date: "2025-06-05"
+          day_of_week_heb: "ה"
+          day_of_week_en: "Thursday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "15:00"
+              subject: "רפואה משפטית"
+              instructors:
+                - "ד\"ר חן קוגל"
+              details: "הרצאה ללא הקלטה!"
+
+        - date: "2025-06-09"
+          day_of_week_heb: "ב"
+          day_of_week_en: "Monday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "אין שיעור"
+
+        - date: "2025-06-12"
+          day_of_week_heb: "ה"
+          day_of_week_en: "Thursday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "15:00"
+              subject: "פתולוגיה בעובר ובגיל הרך"
+              instructors:
+                - "ד\"ר דריה קוזלובה"
+
+        - date: "2025-06-16"
+          day_of_week_heb: "ב"
+          day_of_week_en: "Monday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "אין שיעור"
+
+        - date: "2025-06-19"
+          day_of_week_heb: "ה"
+          day_of_week_en: "Thursday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "15:00"
+              subject: "מחלות תזונה וסביבה"
+              instructors:
+                - "ד\"ר סוניה מנדלוביץ"
+
+        - date: "2025-06-23"
+          day_of_week_heb: "ב"
+          day_of_week_en: "Monday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "14:00"
+              subject: "אין שיעור"
+
+        - date: "2025-06-26"
+          day_of_week_heb: "ה"
+          day_of_week_en: "Thursday"
+          time_slots:
+            - start_time: "12:00"
+              end_time: "15:00"
+              subject: "מעבדה 5 עובר ותזונה"
+
+    tests:
+      - name: "בחינה סופית"
+        test_type: "בכתב"
+        moadim:
+          - moad_name: "א"
+            date: "<YYYY-MM-DD>" # 24-07-2025 יום חמישי ב 9
+            time: "<HH:MM>"
+            duration_minutes: <duration_minutes>
+            location: "<test_location>"
+
+          - moad_name: "<moad_name>" # מועד ב׳ יום חמישי 04-09-2025 בשעה 9
+            date: "<YYYY-MM-DD>"
+            time: "<HH:MM>"
+            duration_minutes: <duration_minutes>
+            location: "<test_location>"
