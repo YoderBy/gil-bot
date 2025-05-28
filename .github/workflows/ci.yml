@@ -29,4 +29,14 @@ jobs:
           push: true
           tags: |
             registry.yosefbyd.com/gil-bot:latest
-            registry.yosefbyd.com/gil-bot:${{ github.sha }} 
+            registry.yosefbyd.com/gil-bot:${{ github.sha }}
+          build-args: |
+            OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
+            ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}
+            WHATSAPP_API_KEY=${{ secrets.WHATSAPP_API_KEY }}
+            WHATSAPP_PHONE_NUMBER=${{ secrets.WHATSAPP_PHONE_NUMBER }}
+            DEBUG=${{ secrets.DEBUG }}
+            PYTHONUNBUFFERED=${{ secrets.PYTHONUNBUFFERED }} 
+            MONGODB_DB_NAME=${{ secrets.MONGODB_DB_NAME }}
+            MONGO_USER=${{ secrets.MONGO_USER }}
+            MONGO_PASSWORD=${{ secrets.MONGO_PASSWORD }}
