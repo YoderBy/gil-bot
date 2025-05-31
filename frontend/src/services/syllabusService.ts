@@ -1,5 +1,6 @@
-import { API_BASE_URL } from '../consts/consts';
 import { SyllabusSummaryResponse, Syllabus, SyllabusVersion, StructuredSection } from '../types/syllabusTypes';
+
+const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://gil-bot-api.yosefbyd.com';
 
 const handleResponse = async (response: Response) => {
     if (!response.ok) {
