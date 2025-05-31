@@ -12,6 +12,8 @@ RUN npm install
 COPY tsconfig.json ./
 
 COPY public ./public
+COPY src ./src
+COPY README.md ./
 
 EXPOSE 3000
 CMD ["npm", "start"]
