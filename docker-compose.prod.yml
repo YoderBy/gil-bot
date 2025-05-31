@@ -1,16 +1,15 @@
 services:
-  backend:
+  gil-bot-backend:
     image: registry.yosefbyd.com/gil-bot-backend:latest
     container_name: gil-bot-backend
     env_file:
-      - .env
+      - .gil-bot-backend.env
     volumes:
       - ./backend/app:/app/app # Mount local code for development changes
     depends_on:
       - mongo
     networks:
       - proxy
-      - gil-network
     environment:
       - DEBUG=True
       - PYTHONUNBUFFERED=1 # Ensures logs aren't buffered
@@ -26,23 +25,21 @@ services:
     volumes:
       - mongo_data:/data/db
     environment:
-      # Variables to create the specific application user and database
       MONGO_INITDB_DATABASE: ${MONGODB_DB_NAME:-gil_whatsapp_bot}
       MONGO_INITDB_USERNAME: ${MONGO_USER:-user}
       MONGO_INITDB_PASSWORD: ${MONGO_PASSWORD:-pass}
     networks:
-      - gil-network
+      - proxy
 
-  frontend:
+  gil-bot-frontend:
     image: registry.yosefbyd.com/gil-bot-frontend:latest
     container_name: gil-bot-frontend
     volumes:
       - ./frontend/src:/app/src
     depends_on:
-      - backend
+      - gil-bot-backend
     networks:
       - proxy
-      - gil-network
     labels:
       - traefik.enable=true
       - traefik.http.services.gil-bot-frontend.loadbalancer.server.port=3000
@@ -54,7 +51,5 @@ volumes:
 
 
 networks:
-  gil-network:
-    driver: bridge
   proxy:
     external: true

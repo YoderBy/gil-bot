@@ -26,7 +26,6 @@ services:
     volumes:
       - mongo_data:/data/db
     environment:
-      # Variables to create the specific application user and database
       MONGO_INITDB_DATABASE: ${MONGODB_DB_NAME:-gil_whatsapp_bot}
       MONGO_INITDB_USERNAME: ${MONGO_USER:-user} # Use a distinct variable name if needed
       MONGO_INITDB_PASSWORD: ${MONGO_PASSWORD:-pass} # Use a distinct variable name if needed
