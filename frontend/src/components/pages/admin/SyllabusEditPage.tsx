@@ -95,6 +95,11 @@ const SyllabusEditPage: React.FC = () => {
 
     const handleSave = async (values: SyllabusCourse) => {
         if (!courseId) return;
+
+        // Debug logging
+        console.log('Form values received:', values);
+        console.log('Course ID:', courseId);
+
         setSaving(true);
         setError(null);
         try {
@@ -110,24 +115,39 @@ const SyllabusEditPage: React.FC = () => {
                 },
             });
 
-            // Optional: Scroll to top of page to ensure message is visible
-            window.scrollTo({ top: 0, behavior: 'smooth' });
 
         } catch (error: any) {
             console.error(`Error updating syllabus ${courseId}:`, error);
 
             let errorMessage = 'Failed to update syllabus';
-            if (error.response?.data?.detail) {
+
+            // Handle fetch API errors (from syllabusService)
+            if (error instanceof Error) {
+                errorMessage = error.message;
+            }
+            // Handle axios-style errors if any
+            else if (error.response?.data?.detail) {
                 if (Array.isArray(error.response.data.detail)) {
                     errorMessage = error.response.data.detail
-                        .map((err: any) => err.msg)
+                        .map((err: any) => err.msg || err.message || JSON.stringify(err))
                         .join(', ');
                 } else {
                     errorMessage = error.response.data.detail;
                 }
             }
 
-            message.error(errorMessage);
+            // Set error state for display in Alert component
+            setError(errorMessage);
+
+            // Also show message
+            message.error({
+                content: errorMessage,
+                duration: 5,
+                style: {
+                    marginTop: 20,
+                    fontSize: '16px',
+                },
+            });
         }
         setSaving(false);
     };

@@ -5,9 +5,17 @@ import {
   Route,
   Navigate
 } from 'react-router-dom';
+import { message } from 'antd';
 import AdminLayout from './components/layout/AdminLayout';
 import UserLayout from './components/layout/UserLayout';
 import './App.css';
+
+// Configure message globally
+message.config({
+  top: 100,
+  duration: 4,
+  maxCount: 3,
+});
 
 // Import Page Components
 import AdminDashboard from './components/pages/admin/Dashboard';
