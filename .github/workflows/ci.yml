@@ -1,0 +1,43 @@
+name: Build and Deploy
+
+on:
+  push:
+    branches: [main]
+
+jobs:
+  build-push:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      
+      - uses: docker/setup-buildx-action@v3
+      
+      - name: Test registry connectivity
+        run: |
+          curl -I https://registry.yosefbyd.com/v2/ || echo "Registry test failed, but continuing..."
+          
+      - uses: docker/login-action@v3
+        with:
+          registry: registry.yosefbyd.com
+          username: ${{ secrets.REGISTRY_USER }}
+          password: ${{ secrets.REGISTRY_PASS }}
+          
+      - name: Build and push unified image
+        uses: docker/build-push-action@v5
+        with:
+          context: .
+          push: true
+          tags: |
+            registry.yosefbyd.com/gil-bot:latest
+            registry.yosefbyd.com/gil-bot:${{ github.sha }}
+          build-args: |
+            OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}
+            ANTHROPIC_API_KEY=${{ secrets.ANTHROPIC_API_KEY }}
+            WHATSAPP_API_KEY=${{ secrets.WHATSAPP_API_KEY }}
+            WHATSAPP_PHONE_NUMBER=${{ secrets.WHATSAPP_PHONE_NUMBER }}
+            DEBUG=${{ secrets.DEBUG }}
+            PYTHONUNBUFFERED=${{ secrets.PYTHONUNBUFFERED }} 
+            MONGODB_DB_NAME=${{ secrets.MONGODB_DB_NAME }}
+            MONGO_USER=${{ secrets.MONGO_USER }}
+            MONGO_PASSWORD=${{ secrets.MONGO_PASSWORD }}
+            DEBUG=${{ secrets.DEBUG }}

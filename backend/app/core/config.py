@@ -13,11 +13,13 @@ class Settings(BaseSettings):
     CORS_ORIGINS: List[str] = ["*"]
     
     # MongoDB settings
-    MONGODB_URL: str
-    MONGODB_DB_NAME: str = "gil_whatsapp_bot"
+    MONGODB_URL: Optional[str] = "mongodb://dummy:27017/test"
+    MONGODB_DB_NAME: Optional[str] = "gil_whatsapp_bot"
+    MONGO_USER: Optional[str] = "gil_whatsapp_bot"
+    MONGO_PASSWORD: Optional[str] = "gil_whatsapp_bot"
     
     # LLM settings
-    OPENAI_API_KEY: str
+    OPENAI_API_KEY: Optional[str] = None
     LLM_MODEL: str = "gpt-4"
     RETRIEVAL_LLM_MODEL: Optional[str] = "gpt-3.5-turbo"
     GENERATION_LLM_MODEL: str = "gpt-4"
