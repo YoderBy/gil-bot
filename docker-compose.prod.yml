@@ -11,7 +11,7 @@ services:
     environment:
       - DEBUG=True
       - PYTHONUNBUFFERED=1 # Ensures logs aren't buffered
-    labels:a
+    labels:
       - traefik.enable=true
       - traefik.http.services.gil-bot-backend.loadbalancer.server.port=8000
       - traefik.http.routers.gil-bot-backend.rule=Host(`gil-bot-api.yosefbyd.com`)

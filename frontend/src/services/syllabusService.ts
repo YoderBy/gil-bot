@@ -1,10 +1,6 @@
 import { API_BASE_URL } from '../consts/consts';
 import { SyllabusSummaryResponse, Syllabus, SyllabusVersion, StructuredSection } from '../types/syllabusTypes';
 
-// Base URL for the API - replace with your actual backend URL if needed
-// If running locally and using vite proxy, can be relative
-
-// Helper to handle fetch responses
 const handleResponse = async (response: Response) => {
     if (!response.ok) {
         const errorData = await response.json().catch(() => ({ detail: 'Unknown error' }));
