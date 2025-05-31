@@ -4,8 +4,6 @@ services:
     container_name: gil-bot-backend
     env_file:
       - .gil-bot-backend.env
-    volumes:
-      - ./backend/app:/app/app # Mount local code for development changes
     depends_on:
       - mongo
     networks:
@@ -13,7 +11,7 @@ services:
     environment:
       - DEBUG=True
       - PYTHONUNBUFFERED=1 # Ensures logs aren't buffered
-    labels:
+    labels:a
       - traefik.enable=true
       - traefik.http.services.gil-bot-backend.loadbalancer.server.port=8000
       - traefik.http.routers.gil-bot-backend.rule=Host(`gil-bot-api.yosefbyd.com`)
@@ -34,8 +32,6 @@ services:
   gil-bot-frontend:
     image: registry.yosefbyd.com/gil-bot-frontend:latest
     container_name: gil-bot-frontend
-    volumes:
-      - ./frontend/src:/app/src
     depends_on:
       - gil-bot-backend
     networks:
