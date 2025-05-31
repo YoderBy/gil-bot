@@ -4,14 +4,11 @@ from motor.motor_asyncio import AsyncIOMotorClient, AsyncIOMotorDatabase
 
 from app.core.config import settings
 
-# Create MongoDB client
 client = AsyncIOMotorClient(settings.MONGODB_URL)
 database = client[settings.MONGODB_DB_NAME]
 
-# Create text index for syllabus collection for text search capabilities
 async def setup_indexes():
     """Setup MongoDB indexes."""
-    # Text index on syllabus title, description and content
     await database.syllabus.create_index([
         ("title", "text"),
         ("description", "text"),
@@ -19,7 +16,6 @@ async def setup_indexes():
         ("content.description", "text")
     ])
     
-    # Index on sender for messages
     await database.messages.create_index("sender")
 
 async def get_db() -> AsyncGenerator[AsyncIOMotorDatabase, None]:

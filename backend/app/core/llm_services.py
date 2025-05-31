@@ -2,43 +2,156 @@ import litellm
 import os
 import json
 import logging
-from typing import Dict, Any, Optional, List
+from typing import Dict, Any, Optional, List, Union
 import base64
 from pathlib import Path
 from motor.motor_asyncio import AsyncIOMotorDatabase
+from functools import lru_cache
+import re
 
 from app.core.config import Settings
 
-# Setup logging
 logger = logging.getLogger(__name__)
-
-# Configure LiteLLM (API keys are usually set via environment variables)
-# litellm.set_verbose = True # Enable for debugging
-
-# --- Prompt Loading --- 
 PROMPTS_DIR = Path(__file__).parent.parent / "prompts"
+_prompt_cache: Dict[str, str] = {}
 
-def load_prompt(filename: str) -> str:
-    """Loads a prompt from the prompts directory."""
+class PromptLoadError(Exception):
+    """Custom exception for prompt loading errors."""
+    pass
+
+def load_prompt(
+    filename: str, 
+    use_cache: bool = True,
+    validate: bool = True,
+    fallback_content: Optional[str] = None
+) -> str:
+    """
+    Loads a prompt from the prompts directory with caching and validation.
+    
+    Args:
+        filename: Name of the prompt file
+        use_cache: Whether to use cached version if available
+        validate: Whether to validate prompt content
+        fallback_content: Content to return if file not found (instead of error)
+    
+    Returns:
+        Prompt content as string
+        
+    Raises:
+        PromptLoadError: If file not found and no fallback provided
+    """
+    # Check cache first
+    if use_cache and filename in _prompt_cache:
+        logger.debug(f"Using cached prompt: {filename}")
+        return _prompt_cache[filename]
+    
+    prompt_path = PROMPTS_DIR / filename
+    
     try:
-        logger.info(f"Loading prompt from {PROMPTS_DIR / filename}")
-        if not (PROMPTS_DIR / filename).exists():
-            logger.error(f"Prompt file not found: {filename}")
-            logger.error(f"PROMPTS_DIR: {PROMPTS_DIR}, files: \n\n {os.listdir(PROMPTS_DIR)}")
-            raise FileNotFoundError(f"Prompt file not found: {filename}")
-        with open(PROMPTS_DIR / filename, 'r') as f:
-            return f.read()
-    except FileNotFoundError:
-        logger.error(f"Prompt file not found: {filename}")
-        return "" # Return empty string or raise error
-    except Exception as e:
-        logger.error(f"Error loading prompt {filename}: {e}")
-        return ""
+        if not prompt_path.exists():
+            if fallback_content is not None:
+                logger.warning(f"Prompt file not found: {filename}, using fallback")
+                return fallback_content
+            
+            available_files = list(PROMPTS_DIR.glob("*.txt")) if PROMPTS_DIR.exists() else []
+            raise PromptLoadError(
+                f"Prompt file not found: {filename}. "
+                f"Available files: {[f.name for f in available_files]}"
+            )
+        
+        with open(prompt_path, 'r', encoding='utf-8') as f:
+            content = f.read().strip()
+        
+        # Validate prompt content
+        if validate:
+            _validate_prompt_content(content, filename)
+        
+        # Cache the prompt
+        if use_cache:
+            _prompt_cache[filename] = content
+            
+        logger.debug(f"Successfully loaded prompt: {filename}")
+        return content
+        
+    except (IOError, OSError) as e:
+        if fallback_content is not None:
+            logger.warning(f"Error loading prompt {filename}: {e}, using fallback")
+            return fallback_content
+        raise PromptLoadError(f"Error loading prompt {filename}: {e}")
 
+def _validate_prompt_content(content: str, filename: str) -> None:
+    """Validate prompt content for common issues."""
+    if not content:
+        raise PromptLoadError(f"Prompt file {filename} is empty")
+    
+    # Check for placeholder patterns that might need replacement
+    placeholders = re.findall(r'\{\{([^}]+)\}\}', content)
+    if placeholders:
+        logger.debug(f"Prompt {filename} contains placeholders: {placeholders}")
+
+def load_prompt_template(
+    filename: str, 
+    variables: Optional[Dict[str, str]] = None,
+    **kwargs
+) -> str:
+    """
+    Load a prompt template and substitute variables.
+    
+    Args:
+        filename: Name of the prompt file
+        variables: Dict of variables to substitute
+        **kwargs: Additional variables passed as keyword arguments
+    
+    Returns:
+        Prompt with variables substituted
+    """
+    content = load_prompt(filename, **kwargs)
+    
+    if variables:
+        # Combine variables dict with kwargs
+        all_vars = {**variables, **kwargs}
+        
+        # Replace {{variable}} patterns
+        for key, value in all_vars.items():
+            placeholder = f"{{{{{key}}}}}"
+            content = content.replace(placeholder, str(value))
+    
+    return content
+
+def clear_prompt_cache() -> None:
+    """Clear the prompt cache. Useful for development/testing."""
+    global _prompt_cache
+    _prompt_cache.clear()
+    logger.info("Prompt cache cleared")
+
+def preload_prompts() -> None:
+    """Preload commonly used prompts into cache."""
+    common_prompts = [
+        "syllabus_structuring.txt",
+        "section_retrieval.txt", 
+        "naive_question_answering_system.txt",
+        "naive_question_answering_user.txt"
+    ]
+    
+    for prompt_file in common_prompts:
+        try:
+            load_prompt(prompt_file)
+            logger.debug(f"Preloaded prompt: {prompt_file}")
+        except PromptLoadError as e:
+            logger.warning(f"Could not preload prompt {prompt_file}: {e}")
 
 # --- LLM Interaction Functions --- 
 
-async def process_syllabus_with_llm(file_content: bytes, filename: str, mime_type: str) -> Optional[List[Dict[str, str]]]:
+async def process_syllabus_with_llm(
+        file_content: bytes,
+        filename: str,
+        mime_type: str,
+        model: str = "gpt-4o",
+        temperature: float = 1.0,
+        max_tokens: int = 3000,
+        response_format: str = "json_object",
+        prompt_filename: str = "syllabus_structuring.txt"
+    ) -> Optional[List[Dict[str, str]]]:
     """
     Uses an LLM (like o4-mini with vision) to parse and structure syllabus content.
 
@@ -50,7 +163,7 @@ async def process_syllabus_with_llm(file_content: bytes, filename: str, mime_typ
     Returns:
         A list of structured sections [{"label": ..., "content": ...}] or None if failed.
     """
-    model = "gpt-4o" # As requested
+    # TODO: Refactor the entire thing to rely on litellm functions and be relyable and based of response format, acceptable meme type and check them against the available params on litellm model documentation.
     structuring_prompt = load_prompt("syllabus_structuring.txt")
     if not structuring_prompt:
         return None
@@ -65,7 +178,13 @@ async def process_syllabus_with_llm(file_content: bytes, filename: str, mime_typ
             "content": [] # Content will be added based on mime_type
         }
     ]
+    if prompt_filename:
+        with open(PROMPTS_DIR / prompt_filename, 'r') as f:
+            structuring_prompt = f.read()
+    else:
+        structuring_prompt = load_prompt("syllabus_structuring.txt")
 
+    # TODO: Add a tool to the llm that will allow it to search the file for the relevant information.
     # Prepare content for multimodal input if necessary
     if mime_type.startswith('image/') or mime_type == 'application/pdf':
         # Assuming o4-mini accepts base64 encoded images/pdfs directly in content
@@ -98,7 +217,6 @@ async def process_syllabus_with_llm(file_content: bytes, filename: str, mime_typ
             ]
          except UnicodeDecodeError:
              logger.error(f"Could not decode file {filename} as text. DOCX/other binary handling needed.")
-             # Fallback or error handling needed here - maybe try base64 anyway?
              return None
     else:
         logger.warning(f"Unsupported mime_type for LLM processing: {mime_type}")
@@ -141,7 +259,13 @@ async def process_syllabus_with_llm(file_content: bytes, filename: str, mime_typ
         logger.error(f"Error calling LiteLLM for structuring {filename}: {e}")
         return None
 
-async def retrieve_relevant_sections(user_query: str, syllabus_sections: List[Dict[str, str]]) -> Optional[str]:
+async def retrieve_relevant_sections(
+        user_query: str,
+        syllabus_sections: List[Dict[str, str]],
+        model: str = "gpt-4.1",
+        temperature: float = 0.1,
+        max_tokens: int = 1000
+    ) -> Optional[str]:
     """
     Uses a smaller LLM to identify relevant sections based on a user query.
 
@@ -193,7 +317,7 @@ async def retrieve_relevant_sections(user_query: str, syllabus_sections: List[Di
 async def answer_question_naively_streamed(
     user_query: str, 
     full_syllabus_content: str,
-    model_name: str = "o4-mini", # Added model_name, default to gpt-4o
+    model_name: str = "o4-mini",
     system_prompt_override: Optional[str] = None,
     temperature: Optional[float] = 1.0, 
     max_tokens: Optional[int] = 200     
@@ -203,61 +327,69 @@ async def answer_question_naively_streamed(
     allowing overrides for system prompt, temperature, max_tokens, and model.
     Streams the response and returns the complete answer.
     """
-    # GENERATION_MODEL is now passed as model_name
     
-    default_system_message_template = load_prompt("naive_question_answering_system.txt")
-    user_prompt_template = load_prompt("naive_question_answering_user.txt") 
+    try:
+        # Use improved prompt loading with fallbacks
+        default_system_message_template = load_prompt(
+            "naive_question_answering_system.txt",
+            fallback_content="You are a helpful AI assistant."
+        )
+        
+        user_prompt_template = load_prompt_template(
+            "naive_question_answering_user.txt",
+            variables={
+                "USER_QUERY": user_query,
+                "FULL_SYLLABUS_CONTENT": full_syllabus_content
+            },
+            fallback_content="Answer this question: {{USER_QUERY}}\n\nBased on: {{FULL_SYLLABUS_CONTENT}}"
+        )
 
-    if not user_prompt_template:
-        logger.error("Naive question answering user prompt template could not be loaded.")
-        return "Error: User prompt template missing. Cannot generate answer."
+    except PromptLoadError as e:
+        logger.error(f"Critical error loading prompts: {e}")
+        return "Error: Could not load required prompt templates."
     
-    if not default_system_message_template and not system_prompt_override:
-        logger.warning("No system prompt provided or loaded. Using a generic one.")
-        effective_system_prompt = "You are a helpful AI assistant."
-    elif system_prompt_override:
-        effective_system_prompt = system_prompt_override
-    else:
-        effective_system_prompt = default_system_message_template
-
-    final_user_prompt = user_prompt_template.replace("{{USER_QUERY}}", user_query)
-    final_user_prompt = final_user_prompt.replace("{{FULL_SYLLABUS_CONTENT}}", full_syllabus_content)
+    effective_system_prompt = (
+        system_prompt_override or 
+        default_system_message_template or 
+        "You are a helpful AI assistant."
+    )
 
     messages = [
         {"role": "system", "content": effective_system_prompt},
-        {"role": "user", "content": final_user_prompt}
+        {"role": "user", "content": user_prompt_template}
     ]
 
     full_response = ""
     try:
         logger.info(f"Generating naive answer using {model_name} with temp={temperature}, max_tokens={max_tokens} for query: '{user_query[:50]}...'")
-        if model_name == "o4-mini":
+        
+        if litellm.supports_reasoning(model_name):
             response_stream = await litellm.acompletion(
-                model=model_name, # Use the passed model_name
+                model=model_name,
                 messages=messages,
                 stream=False,
                 temperature=temperature,
                 max_tokens=30000,
-                reasoning_effort="high" if model_name == "o4-mini" else None
+                reasoning_effort="high"
             )
             full_response = response_stream.choices[0].message.content
             logger.info(f"Full response: {full_response}")
             return full_response
         else:
             response_stream = await litellm.acompletion(
-                model=model_name, # Use the passed model_name
+                model=model_name,
                 messages=messages,
                 stream=True,
                 temperature=temperature,
                 max_tokens=max_tokens,
             )
+        
         async for chunk in response_stream:
             delta = chunk.choices[0].delta
             content = delta.get("content", None)
             if content:
                 full_response += content
         
-        logger.info(f"--- Naive Streaming complete for query: '{user_query[:50]}...' ---")
         return full_response
 
     except litellm.exceptions.ContextWindowExceededError as e:
@@ -265,12 +397,11 @@ async def answer_question_naively_streamed(
         logger.error(f"Provided syllabus content length: {len(full_syllabus_content)} characters.")
         logger.error(f"Error details: {e}")
         return "התנצלות, קובץ הנתונים גדול מדי לעיבוד בבת אחת. לא ניתן לענות על השאלה."
+    
     except Exception as e:
         logger.error(f"Error during naive answer generation with {model_name}: {e}")
         return "התנצלות, אירעה שגיאה בעת יצירת התשובה."
 
-# --- Placeholder for Main Processing Logic --- 
-# This function will be called by the webhook endpoint later
 async def process_chat_message(user_id: str, user_query: str, platform: str, db: Any) -> str:
     """
     Orchestrates the retrieval and generation for an incoming chat message.
@@ -323,11 +454,6 @@ async def process_chat_message(user_id: str, user_query: str, platform: str, db:
     except Exception as e:
         logger.error(f"Error during final generation: {e}")
         return "Sorry, I encountered an error generating the final response."
-
-
-# --- Helper to load settings (if needed, though LiteLLM uses env vars) --- 
-# from app.core.config import get_settings
-# settings = get_settings()
 
 async def process_message(
     message: str,

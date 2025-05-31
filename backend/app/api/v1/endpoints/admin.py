@@ -6,7 +6,6 @@ from bson import ObjectId # Import ObjectId
 import os
 import yaml
 
-# Import updated models and schemas
 from app.models.syllabus import Syllabus, SyllabusVersion, StructuredSection
 from app.api.v1.schemas import SyllabusSummaryResponse # We need a summary response
 from app.core.config import get_settings
@@ -22,8 +21,6 @@ logger = logging.getLogger(__name__)
 
 router = APIRouter()
 
-# Determine SYLLABUS_FILES_DIR similar to syllabus.py or use a shared config
-# Assuming backend is run from 'backend' directory:
 BACKEND_DIR = Path(__file__).parent.parent.parent.parent.parent
 SYLLABUS_FILES_DIR_ADMIN = BACKEND_DIR / "app" / "db" / "yamls"
 
@@ -35,15 +32,11 @@ class LLMTestRequest(BaseModel):
     temperature: Optional[float] = Field(1.0, ge=0.0, le=2.0)
     max_tokens: Optional[int] = Field(200, gt=0)
 
-# Placeholder for actual streaming response content later
-# class LLMTestStreamResponse(BaseModel):
-# token: str
-
 @router.post("/syllabus/upload", response_model=SyllabusSummaryResponse)
 async def upload_and_process_syllabus(
     file: UploadFile = File(...),
     db=Depends(get_db),
-    settings=Depends(get_settings) # Assuming settings are not needed directly here anymore
+    settings=Depends(get_settings)
 ):
     """
     Upload a syllabus file, process it with LLM, and save the first version.
@@ -63,15 +56,14 @@ async def upload_and_process_syllabus(
         filename = file.filename
         mime_type = file.content_type
 
-        # Process with LLM
-        structured_data_list = await process_syllabus_with_llm(file_content, filename, mime_type)
+        structured_data_list = await process_syllabus_with_llm(
+            file_content, filename, mime_type) # Will be refactored to use litellm functions and be relyable and based of response format, acceptable meme type and check them against the available params on litellm model documentation.
 
         if not structured_data_list:
             logger.error(f"LLM processing failed for file: {filename}")
             raise HTTPException(status_code=500, detail="Failed to process syllabus structure with LLM.")
 
-        # Prepare data for MongoDB
-        now = datetime.utcnow()
+        now = datetime.now()
         first_version = SyllabusVersion(
             version_number=1,
             timestamp=now,
@@ -232,6 +224,7 @@ async def test_llm_naive_stream(
 
     full_syllabus_content_parts = []
     for syllabus_id in request_data.syllabus_ids:
+        # TODO: Refactor this to use the db instead of the filesystem.
         file_path = SYLLABUS_FILES_DIR_ADMIN / f"{syllabus_id}.yaml"
         if not file_path.exists():
             file_path_yml = SYLLABUS_FILES_DIR_ADMIN / f"{syllabus_id}.yml"
@@ -247,14 +240,12 @@ async def test_llm_naive_stream(
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 yaml_data = yaml.safe_load(f)
-                # Add a separator or header for each syllabus content if multiple
                 content_header = f"--- START SYLLABUS: {syllabus_id} ---\n"
                 content_footer = f"--- END SYLLABUS: {syllabus_id} ---\n\n"
                 yaml_string = yaml.dump(yaml_data, allow_unicode=True, sort_keys=False, Dumper=yaml.SafeDumper)
                 full_syllabus_content_parts.append(content_header + yaml_string + content_footer)
         except Exception as e:
             logger.error(f"Error reading or parsing syllabus file {syllabus_id}: {e}")
-            # Optionally skip or raise error
             if len(request_data.syllabus_ids) == 1:
                 raise HTTPException(status_code=500, detail=f"Could not read/parse syllabus file: {syllabus_id}")
             continue # Skip this syllabus
@@ -267,14 +258,10 @@ async def test_llm_naive_stream(
     response_text = await answer_question_naively_streamed(
         user_query=request_data.user_query,
         full_syllabus_content=full_syllabus_content_str,
-        model_name=request_data.model_name or "gpt-4o", # Ensure default if None
+        model_name=request_data.model_name or "gpt-4o",
         system_prompt_override=request_data.system_prompt_override,
         temperature=request_data.temperature if request_data.temperature is not None else 1.0, # Ensure default
         max_tokens=request_data.max_tokens if request_data.max_tokens is not None else 200 # Ensure default
     )
     
     return {"response": response_text}
-
-# Remove or update old placeholder endpoints if they exist
-# @router.post("/syllabus", response_model=SyllabusResponse) ...
-# @router.get("/syllabus", response_model=List[SyllabusResponse]) ... 

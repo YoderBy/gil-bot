@@ -47,7 +47,6 @@ services:
 volumes:
   mongo_data:
 
-
 networks:
   proxy:
     external: true

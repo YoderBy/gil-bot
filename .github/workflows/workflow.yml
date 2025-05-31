@@ -45,6 +45,7 @@ jobs:
           context: ${{ matrix.context }}
           file:    ${{ matrix.dockerfile }}
           push:    true
+          no-cache: true
           cache-from: type=registry,ref=${{ matrix.image }}:buildcache
           cache-to:   type=registry,ref=${{ matrix.image }}:buildcache,mode=max
           tags: |

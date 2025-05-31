@@ -27,7 +27,6 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Include routers
 app.include_router(admin.router, prefix="/api/v1/admin", tags=["admin"])
 app.include_router(chat.router, prefix="/api/v1/chat", tags=["chat"])
 app.include_router(syllabus.router, prefix="/api/v1/syllabus", tags=["syllabus"])

@@ -5,7 +5,7 @@ services:
       dockerfile: Dockerfile
     container_name: gil-bot-backend
     env_file:
-      - ./backend/.env.example
+      - .env
     ports:
       - "8000:8000"
     volumes:
@@ -31,21 +31,7 @@ services:
       MONGO_INITDB_PASSWORD: ${MONGO_PASSWORD:-pass} # Use a distinct variable name if needed
     networks:
       - gil-network
-  # Optional: Cloudflared service for exposing the backend securely
-  # cloudflared:
-  #   image: cloudflare/cloudflared:latest
-  #   container_name: gil-bot-cloudflared
-  #   env_file:
-  #     - ./backend/.env # Make sure CLOUDFLARE_TOKEN is in this file
-  #   restart: unless-stopped
-  #   # Pass CLOUDFLARE_TOKEN directly to the command
-  #   command: tunnel --no-autoupdate run --token ${CLOUDFLARE_TOKEN}
-  #   depends_on:
-  #     - frontend
-  #     - backend
-  #   networks:
-  #     - gil-network
-  # # in case of local, also run frontend
+
   frontend:
     build:
       context: ./frontend
@@ -53,7 +39,8 @@ services:
     container_name: gil-bot-frontend
     ports:
       - "3000:3000"
-
+    environment:
+      - REACT_APP_API_BASE_URL=http://localhost:8000
     volumes:
       - ./frontend/src:/app/src
     depends_on:
