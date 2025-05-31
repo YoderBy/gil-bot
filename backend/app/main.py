@@ -5,6 +5,7 @@ import os
 
 from app.api.v1.endpoints import admin, chat, syllabus, webhook
 from app.core.config import settings
+from app.db.init_data import initialize_syllabi
 
 logging.basicConfig(
     level=logging.DEBUG if os.getenv("DEBUG", "False").lower() == "true" else logging.INFO,
@@ -26,6 +27,17 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+@app.on_event("startup")
+async def startup_event():
+    """Initialize application on startup"""
+    logger.info("Starting application initialization...")
+    try:
+        await initialize_syllabi()
+        logger.info("Application initialization complete")
+    except Exception as e:
+        logger.error(f"Error during initialization: {e}")
+        # Don't fail startup, just log the error
 
 app.include_router(admin.router, prefix="/api/v1/admin", tags=["admin"])
 app.include_router(chat.router, prefix="/api/v1/chat", tags=["chat"])

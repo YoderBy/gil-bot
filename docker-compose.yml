@@ -17,6 +17,10 @@ services:
     environment:
       - DEBUG=True
       - PYTHONUNBUFFERED=1 # Ensures logs aren't buffered
+      # MongoDB connection (no auth for development)
+      - MONGODB_HOST=mongo
+      - MONGODB_PORT=27017
+      - MONGODB_DB_NAME=gil_whatsapp_bot
 
   mongo:
     image: mongo:latest
@@ -25,12 +29,17 @@ services:
       - "27017:27017"
     volumes:
       - mongo_data:/data/db
+      - ./mongo-init:/docker-entrypoint-initdb.d:ro # Optional: for init scripts
     environment:
-      MONGO_INITDB_DATABASE: ${MONGODB_DB_NAME:-gil_whatsapp_bot}
-      MONGO_INITDB_USERNAME: ${MONGO_USER:-user} # Use a distinct variable name if needed
-      MONGO_INITDB_PASSWORD: ${MONGO_PASSWORD:-pass} # Use a distinct variable name if needed
+      # Note: MONGO_INITDB_* variables only work on first initialization (empty data directory)
+      # For production, enable authentication and set these in .env:
+      # MONGO_INITDB_ROOT_USERNAME: ${MONGO_ROOT_USER}
+      # MONGO_INITDB_ROOT_PASSWORD: ${MONGO_ROOT_PASSWORD}
+      MONGO_INITDB_DATABASE: gil_whatsapp_bot
     networks:
       - gil-network
+    # Allow connections from other containers
+    command: mongod --bind_ip_all --noauth
 
   frontend:
     build:
@@ -47,9 +56,15 @@ services:
       - backend
     networks:
       - gil-network
+
 volumes:
   mongo_data:
-
+    driver: local
+    # For production deployment on VM, you can specify the path:
+    # driver_opts:
+    #   type: none
+    #   o: bind
+    #   device: /path/on/vm/to/mongo/data
 
 networks:
   gil-network:

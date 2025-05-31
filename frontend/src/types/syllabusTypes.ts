@@ -1,32 +1,124 @@
-// Corresponds to backend/app/models/syllabus.py StructuredSection
-export interface StructuredSection {
-    label: string;
-    content: string;
+
+export interface SyllabusPersonnelItem {
+    name?: string;
+    email?: string; // Optional email for coordinators
 }
 
-// Corresponds to backend/app/models/syllabus.py SyllabusVersion
-export interface SyllabusVersion {
-    version_number: number;
-    timestamp: string; // Assuming ISO string format from backend
-    structured_data: StructuredSection[];
-    editor_id?: string | null;
+export interface SyllabusStudentItem {
+    first_name?: string;
+    last_name?: string;
+    email?: string;
 }
 
-// Corresponds to backend/app/models/syllabus.py Syllabus
-export interface Syllabus {
-    _id?: string; // Optional _id on the base model
-    id?: string; // Typically added after fetching
-    filename: string;
-    upload_timestamp: string; // Assuming ISO string format
-    versions: SyllabusVersion[];
-    course_id?: string | null;
-    metadata?: Record<string, any>;
+export interface SyllabusStudentGroupItem {
+    name?: string;
+    details?: string;
+    students?: SyllabusStudentItem[];
+    matzpen_groups?: Array<{
+        mentor?: string;
+        meeting_room?: string;
+        students?: string[];
+    }>;
+    rrbg_groups?: Array<{
+        instructor?: string;
+        first_meeting_date?: string;
+        room?: string;
+        students?: string[];
+    }>;
 }
 
-// Corresponds to backend/app/api/v1/schemas.py SyllabusSummaryResponse
+export interface SyllabusAssignmentItem {
+    name?: string;
+    due_date?: string;
+    due_time?: string;
+    submission_method?: string;
+    details?: string;
+}
+
+export interface SyllabusTestMoadItem {
+    moad_name?: string;
+    date?: string;
+    time?: string;
+    location?: string;
+}
+
+export interface SyllabusTestItem {
+    name?: string;
+    test_type?: string;
+    notes?: string;
+    moadim?: SyllabusTestMoadItem[];
+}
+
+export interface SyllabusTimeSlotResourceItem {
+    type?: string;
+    title?: string;
+    url?: string;
+}
+
+export interface SyllabusTimeSlotItem {
+    start_time?: string;
+    end_time?: string;
+    subject?: string;
+    activity_type?: string;
+    location?: string;
+    details?: string;
+    instructors?: string[];
+    attending_groups?: string[];
+    resources?: SyllabusTimeSlotResourceItem[];
+}
+
+export interface SyllabusCalendarEntryItem {
+    date?: string;
+    day_of_week_heb?: string;
+    day_of_week_en?: string;
+    daily_notes?: string;
+    time_slots?: SyllabusTimeSlotItem[];
+}
+
+export interface LabGroupTableItem {
+    table?: number | string; // Table number/identifier
+    students?: SyllabusStudentItem[];
+}
+
+export interface LabGroupCategory {
+    // Represents group_a, group_b etc.
+    // Each key (like 'group_a') would hold an array of LabGroupTableItem
+    [groupCategoryKey: string]: LabGroupTableItem[];
+}
+
+export interface SyllabusCourse {
+    id: string;
+    name: string;
+    heb_name: string;
+    year: string;
+    semester: string;
+    description?: { [key: string]: string };
+    personnel?: {
+        coordinators?: SyllabusPersonnelItem[];
+        overall_lecturers?: SyllabusPersonnelItem[];
+        rv_lab_coordinator?: SyllabusPersonnelItem[]; // For Neuroanatomy example
+    };
+    target_audience?: string[];
+    general_location?: string;
+    general_day_time_info?: string;
+    requirements?: string;
+    grading_policy?: string;
+    course_notes?: string;
+    student_groups?: SyllabusStudentGroupItem[];
+    lab_groups?: LabGroupCategory; // Added lab_groups
+    assignments?: SyllabusAssignmentItem[];
+    schedule?: {
+        general_notes?: string;
+        calendar_entries?: SyllabusCalendarEntryItem[]
+    };
+    tests?: SyllabusTestItem[];
+}
+
 export interface SyllabusSummaryResponse {
     id: string;
-    filename: string;
-    upload_timestamp: string; // Assuming ISO string format
-    latest_version: number;
-} 
+    name: string;
+    heb_name: string;
+    year: string;
+    semester: string;
+}
+

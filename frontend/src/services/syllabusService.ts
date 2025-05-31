@@ -1,4 +1,4 @@
-import { SyllabusSummaryResponse, Syllabus, SyllabusVersion, StructuredSection } from '../types/syllabusTypes';
+import { SyllabusCourse, SyllabusSummaryResponse } from '../types/syllabusTypes';
 
 const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://gil-bot-api.yosefbyd.com';
 
@@ -12,32 +12,85 @@ const handleResponse = async (response: Response) => {
 
 // --- API Functions ---
 
-export const getSyllabiList = async (): Promise<SyllabusSummaryResponse[]> => {
-    const response = await fetch(`${API_BASE_URL}/syllabus`);
+export const getSyllabiList = async (params?: {
+    search?: string;
+    year?: string;
+    semester?: string;
+}): Promise<SyllabusSummaryResponse[]> => {
+    const queryParams = new URLSearchParams();
+    if (params?.search) queryParams.append('search', params.search);
+    if (params?.year) queryParams.append('year', params.year);
+    if (params?.semester) queryParams.append('semester', params.semester);
+
+    const url = `${API_BASE_URL}/api/v1/syllabus${queryParams.toString() ? `?${queryParams.toString()}` : ''}`;
+    const response = await fetch(url);
     return handleResponse(response);
 };
 
-export const getSyllabusDetails = async (syllabusId: string): Promise<Syllabus> => {
-    const response = await fetch(`${API_BASE_URL}/syllabus/${syllabusId}`);
+export const getSyllabusDetails = async (syllabusId: string, version?: number): Promise<SyllabusCourse> => {
+    const queryParams = version ? `?version=${version}` : '';
+    const response = await fetch(`${API_BASE_URL}/api/v1/syllabus/${syllabusId}${queryParams}`);
     return handleResponse(response);
 };
 
-export const getSyllabusVersionData = async (syllabusId: string, versionNumber: number): Promise<SyllabusVersion> => {
-    const response = await fetch(`${API_BASE_URL}/syllabus/${syllabusId}/version/${versionNumber}`);
+interface SyllabusVersion {
+    version: number;
+    created_at: string;
+    created_by: string;
+    change_summary: string;
+}
+
+export const getSyllabusVersions = async (syllabusId: string): Promise<SyllabusVersion[]> => {
+    const response = await fetch(`${API_BASE_URL}/api/v1/syllabus/${syllabusId}/versions`);
     return handleResponse(response);
 };
 
-export const updateSyllabusVersionData = async (
+interface UpdateSyllabusRequest {
+    syllabus_data: SyllabusCourse;
+    change_summary?: string;
+}
+
+interface UpdateSyllabusResponse {
+    message: string;
+    version: number;
+    changes: number;
+}
+
+export const updateSyllabus = async (
     syllabusId: string,
-    updatedSections: StructuredSection[]
-): Promise<SyllabusSummaryResponse> => {
-    const response = await fetch(`${API_BASE_URL}/syllabus/${syllabusId}`, {
+    data: SyllabusCourse,
+    changeSummary?: string
+): Promise<UpdateSyllabusResponse> => {
+    const response = await fetch(`${API_BASE_URL}/api/v1/syllabus/${syllabusId}`, {
         method: 'PUT',
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify(updatedSections),
+        body: JSON.stringify({
+            syllabus_data: data,
+            change_summary: changeSummary
+        }),
     });
+    return handleResponse(response);
+};
+
+interface VersionDiff {
+    from_version: number;
+    to_version: number;
+    changes: Array<{
+        field_path: string;
+        old_value: any;
+        new_value: any;
+        change_type: 'add' | 'update' | 'delete';
+    }>;
+}
+
+export const getVersionDiff = async (
+    syllabusId: string,
+    version1: number,
+    version2: number
+): Promise<VersionDiff> => {
+    const response = await fetch(`${API_BASE_URL}/api/v1/syllabus/${syllabusId}/diff/${version1}/${version2}`);
     return handleResponse(response);
 };
 

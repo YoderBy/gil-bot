@@ -9,6 +9,9 @@ services:
     networks:
       - proxy
     environment:
+      - MONGODB_HOST=mongo
+      - MONGODB_PORT=27017
+      - MONGODB_DB_NAME=gil_whatsapp_bot
       - DEBUG=True
       - PYTHONUNBUFFERED=1 # Ensures logs aren't buffered
     labels:
@@ -22,13 +25,17 @@ services:
     container_name: gil-bot-mongo
     volumes:
       - mongo_data:/data/db
+      - ./mongo-init:/docker-entrypoint-initdb.d:ro # Optional: for init scripts
     environment:
-      MONGO_INITDB_DATABASE: ${MONGODB_DB_NAME:-gil_whatsapp_bot}
-      MONGO_INITDB_USERNAME: ${MONGO_USER:-user}
-      MONGO_INITDB_PASSWORD: ${MONGO_PASSWORD:-pass}
+      #MONGO_INITDB_DATABASE: ${MONGODB_DB_NAME:-gil_whatsapp_bot}
+      #MONGO_INITDB_USERNAME: ${MONGO_USER:-user}
+      #MONGO_INITDB_PASSWORD: ${MONGO_PASSWORD:-pass}
+      MONGO_INITDB_DATABASE: gil_whatsapp_bot
     networks:
       - proxy
+    command: mongod --bind_ip_all --noauth
 
+  
   gil-bot-frontend:
     image: registry.yosefbyd.com/gil-bot-frontend:latest
     container_name: gil-bot-frontend
@@ -46,6 +53,7 @@ services:
 
 volumes:
   mongo_data:
+    driver: local
 
 networks:
   proxy:

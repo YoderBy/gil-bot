@@ -3,125 +3,12 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { Form, Input, Button, Typography, Spin, Alert, message, Card, Row, Col, Space, Collapse, Anchor } from 'antd';
 import axios, { AxiosError } from 'axios';
 import { PlusOutlined, DeleteOutlined, EyeOutlined } from '@ant-design/icons';
+import { SyllabusAssignmentItem, SyllabusCourse, SyllabusPersonnelItem, SyllabusStudentItem, SyllabusStudentGroupItem } from '../../../types/syllabusTypes';
+import { updateSyllabus } from '../../../services/syllabusService';
 
 const { Title, Link: AnchorLink } = Typography;
 const { TextArea } = Input;
 const { Panel } = Collapse;
-
-interface SyllabusPersonnelItem {
-    name?: string;
-    email?: string; // Optional email for coordinators
-}
-
-interface SyllabusStudentItem {
-    first_name?: string;
-    last_name?: string;
-    email?: string;
-}
-
-interface SyllabusStudentGroupItem {
-    name?: string;
-    details?: string;
-    students?: SyllabusStudentItem[];
-    matzpen_groups?: Array<{
-        mentor?: string;
-        meeting_room?: string;
-        students?: string[];
-    }>;
-    rrbg_groups?: Array<{
-        instructor?: string;
-        first_meeting_date?: string;
-        room?: string;
-        students?: string[];
-    }>;
-}
-
-interface SyllabusAssignmentItem {
-    name?: string;
-    due_date?: string;
-    due_time?: string;
-    submission_method?: string;
-    details?: string;
-}
-
-interface SyllabusTestMoadItem {
-    moad_name?: string;
-    date?: string;
-    time?: string;
-    location?: string;
-}
-
-interface SyllabusTestItem {
-    name?: string;
-    test_type?: string;
-    notes?: string;
-    moadim?: SyllabusTestMoadItem[];
-}
-
-interface SyllabusTimeSlotResourceItem {
-    type?: string;
-    title?: string;
-    url?: string;
-}
-
-interface SyllabusTimeSlotItem {
-    start_time?: string;
-    end_time?: string;
-    subject?: string;
-    activity_type?: string;
-    location?: string;
-    details?: string;
-    instructors?: string[];
-    attending_groups?: string[];
-    resources?: SyllabusTimeSlotResourceItem[];
-}
-
-interface SyllabusCalendarEntryItem {
-    date?: string;
-    day_of_week_heb?: string;
-    day_of_week_en?: string;
-    daily_notes?: string;
-    time_slots?: SyllabusTimeSlotItem[];
-}
-
-interface LabGroupTableItem {
-    table?: number | string; // Table number/identifier
-    students?: SyllabusStudentItem[];
-}
-
-interface LabGroupCategory {
-    // Represents group_a, group_b etc.
-    // Each key (like 'group_a') would hold an array of LabGroupTableItem
-    [groupCategoryKey: string]: LabGroupTableItem[];
-}
-
-interface SyllabusCourse {
-    id: string;
-    name: string;
-    heb_name: string;
-    year: string;
-    semester: string;
-    description?: { [key: string]: string };
-    personnel?: {
-        coordinators?: SyllabusPersonnelItem[];
-        overall_lecturers?: SyllabusPersonnelItem[];
-        rv_lab_coordinator?: SyllabusPersonnelItem[]; // For Neuroanatomy example
-    };
-    target_audience?: string[];
-    general_location?: string;
-    general_day_time_info?: string;
-    requirements?: string;
-    grading_policy?: string;
-    course_notes?: string;
-    student_groups?: SyllabusStudentGroupItem[];
-    lab_groups?: LabGroupCategory; // Added lab_groups
-    assignments?: SyllabusAssignmentItem[];
-    schedule?: {
-        general_notes?: string;
-        calendar_entries?: SyllabusCalendarEntryItem[]
-    };
-    tests?: SyllabusTestItem[];
-}
 
 const sectionTitles = {
     general: { id: "general-info", title: "מידע כללי" },
@@ -211,14 +98,36 @@ const SyllabusEditPage: React.FC = () => {
         setSaving(true);
         setError(null);
         try {
-            await axios.put(`${API_BASE_URL}/api/v1/syllabus/${courseId}`, values);
-            message.success('Syllabus updated successfully!');
-        } catch (err) {
-            console.error(`Error updating syllabus ${courseId}:`, err);
-            const axiosError = err as AxiosError<any>;
-            const errorMsg = axiosError.response?.data?.detail || axiosError.message || 'Failed to update syllabus.';
-            setError(errorMsg);
-            message.error(errorMsg);
+            await updateSyllabus(courseId, values);
+
+            // Configure message with longer duration and top position
+            message.success({
+                content: 'הסילבוס עודכן בהצלחה!', // Hebrew message
+                duration: 5, // Show for 5 seconds instead of default 3
+                style: {
+                    marginTop: 20, // Add some margin from top
+                    fontSize: '16px',
+                },
+            });
+
+            // Optional: Scroll to top of page to ensure message is visible
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+
+        } catch (error: any) {
+            console.error(`Error updating syllabus ${courseId}:`, error);
+
+            let errorMessage = 'Failed to update syllabus';
+            if (error.response?.data?.detail) {
+                if (Array.isArray(error.response.data.detail)) {
+                    errorMessage = error.response.data.detail
+                        .map((err: any) => err.msg)
+                        .join(', ');
+                } else {
+                    errorMessage = error.response.data.detail;
+                }
+            }
+
+            message.error(errorMessage);
         }
         setSaving(false);
     };
@@ -478,7 +387,9 @@ const SyllabusEditPage: React.FC = () => {
                     </Form >
                 </Col >
             </Row >
+
         </div >
+
     );
 };
 
