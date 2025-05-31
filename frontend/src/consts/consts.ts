@@ -1,1 +1,0 @@
-export const API_BASE_URL = 'https://gil-bot-api.yosefbyd.com/api/v1/admin';

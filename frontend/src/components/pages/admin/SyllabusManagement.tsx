@@ -24,7 +24,7 @@ const SyllabusManagement: React.FC = () => {
         setError(null);
         try {
             const params = currentSearchTerm ? { search: currentSearchTerm } : {};
-            const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'http://localhost:8000';
+            const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://gil-bot-api.yosefbyd.com';
             const response = await axios.get<SyllabusSummary[]>(`${API_BASE_URL}/api/v1/syllabus/`, { params });
             setSyllabi(response.data);
         } catch (err) {
