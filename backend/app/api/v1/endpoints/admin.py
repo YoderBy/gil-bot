@@ -36,10 +36,8 @@ async def test_llm_naive_stream(
     full_syllabus_content_parts = []
     for syllabus_id in request_data.syllabus_ids:
         try:
-            # Convert to ObjectId
             oid = ObjectId(syllabus_id)
             
-            # Get syllabus document
             syllabus_doc = await db.syllabi.find_one({"_id": oid})
             if not syllabus_doc:
                 logger.warning(f"Syllabus not found for ID: {syllabus_id}")
@@ -47,7 +45,6 @@ async def test_llm_naive_stream(
                     raise HTTPException(status_code=404, detail=f"Syllabus '{syllabus_id}' not found.")
                 continue
             
-            # Get current version data
             version_doc = await db.syllabus_versions.find_one({
                 "syllabus_id": str(oid),
                 "version": syllabus_doc["current_version"]
@@ -59,16 +56,14 @@ async def test_llm_naive_stream(
                     raise HTTPException(status_code=404, detail=f"Version data not found for syllabus '{syllabus_id}'")
                 continue
             
-            # Format syllabus data
             content_header = f"--- START SYLLABUS: {syllabus_id} ---\n"
             content_footer = f"--- END SYLLABUS: {syllabus_id} ---\n\n"
             
-            # Convert course data to YAML format for consistency with existing prompt
             yaml_data = {"courses": [version_doc["data"]]}
             yaml_string = yaml.dump(yaml_data, allow_unicode=True, sort_keys=False, Dumper=yaml.SafeDumper)
             
             full_syllabus_content_parts.append(content_header + yaml_string + content_footer)
-            
+            logger.info(f"Added syllabus {syllabus_id} to full content")
         except Exception as e:
             logger.error(f"Error processing syllabus {syllabus_id}: {e}")
             if len(request_data.syllabus_ids) == 1:
@@ -79,7 +74,7 @@ async def test_llm_naive_stream(
         raise HTTPException(status_code=404, detail="No valid syllabus content could be loaded from the provided IDs.")
     
     full_syllabus_content_str = "\n".join(full_syllabus_content_parts)
-
+    logger.info(f"Full syllabus content: {full_syllabus_content_str[:100] if len(full_syllabus_content_str) > 100 else full_syllabus_content_str}...")
     response_text = await answer_question_naively_streamed(
         user_query=request_data.user_query,
         full_syllabus_content=full_syllabus_content_str,
@@ -88,5 +83,5 @@ async def test_llm_naive_stream(
         temperature=request_data.temperature if request_data.temperature is not None else 1.0,
         max_tokens=request_data.max_tokens if request_data.max_tokens is not None else 200
     )
-    
+    logger.info(f"Response text: {response_text[:50] if len(response_text) > 50 else response_text}...")
     return {"response": response_text}

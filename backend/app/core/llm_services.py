@@ -1,3 +1,4 @@
+from datetime import datetime
 import litellm
 import os
 import json
@@ -31,7 +32,7 @@ def load_prompt(
     Args:
         filename: Name of the prompt file
         use_cache: Whether to use cached version if available
-        validate: Whether to validate prompt content
+            validate: Whether to validate prompt content
         fallback_content: Content to return if file not found (instead of error)
     
     Returns:
@@ -108,7 +109,6 @@ def load_prompt_template(
     content = load_prompt(filename, **kwargs)
     
     if variables:
-        # Combine variables dict with kwargs
         all_vars = {**variables, **kwargs}
         
         # Replace {{variable}} patterns
@@ -329,19 +329,21 @@ async def answer_question_naively_streamed(
     """
     
     try:
-        # Use improved prompt loading with fallbacks
-        default_system_message_template = load_prompt(
+        default_system_message_template = load_prompt_template(
             "naive_question_answering_system.txt",
-            fallback_content="You are a helpful AI assistant."
+            fallback_content="You are a helpful AI assistant.",
+            variables={
+                "FULL_SYLLABUS_CONTENT": full_syllabus_content
+            }
         )
         
         user_prompt_template = load_prompt_template(
             "naive_question_answering_user.txt",
             variables={
                 "USER_QUERY": user_query,
-                "FULL_SYLLABUS_CONTENT": full_syllabus_content
+                "CURRENT_DATE": datetime.now().strftime("%Y-%m-%d")
             },
-            fallback_content="Answer this question: {{USER_QUERY}}\n\nBased on: {{FULL_SYLLABUS_CONTENT}}"
+            fallback_content="היי, אני זקוק לעזרתך בשאלה הבאה, התאריך היום הוא {{CURRENT_DATE}}\nהשאלה שלי היא: {{USER_QUERY}}"
         )
 
     except PromptLoadError as e:

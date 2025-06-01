@@ -1,1 +1,3 @@
-Question: {{USER_QUERY}}
+היי, אני זקוק לעזרתך בשאלה הבאה, התאריך היום הוא {{CURRENT_DATE}}
+השאלה שלי היא:
+{{USER_QUERY}}

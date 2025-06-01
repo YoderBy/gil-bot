@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Form, Input, Button, Typography, Spin, Alert, message, Card, Row, Col, Space, Collapse, Anchor } from 'antd';
-import axios, { AxiosError } from 'axios';
-import { PlusOutlined, DeleteOutlined, EyeOutlined } from '@ant-design/icons';
 import { SyllabusAssignmentItem, SyllabusCourse, SyllabusPersonnelItem, SyllabusStudentItem, SyllabusStudentGroupItem } from '../../../types/syllabusTypes';
-import { updateSyllabus } from '../../../services/syllabusService';
+import { updateSyllabus, getSyllabusDetails } from '../../../services/syllabusService';
 
 const { Title, Link: AnchorLink } = Typography;
 const { TextArea } = Input;
@@ -32,15 +30,13 @@ const SyllabusEditPage: React.FC = () => {
     const [error, setError] = useState<string | null>(null);
     const [activeCollapseKeys, setActiveCollapseKeys] = useState<string[]>(Object.values(sectionTitles).map(s => s.id));
 
-    const API_BASE_URL = process.env.REACT_APP_API_BASE_URL || 'https://gil-bot-api.yosefbyd.com';
-
     useEffect(() => {
         if (courseId) {
             setLoading(true);
             setError(null);
-            axios.get<SyllabusCourse>(`${API_BASE_URL}/api/v1/syllabus/${courseId}`)
-                .then(response => {
-                    let data = response.data;
+
+            getSyllabusDetails(courseId)
+                .then(data => {
                     // Ensure arrays are initialized for Form.List if they are undefined/null
                     data.personnel = data.personnel || {};
                     data.personnel.coordinators = data.personnel.coordinators || [];
@@ -83,15 +79,14 @@ const SyllabusEditPage: React.FC = () => {
                 })
                 .catch(err => {
                     console.error(`Error fetching syllabus ${courseId}:`, err);
-                    const axiosError = err as AxiosError<any>;
-                    setError(axiosError.response?.data?.detail || axiosError.message || 'Failed to load syllabus.');
+                    setError(err.message || 'Failed to load syllabus.');
                     setLoading(false);
                 });
         } else {
             setError("No course ID provided.");
             setLoading(false);
         }
-    }, [courseId, form, API_BASE_URL]);
+    }, [courseId, form]);
 
     const handleSave = async (values: SyllabusCourse) => {
         if (!courseId) return;

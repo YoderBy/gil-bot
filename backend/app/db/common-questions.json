@@ -1,0 +1,134 @@
+{
+    "evaluation_qa_pairs": [
+        {
+            "id": 1,
+            "course": "pharmacology",
+            "date": "2025-04-28",
+            "question": "מתי הבוחן על אנדוקרינולוגיה ומה הוא כולל?",
+            "english_question": "When is the endocrinology quiz and what does it include?",
+            "answer": "הבוחן נפתח היום ב-17:00 עד 23:59. הוא על נושאי האנדוקרינולוגיה, 10 דקות, 5 שאלות, מהווה 2% מהציון הסופי",
+            "category": "quiz_schedule",
+            "difficulty": "easy"
+        },
+        {
+            "id": 2,
+            "course": "pharmacology",
+            "date": "2025-04-29",
+            "question": "איפה יש PBL היום ב-10:00 לקבוצה 1?",
+            "english_question": "Where is the PBL today at 10:00 for group 1?",
+            "answer": "קבוצה 1 אדרנל במרבאום",
+            "category": "location",
+            "difficulty": "easy"
+        },
+        {
+            "id": 3,
+            "course": "pharmacology",
+            "date": "2025-05-04",
+            "question": "האם בתרגול של מאשה בודקים נוכחות?",
+            "english_question": "Do they check attendance in Masha's practice session?",
+            "answer": "אם יגיעו מעט אנשים היא תבדוק שמות מובטח",
+            "category": "attendance",
+            "difficulty": "medium"
+        },
+        {
+            "id": 4,
+            "course": "pharmacology",
+            "date": "2025-04-28",
+            "question": "איזה סיכום מומלץ לנושא אדרנל?",
+            "english_question": "Which summary is recommended for the adrenal topic?",
+            "answer": "הסיכום של נגה מתאים, הוא מצוין ממש לפי חומר הקריאה",
+            "category": "study_materials",
+            "difficulty": "easy"
+        },
+        {
+            "id": 6,
+            "course": "neuroanatomy",
+            "date": "2025-04-06",
+            "question": "כל חברי הקבוצה צריכים להגיש את העבודה או רק אחד?",
+            "english_question": "Do all group members need to submit the assignment or just one?",
+            "answer": "רק אחד צריך להגיש",
+            "category": "assignment",
+            "difficulty": "easy"
+        },
+        {
+            "id": 7,
+            "course": "pharmacology",
+            "date": "2025-04-06",
+            "question": "האם יש זום לשיעור של ד\"ר אלמוג ביום ראשון?",
+            "english_question": "Is there a Zoom for Dr. Almog's class on Sunday?",
+            "answer": "כן, יש אפשרות חיבור מרחוק. הקישור לזום מופיע בעמוד הראשי של הקורס",
+            "category": "remote_learning",
+            "difficulty": "easy"
+        },
+        {
+            "id": 8,
+            "course": "pharmacology",
+            "date": "2025-05-11",
+            "question": "איזה חלק מ-ANS לא נכלל במבחן?",
+            "english_question": "Which part of ANS is not included in the exam?",
+            "answer": "הבקרה המרכזית על מערכת העצבים לא למבחן, עד הכותרת של מערכת פרה סימפטטית",
+            "category": "exam_content",
+            "difficulty": "medium"
+        },
+        {
+            "id": 11,
+            "course": "pharmacology",
+            "date": "2025-04-29",
+            "question": "כמה בחנים יש השנה ומה האחוז שלהם מהציון?",
+            "english_question": "How many quizzes are there this year and what percentage of the grade?",
+            "answer": "יש 5 בחנים, כל אחד 2% מהציון. המבחן הסופי 88% + 5 בחנים * 2% + מטלה 2%",
+            "category": "grading",
+            "difficulty": "medium"
+        },
+        {
+            "id": 12,
+            "course": "pharmacology",
+            "date": "2025-05-20",
+            "question": "באיזה כיתה קבוצה 3 היום?",
+            "english_question": "In which classroom is group 3 today?",
+            "answer": "קבוצה 3 בכיתה 123",
+            "category": "location",
+            "difficulty": "easy"
+        },
+        {
+            "id": 13,
+            "course": "pharmacology",
+            "date": "2025-05-03",
+            "question": "האם ה-PBL אדרנל זה חומר חדש למבחן?",
+            "english_question": "Is the adrenal PBL new material for the exam?",
+            "answer": "כן, זה חומר חדש. נגה סיכמה את זה מעולה כחלק מהסיכום",
+            "category": "exam_content",
+            "difficulty": "medium"
+        },
+        {
+            "id": 15,
+            "course": "pharmacology",
+            "date": "2025-05-05",
+            "question": "מה הקריאה החובה ב-ANS?",
+            "english_question": "What is the mandatory reading in ANS?",
+            "answer": "הקריאה חובה היא רק מה שבקריאה האינטרקטיבית, השאר שבPDF לא חובה",
+            "category": "study_materials",
+            "difficulty": "medium"
+        },
+        {
+            "id": 16,
+            "course": "neuroanatomy",
+            "date": "2025-04-16",
+            "question": "האם ה-PBL נכנס לציון הסופי?",
+            "english_question": "Does the PBL count towards the final grade?",
+            "answer": "כן, ה-PBL נכנס לציון הסופי",
+            "category": "grading",
+            "difficulty": "easy"
+        },
+        {
+            "id": 19,
+            "course": "pharmacology",
+            "date": "2025-04-26",
+            "question": "יש סרטונים לנושא אדרנל?",
+            "english_question": "Are there videos for the adrenal topic?",
+            "answer": "לא, רק קריאה. הסרטונים מעולם לא היו קיימים",
+            "category": "study_materials",
+            "difficulty": "easy"
+        }
+    ]
+}
